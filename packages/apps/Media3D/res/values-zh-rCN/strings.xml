@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Portal Page -->
+    <string name="enter_photo">照片</string>
+    <string name="enter_weather">天气</string>
+    <string name="enter_video">视频</string>
+    <string name="loading">加载中&#8230;</string>
+    <!-- Photo Page -->
+    <string name="no_photo_text">没有照片</string>
+    <!-- Video Page -->
+    <string name="no_video_text">没有视频</string>
+    <string name="no_weather_text">没有天气资讯</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dip"
+    android:paddingTop="12dip"
+    android:paddingBottom="12dip"
+    android:paddingRight="8dip"
+    android:orientation="vertical" >
+<!-- 	<TextView  -->
+<!-- 	    android:layout_width="fill_parent" -->
+<!-- 	    android:layout_height="wrap_content" -->
+<!-- 	    style="@style/letv_16_ececec" -->
+<!-- 	    android:text="@string/albumdetail_introduction_title"/> -->
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:maxLines="1000"
+	    	style="@style/letv_14_a9a9a9"
+	    	android:lineSpacingMultiplier="1.2"
+	        android:id="@+id/albumdetail_introduction_cotent"/>
+<!-- 	    <ToggleButton -->
+<!-- 	        android:layout_width="wrap_content" -->
+<!-- 	        android:layout_height="wrap_content" -->
+<!-- 	        android:layout_below="@id/albumdetail_introduction_cotent" -->
+<!-- 	        android:layout_alignParentRight="true" -->
+<!-- 	        android:textColor="#FFececec" -->
+<!-- 	        android:textSize="14sp" -->
+<!-- 	        android:visibility="invisible" -->
+<!-- 	        android:textOn="@string/albumdetail_introduction_expand_on" -->
+<!-- 	        android:textOff="@string/albumdetail_introduction_expand_off" -->
+<!-- 	        android:checked="true" -->
+<!-- 	        android:drawableLeft="@drawable/detail_introduction_expand" -->
+<!-- 	        android:background="@android:color/transparent" -->
+<!-- 	        android:id="@+id/detail_introduction_expand"/> -->
+	</RelativeLayout>
+</LinearLayout>

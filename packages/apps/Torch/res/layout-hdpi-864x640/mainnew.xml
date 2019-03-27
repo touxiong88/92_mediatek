@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainback"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bulb_off"
+    android:orientation="vertical" >
+
+    <ToggleButton
+        android:id="@+id/buttonOn"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="215dip"
+        android:background="@drawable/bulb"
+        android:textOff=""
+        android:textOn="" />
+</LinearLayout>

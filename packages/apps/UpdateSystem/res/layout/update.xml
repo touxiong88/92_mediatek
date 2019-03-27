@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/update_line"
+        android:src="@drawable/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/update_iamge_icon"
+        android:src="@drawable/new_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:paddingTop="20dip" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/update_iamge_icon"
+        android:layout_toLeftOf="@+id/update_button"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="15dip">
+        <TextView
+            android:id="@+id/Update_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="@string/update_name" />
+        <TextView
+            android:id="@+id/Update_text_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Update_text_name"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:text="@string/update_content" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/update_button"
+        android:background="@drawable/button_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dip" />
+</RelativeLayout>

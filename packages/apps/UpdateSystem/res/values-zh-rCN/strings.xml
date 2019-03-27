@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">系统升级</string>
+    <string name="update_settings">系统升级</string>
+    <string name="update_to_settings">升级到系统</string>
+    <string name="does_not_exist">升级包不存在！</string>
+    <string name="ok">确定</string>
+    <string name="used">使用</string>
+    <string name="upgrade">升级</string>
+</resources>

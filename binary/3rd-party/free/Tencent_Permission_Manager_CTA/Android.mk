@@ -1,0 +1,13 @@
+
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+
+# Module name should match apk name to be installed #2013-08-30 BJ
+LOCAL_MODULE := Tencent_Permission_Manager_CTA
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_PATH := $(TARGET_OUT)/app
+include $(BUILD_PREBUILT)

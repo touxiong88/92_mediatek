@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.factorymode"
+    android:sharedUserId="android.uid.phone"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.DIAGNOSTIC" />
+    <uses-permission android:name="android.permission.HARDWARE_TEST" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_BLUETOOTH_SHARE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <application android:label="@string/app_name">
+        <activity
+            android:name=".FactoryMode"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.mediatek.factorymode.wifi.wifiStateListener" />
+
+        <!-- AgingTest -->
+        <activity
+            android:name=".agingtest.AgingTestBegin"
+            android:label="@string/AgingTest"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mediatek.factorymode.agingtest.AgingTestMain"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/AgingTest"
+            android:screenOrientation="portrait" />
+
+        <!-- AutoTest -->
+        <activity
+            android:name=".AutoTest"
+            android:label="@string/AutoTest"
+            android:screenOrientation="portrait" />
+
+        <!-- AllTest -->
+        <activity
+            android:name=".AllTest"
+            android:label="@string/AllTest"
+            android:screenOrientation="portrait" />
+
+        <!-- HeadSet -->
+        <activity
+            android:name=".headset.HeadSet"
+            android:label="@string/HeadSet"
+            android:screenOrientation="portrait" />
+
+        <!-- GPS -->
+        <activity
+            android:name=".gps.GPS"
+            android:label="@string/GPS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gps.YGPS"
+            android:label="@string/GPS"
+            android:screenOrientation="portrait" />
+
+        <!-- Vibrator -->
+        <activity
+            android:name=".vibrator.Vibrator"
+            android:label="@string/Vibrator"
+            android:screenOrientation="portrait" />
+
+        <!-- Signal -->
+        <activity
+            android:name=".signal.Signal"
+            android:label="@string/Signal"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".BatteryLog"
+            android:label="@string/BatteryLog"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".touchscreen.TouchScreenHandWriting"
+            android:label="@string/TouchScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".touchscreen.PointTest"
+            android:label="@string/PointTest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".touchscreen.LineTest1"
+            android:label="@string/LineTest1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".touchscreen.LineTest2"
+            android:label="@string/LineTest2"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".backlight.BackLight"
+            android:label="@string/BackLight"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".memory.Memory"
+            android:label="@string/Memory"
+            android:screenOrientation="portrait" />
+
+        <!-- Microphone -->
+        <activity
+            android:name=".microphone.MicRecorder"
+            android:label="@string/Microphone"
+            android:screenOrientation="portrait" />
+
+        <!-- Audio -->
+        <activity
+            android:name=".audio.AudioTest"
+            android:label="@string/Audio"
+            android:screenOrientation="portrait" />
+
+        <!-- Camera -->
+        <activity
+            android:name=".camera.CameraTest"
+            android:label="@string/Camera"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:clearTaskOnLaunch="true"
+            android:taskAffinity="android.task.camera" />
+        <activity
+            android:name=".camera.SubCamera"
+            android:label="@string/Camera"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:taskAffinity="android.task.camera" />
+        <activity
+            android:name=".camera.FlashLight"
+            android:label="@string/flash_name"
+            android:screenOrientation="portrait" />
+
+        <!-- Wifi -->
+        <activity
+            android:name=".wifi.WiFiTest"
+            android:label="@string/WiFi"
+            android:screenOrientation="portrait" />
+
+        <!-- Bluetooth -->
+        <activity
+            android:name="com.mediatek.factorymode.bluetooth.Bluetooth"
+            android:label="@string/Bluetooth"
+            android:screenOrientation="portrait" />
+
+        <!-- Gsensor -->
+        <activity
+            android:name="com.mediatek.factorymode.sensor.GSensor"
+            android:label="@string/GSensor"
+            android:screenOrientation="portrait" />
+
+        <!-- Msensor -->
+        <activity
+            android:name="com.mediatek.factorymode.sensor.MSensor"
+            android:label="@string/MSensor"
+            android:screenOrientation="portrait" />
+
+        <!-- Lsensor -->
+        <activity
+            android:name="com.mediatek.factorymode.sensor.LSensor"
+            android:label="@string/LSensor"
+            android:screenOrientation="portrait" />
+
+        <!-- Psensor -->
+        <activity
+            android:name="com.mediatek.factorymode.sensor.PSensor"
+            android:label="@string/psensor_app_name"
+            android:screenOrientation="portrait" />
+
+        <!-- Gyroscope -->
+        <activity
+            android:name="com.mediatek.factorymode.sensor.Gyroscope"
+            android:label="@string/gyroscope_name"
+            android:screenOrientation="portrait" />
+
+        <!-- 3D  -->
+        <activity
+            android:name="com.mediatek.factorymode.ThreedTest"
+            android:label="@string/threed_name"
+            android:screenOrientation="portrait" />
+
+        <!-- intouch  -->
+        <activity
+            android:name="com.mediatek.factorymode.IntouchTest"
+            android:label="@string/intouch_name"
+            android:screenOrientation="portrait" />
+
+        <!-- Earphone -->
+        <activity
+            android:name="com.mediatek.factorymode.earphone.Earphone"
+            android:label="@string/Earphone"
+            android:screenOrientation="portrait" />
+
+        <!-- SDCard -->
+        <activity
+            android:name="com.mediatek.factorymode.sdcard.SDCard"
+            android:label="@string/sdcard"
+            android:screenOrientation="portrait" />
+
+        <!-- SDCardFormat -->
+        <activity
+            android:name="com.mediatek.factorymode.sdcard.SDCardFormat"
+            android:label="@string/sdcardformat"
+            android:screenOrientation="portrait" />
+
+        <!-- FMRadio -->
+        <activity
+            android:name="com.mediatek.factorymode.fmradio.FMRadio"
+            android:label="@string/FMRadio"
+            android:screenOrientation="portrait" />
+
+        <!-- KeyCode -->
+        <activity
+            android:name="com.mediatek.factorymode.KeyCode"
+            android:label="@string/KeyCode"
+            android:screenOrientation="portrait" />
+
+        <!-- LCD -->
+        <activity
+            android:name="com.mediatek.factorymode.lcd.LCD"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/LCD"
+            android:screenOrientation="portrait" />
+
+        <!-- SIMCard -->
+        <activity
+            android:name="com.mediatek.factorymode.simcard.SimCard"
+            android:label="@string/SimCard"
+            android:process="com.android.phone"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.mediatek.factorymode.simcard.SimCardActivity"
+            android:label="@string/SimCard"
+            android:screenOrientation="portrait" />
+
+        <!-- Report -->
+        <activity
+            android:name="com.mediatek.factorymode.Report"
+            android:label="@string/Report"
+            android:screenOrientation="portrait" />
+
+        <!-- SN Number -->
+        <activity
+            android:name="com.mediatek.factorymode.signal.SnNumber"
+            android:label="@string/sn_number_title"
+            android:screenOrientation="portrait" />
+        <!-- Board info -->
+        <activity
+            android:name="com.mediatek.factorymode.boardinfo.Boardinfo"
+            android:label="@string/board_info"
+            android:screenOrientation="portrait" />
+            
+        <!-- Build version -->
+        <activity
+            android:name="com.mediatek.factorymode.buildversion.Buildversion"
+            android:label="@string/build_version"
+            android:screenOrientation="portrait" />
+
+	<!-- hall -->
+	<activity
+            android:name="com.mediatek.factorymode.hall.Hall"
+            android:label="@string/hall"
+            android:screenOrientation="portrait" />
+	    <activity
+            android:name="com.mediatek.factorymode.nfc.NFC"
+            android:label="@string/nfc_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+              <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+
+        <!-- fuelgauge -->
+        <activity
+            android:name="com.mediatek.factorymode.fuelgauge.FuelGauge"
+            android:label="@string/fuelgauge_name"
+            android:screenOrientation="portrait" />
+
+        <!-- Pass verification -->
+        <receiver android:name=".NvRAMReceiver">
+            <intent-filter>
+                <action android:name="com.mediatek.factorymode.writeNvRAM"/>
+            </intent-filter>
+        </receiver>
+        <!-- OTG Number -->
+        <activity
+            android:name="com.mediatek.factorymode.otg.UsbOtg"
+            android:label="@string/otg_name"
+            android:screenOrientation="portrait" />
+    </application>
+
+    <uses-sdk android:minSdkVersion="10" />
+
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/letv_content_bg">
+
+    <ListView
+		android:id="@+id/detail_movie_list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:cacheColorHint="#00000000"
+		android:listSelector="#00000000"
+		android:divider="@drawable/letv_line_bg"
+		android:dividerHeight="1dip"
+		android:drawSelectorOnTop="false">
+	</ListView>
+	
+</LinearLayout>

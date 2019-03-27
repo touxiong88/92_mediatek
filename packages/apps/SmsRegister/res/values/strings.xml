@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">SmsRegister</string>
+    <string name="msgtext">VN_SANSUI SA401G_<xliff:g id="IMEI1">%1$s</xliff:g>_<xliff:g id="IMEI2">%2$s</xliff:g></string>
+    <string name="prompt_text">Welcome to Sansui. A SMS would be sent from your phone and you would be registered as a user of Sansui mobile. You will be charged one normal SMS rate by your operator.</string>
+    <string name="welcome">Welcome</string>
+
+</resources>

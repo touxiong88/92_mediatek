@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+  
+<!--     <LinearLayout -->
+<!-- 	    android:layout_width="fill_parent" -->
+<!-- 	    android:layout_height="wrap_content" -->
+<!-- 	    android:gravity="center" -->
+<!-- 	    android:background="@drawable/title_bg" -->
+<!-- 	    android:paddingLeft="8dip" -->
+<!-- 	    android:paddingRight="8dip"> -->
+<!-- 	    <Button -->
+<!-- 	        android:layout_width="wrap_content" -->
+<!-- 	        android:layout_height="wrap_content" -->
+<!-- 	        android:background="@drawable/back_selecter" -->
+<!-- 	        android:id="@+id/top_button" -->
+<!-- 	        android:visibility="gone"/> -->
+	
+<!-- 	    <TextView -->
+<!-- 	        android:paddingLeft="5dip" -->
+<!-- 	        android:paddingRight="5dip" -->
+<!-- 	        android:layout_width="0dip" -->
+<!-- 	        android:gravity="center" -->
+<!-- 	        android:layout_height="wrap_content" -->
+<!-- 	        android:layout_weight="1" -->
+<!-- 	        android:singleLine="true" -->
+<!-- 	        android:ellipsize="end" -->
+<!-- 	        android:id="@+id/top_title"   -->
+<!-- 	        style="@style/letv_22_ececec"/> -->
+	    
+<!-- 	    <Button -->
+<!-- 	        android:id="@+id/top_button_right" -->
+<!-- 	        android:layout_width="wrap_content" -->
+<!-- 	        android:layout_height="wrap_content" -->
+<!-- 	        android:visibility="gone" -->
+<!-- 	        android:background="@drawable/back_selecter"/> -->
+<!-- 	</LinearLayout> -->
+	
+    <RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	    <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:gravity="center"
+		    android:background="@drawable/letv_content_bg"
+		    android:orientation="vertical">
+	    
+	    <ScrollView
+	          android:layout_width="fill_parent"
+	          android:layout_height="fill_parent"
+	          android:id="@+id/detail_scrollview"
+	          android:fillViewport="true"
+	          android:orientation="vertical"
+	          android:scrollbars="none"
+	          android:fadingEdge="none"
+	          android:visibility="gone">
+	          <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="vertical"
+	                >
+	                
+	                <include layout="@layout/letv_album_detail_info"/>
+		              
+		            <include
+		                android:id="@+id/album_detail_function_include"
+		                layout="@layout/letv_album_detail_function"/>
+		            
+		            <include 
+		                android:visibility="gone"
+		                layout="@layout/letv_album_detail_episode"/>
+		
+		            <include
+		                android:id="@+id/album_detail_introduction_include"
+		                android:visibility="visible"
+		                layout="@layout/letv_album_detail_introduction"/>
+		            
+<!-- 		            <include layout="@layout/album_detail_correlate"/> -->
+	                
+	          </LinearLayout>
+	    </ScrollView>
+	
+		<com.mediatek.videoplayer.view.ErrorLayout
+	        android:id="@+id/nodatalayout"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dip"
+	        android:visibility="gone"
+	        android:layout_weight="1"
+	        android:gravity="center"/>
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

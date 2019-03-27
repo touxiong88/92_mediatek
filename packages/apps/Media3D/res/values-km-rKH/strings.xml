@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">មេឌា 3D</string>
+    <string name="demo_name">ដេម៉ូមេឌា 3D</string>
+    <string name="enter_photo">រូបថត</string>
+    <string name="enter_weather">អាកាសធាតុ</string>
+    <string name="enter_video">វីដេអូ</string>
+    <string name="refresh">ធ្វើឲ្យស្រស់បស់ឡើងវិញ</string>
+    <string name="add">បន្ថែម</string>
+    <string name="delete">លុបចោល</string>
+    <string name="settings">ការសិត</string>
+    <string name="january">មករា</string>
+    <string name="february">កុម្ភៈ</string>
+    <string name="march">មីនា</string>
+    <string name="april">មេសា</string>
+    <string name="may">ឧសភា</string>
+    <string name="june">មិថុនា</string>
+    <string name="july">កក្កដា</string>
+    <string name="august">សីហា</string>
+    <string name="september">កញ្ញា</string>
+    <string name="october">តុលា</string>
+    <string name="november">វិច្ឆិកា</string>
+    <string name="december">ធ្នូ</string>
+    <string name="no_photo_text">មិនមានរូបថតទេ</string>
+    <string name="no_video_text">មិនមានវីដេអូទេ</string>
+    <string name="loading">កំពុងឡូត ...</string>
+    <string name="no_weather_text">មិនមានព័ត៌មានអាកាសធាតុទេ</string>
+</resources>

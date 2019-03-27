@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tests/libs/perfhelper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tests/libs/hamcrest-library-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tests/libs/android-junit-report-dev.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tests/libs/robotium-solo-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tests/libs/hamcrest-core-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <LinearLayout android:id="@+id/mullist_item_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <include 
+                android:id="@+id/mulView_0"
+                layout="@layout/letv_home_conent_mullist_list_item"
+                android:layout_weight="1"
+                />
+            <include 
+                android:id="@+id/mulView_1"
+                layout="@layout/letv_home_conent_mullist_list_item"
+                android:layout_weight="1"
+                />
+            <include 
+                android:id="@+id/mulView_2"
+                layout="@layout/letv_home_conent_mullist_list_item"
+                android:layout_weight="1"
+                />
+            
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Favorites checkInterval="1440" resourcePath="http://omage.oupeng.com/dl/" version="1">
+	 <Favorite id="10164" thumb="baidu.png" title="百度搜索" url="http://m.baidu.com/?from=1001152a" />
+  <Favorite id="10165" thumb="65004be7d9f10a16c280e7c6a328e8bc.png" title="名站导航" url="http://nav.oupeng.com/" />
+  <Favorite id="10166" thumb="579d1067da01c82584cd374beee55950.png" title="社会热点" url="http://ezine.oupeng.com/" />
+  <Favorite id="10167" thumb="44c936c17c3ab302a350ddc2b58373ff.png" title="小说阅读" url="http://read.oupeng.com/" />
+  <Favorite id="10168" thumb="14169bff8835cac96564a6aa7f984c96.png" title="实惠购物" url="http://shop.oupeng.com/" />
+  <Favorite id="10170" thumb="2c335ec29500fa442fee7387fbfa2678.png" title="应用下载" url="http://apps.oupeng.com/" />
+  <Favorite id="10169" thumb="1f36460e22c26ab8c51784ed57860f5b.png" title="游戏大厅" url="http://games.oupeng.com/" />
+  <Favorite id="10171" thumb="424e05972b47a77fca5e79a978fabf74.png" title="摸视频" url="http://video.oupeng.com/" />
+</Favorites>

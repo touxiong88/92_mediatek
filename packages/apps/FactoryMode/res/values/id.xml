@@ -1,0 +1,20 @@
+<resources>
+    <item
+        type="id"
+        name="LinerLayout_comm_info" />
+    <item
+        type="id"
+        name="LinerLayout_file_sys_info" />
+    <item
+        type="id"
+        name="LinerLayout_partition_info" />
+    <item
+        type="id"
+        name="comm_info" />
+    <item
+        type="id"
+        name="file_sys_info" />
+    <item
+        type="id"
+        name="partition_info" />
+</resources>

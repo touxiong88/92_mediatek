@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">配置检测 </string>
+    <string name="hello">请选择要检测的类型: </string>
+    <string name="General">通用测试 </string>
+    <string name="DM">DM测试 </string>
+    <string name="CMMB">CMMB测试 </string>
+    <string name="Protocol">协议测试 </string>
+    <string name="eigenvalue">特征值 </string>
+    <string name="AGPS">AGPS</string>
+    <string name="MTBF">MTBF</string>
+    <string name="listview_note">请检查下列设置是否正确 </string>
+    <string name="about">关于 </string>
+    <string name="curVersion">当前版本： </string>
+    <!-- +++++++++++++++General+++++++++++++++ -->
+    <string name="download_test">软件版本检查 </string> 
+    <string name="download_detail">  1.备份校准文件\n 2.下载对应的软件版本，需要Total Format, Manual Format\n
+    	3.下载完新的版本之后把备份的校准文件重新上传到手机上\n</string> 
+    	
+    <string name="restore_test">恢复出厂设置 </string> 		
+    <string name="restore_detail">请在开机后执行恢复出厂设置功能 </string> 
+    
+    <string name="root_state">是否root版本 </string>
+    <string name="not_root">不是（某些送测机需root） </string>
+    <string name="rooted">是，已经root</string> 
+    <string name="root_note">中国移动终端测试标准及测试流程要求部分测试样机需打开Root权限 </string> 
+    
+    <string name="WLAN_ADDR">WLAN物理地址 </string>
+    <string name="different_wifi">请确保每台送测手机WLAN MAC地址唯一 </string>
+    <string name="turn_on_wifi">请打开WLAN以进行MAC地址自查 </string>
+     
+    <string name="WLAN_SSID">WLAN热点SSID</string>
+    <string name="wifi_ssid">请确保SSID命名符合预期 </string>
+    
+    <string name="WLAN_SLEEP_POLICY">在休眠状态下保持 WLAN 连接 </string>
+    <string name="always">始终 </string>
+    <string name="in_charge">仅限充电时 </string>
+    <string name="never">从不（会增加数据流量）</string>
+    <string name="sleep_plocy_setting">请把“休眠状态下保持WLAN连接”设置为“从不” </string>
+    
+    <string name="WLAN_SLEEP_POLICY_GB2">WLAN 休眠策略 </string>
+    <string name="screen_off_sleep">屏幕关闭时休眠 </string>
+    <string name="no_sleep_in_charge">充电时永不休眠 </string>
+    <string name="never_sleep">永不休眠 </string>   
+    <string name="sleep_plocy_setting_GB2">请把“WLAN 休眠策略”设置为“屏幕关闭时休眠” </string>  
+    
+    <string name="log_path">Log文件存储路径 </string>
+    <string name="log_file_default_path">Log应该存储在外部SD Card</string>
+    
+    <string name="APN_data_link">移动网络数据访问功能 </string>
+    <string name="data_set">启用 </string>
+    <string name="data_unset">关闭 </string>
+    <string name="set_mobile_network">请在设置中启用移动网络数据数据访问功能，方便移动测试人员进行数据业务测试 </string> 
+    
+    <string name="GPRS_mode">GPRS数据优先模式 </string>
+    <string name="call_high_priority">电话优先 </string>
+    <string name="data_high_priority">数据优先 </string>
+    <string name="set_call_high_priority">默认都设置为电话优先，仅在测试“基本通信，Edge下载速率”测项时选择数据优先, 请在GPRS数据优先模式中进行设置 </string>
+    
+    <string name="target_version">手机版本</string>
+    
+    <string name="target_model">客户服务机型 </string>
+    <string name="check_phone_mode">请进入“客户服务-〉售后服务”去检查机型是否符合预期 </string>
+    <string name="cmcc_content_no_found">本版本不支持此测项,请进入“客户服务，售后服务”去检查机型是否符合预期 </string>
+    
+    <string name="load_type">版本类型 </string>
+    <string name="user_load">请使用“user”类型的版本 </string>
+    
+    <string name="BT_name">蓝牙设备名称 </string>
+    <string name="turn_on_BT">请打开蓝牙以获取设备名称 </string>
+    <string name="no_support_BT">不支持蓝牙服务 </string>
+    <string name="check_BT_name">请确保蓝牙设备名称符合预期 </string>
+    
+    <string name="app_check">CMCC预装软件检查 </string> 	
+    <string name="app_detail">请检查 秒表，记事本，备份恢复，日历等CMCC本地APK是否已经build进来 </string> 
+    
+    <string name="feature_check">基本功能检查 </string> 		
+    <string name="feature_detail">请检查以下功能是否正常\n 
+    	1.接打电话\n
+    	2.收发短信彩信\n
+    	3.添加联系人\n
+    	4.SIM卡STK功能\n
+    	5.切换飞行模式\n
+    	6.在工模中切换GSM only, TD only and GSM/TD\n
+    	7.浏览器上网\n
+    	8.播放Audio/Video\n
+    </string> 
+    
+    <string name="bg_connect_check">CMCC预置第三方应用后台联网检查 </string> 
+    <string name="bg_connect_check_note">请确保CMCC预置第三方应用(UC浏览器，新浪微博除外)如WPS office, 搜狗输入法等关闭了后台联网功能 </string> 
+   	
+    <string name="cmcc_apk_path_check">CMCC预置第三方应用安装路径检查 </string> 
+    <string name="vendor_path">all under system/vendor/operator/app </string> 
+    <string name="system_path"> system/app/ </string> 
+    <string name="cmcc_apk_path_check_note">请确保CMCC预置第三方APK在编译时被放置在 system/vendor/operator/app下, 这样可以在"设置"中卸载它们 </string> 
+    
+    <!-- +++++++++++++++Eigen value+++++++++++++++-->
+    <string name="press_enter">请点击检查特征值部分 </string>
+     
+    <string name="broswer_UA">Browser User Agent</string>
+    <string name="broswer_UA_profile_URL">Browser User Agent Profile URL</string>
+    <string name="MMS_UA">彩信User Agent</string>
+    <string name="MMS_UA_profile_URL">彩信User Agent Profile URL</string>
+    <string name="http_streaming_UA">Http Streaming User Agent</string>
+    <string name="http_streaming_UA_profile_URL">Http Streaming User Agent Profile URL</string>
+    <string name="rtsp_streaming_UA">Rtsp Streaming User Agent</string>
+    <string name="rtsp_streaming_UA_profile_URL">Rtsp Streaming User Agent Profile URL</string>
+    <string name="FM_RDS">FM RDS发射值 </string>
+    
+    <string name="custom_properties_no_found">本版本不支持此检查项，具体请参考“CMCC入库测试SOP_送测版本准备”中特征值部分的说明 </string> 
+    
+    <!-- +++++++++++++++DM+++++++++++++++ -->
+    <string name="SMS_autoregister">短信自注册 </string>
+    <string name="DM_number">DM自注册号码 </string>
+    <string name="DM_port">DM端口号 </string>
+    <string name="DM_server">DM服务器地址 </string>
+    <string name="DM_company">DM厂商 </string>
+    <string name="DM_model">DM型号 </string>
+    <string name="DM_version">DM软件版本 </string>
+
+    <string name="turn_on_SMS">在DM测试中请在工模->设备管理中启用短信自注册功能 </string>
+    <string name="turn_off_SMS">在协议测试中请在工模->设备管理中关闭短信自注册功能 </string>
+    <string name="dm_content_no_found">本版本不支持此检查项，具体请参考“CMCC入库测试SOP_入库测试流程”和“CMCC入库测试SOP_DM3.0” </string>   
+    <string name="smsReg_content_no_found">本版本不支持此检查项，具体请参考“CMCC入库测试SOP_入库测试流程”和“CMCC入库测试SOP_DM3.0” </string> 
+        
+    <string name="CMMB_UA">CMMB User Agent</string>
+    <string name="CMMB_RF">CMMB射频手机检查 </string>
+    <string name="CMMB_RF_detail"> 打开射频口，外接射频线,现网CA，检查CMMB是否使用正常 </string>
+    <!-- +++++++++++++++Protocol+++++++++++++++ -->
+    <string name="turnoff_data">联网设置 </string>
+    <string name="turnoff_data_detail">关闭任何开机需要联网的操作（即关掉会自动走数据的应用） </string>  
+    
+    <string name="check_antenna">天线检查 </string>
+    <string name="check_antenna_detail">请检查天线接口可见，可连接射频线 </string> 
+    
+    <string name="time_auto_sync">自动确定日期和时间 </string>
+    <string name="time_zone_auto_sync">自动确定时区 </string>  
+    <string name="turn_off_auto_time">请在设置中关闭“自动确定日期和时间”,以避免影响外场2.1测试项，因为自动网络同步会频繁发起PS业务，影响CS接通率 </string>
+    <string name="turn_off_auto_time_zone">请在设置中关闭“自动确定时区”,以避免影响外场2.1测试项，因为自动网络同步会频繁发起PS业务，影响CS接通率 </string> 
+        
+    <string name="AT_command">AT Command服务 </string>
+    <string name="AT_server_ok">AT服务正常 </string>   
+    <string name="AT_server_error">ATCI服务没有运行，CMCC协议一致性测试需要从测试仪表下AT命令去控制手机执行自动化测试 </string>     
+    
+    <string name="CFU_setting">CFU</string>
+    <string name="set_CFU">开机执行CFU，测试协议一致性时会因为NW不预期的UE 行为，造成协议一致性fail, 请在工程模式中设置CFU为"Default"，这意味着换SIM卡之后的第一次开机才去查询CFU，所以没有风险 </string>
+    <string name="default_value">默认 </string>  
+    <string name="always_query">总是查询 </string>   
+    <string name="always_not_query">总是不查询 </string> 
+    <string name="invalid_return">非法返回 </string>   
+    <string name="return_null">返回为空 </string>
+           
+    <string name="IVSR_setting">IVSR</string>
+    <string name="turn_off_IVSR">请在工程模式->Network Setting中关闭IVSR设置 </string>
+    
+    <string name="GPRS_always_on">GPRS Always Attach</string>
+    <string name="turn_on_GPRS">请在工程模式中设置GPRS为:"Always Attach" </string> 
+
+    <string name="network_mode">  选网模式 </string>
+    <string name="modem_mode"> Modem模式 </string>
+    <string name="set_modem_mode"> 请在协议测试中设置Modem模式为None </string> 
+     
+    <string name="PLMN_setting"> PLMN设置 </string>
+    <string name="auto_select"> 自动选择 </string>
+    <string name="manual_select"> 手动选择 </string>
+    <string name="set_auto_select"> 请在协议测试中设置PLMN为自动选择 </string>
+    <!-- +++++++++++++++others+++++++++++++++ -->
+    <string name="AlertDialog_OK">确定 </string> 
+    <string name="Enable">开启 </string>   
+    <string name="Disable">关闭 </string> 
+    <string name="no_support">暂不支持 </string> 
+    
+    <string name="press_for_detail">请点击以了解详情 </string> 
+    <string name="AGPS_detail">AGPS log检查步骤：\n 1.工模->LocationBasedService (或者AGPS)->勾选Log SUPL to File.\n
+    	2.工模->YGPS->Full Start.\n 3.去手机File Manager中查找是否有AGPS_dddd_tttt.log </string> 
+    	
+    <string name="MTBF_detail">为了安全性考虑，系统会设置连续充电24小时仍未充满时停止充电，这样会导致MTBF测试时关机，
+    	因此在送测前需要去掉24小时充电的保护(量产时建议仍然开启24小时的充电保护)，
+    	请参考“CMCC入库测试SOP_MTBF_特别注意事项” </string>  	
+    
+    <string-array name="check_type">
+        <item>@string/General</item>
+        <item>@string/DM</item>
+        <item>@string/CMMB</item>
+        <item>@string/Protocol</item>
+        <item>@string/AGPS</item>
+        <item>@string/MTBF</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Update System</string>
+    <string name="update_settings">Update System</string>
+    <string name="does_not_exist">The update file does not exist.</string>
+    <string name="update_to_settings">Update to System</string>
+    <string name="ok">OK</string>
+    <string name="used">used</string>
+    <string name="upgrade">upgrade</string>
+    <string name="update_name">upgrade</string>
+    <string name="update_content">upgrade info： </string>
+    <string name="update_noInfo">nothing</string>
+    <string name="no_update">No update</string>
+</resources>

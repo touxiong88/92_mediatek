@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="letv_Theme">
+        <attr name="galleryStyle" format="reference" />
+        <attr name="spinnerStyle" format="reference" />
+        <attr name="gravity">
+
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30" />
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50" />
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03" />
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05" />
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10" />
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70" />
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01" />
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07" />
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11" />
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77" />
+            <!--
+                 Additional option that can be set to have the top and/or bottom edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the vertical gravity: a top gravity will clip the bottom
+                 edge, a bottom gravity will clip the top edge, and neither will clip both edges.
+            -->
+            <flag name="clip_vertical" value="0x80" />
+            <!--
+                 Additional option that can be set to have the left and/or right edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the horizontal gravity: a left gravity will clip the right
+                 edge, a right gravity will clip the left edge, and neither will clip both edges.
+            -->
+            <flag name="clip_horizontal" value="0x08" />
+        </attr>
+        <attr name="entries" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="letv_MyGallery">
+        <attr name="gravity" />
+        <attr name="animatioDuration" format="integer" />
+        <attr name="spacing" format="dimension" />
+        <attr name="unselectedAlpha" format="float" />
+    </declare-styleable>
+    <declare-styleable name="letv_MyAbsSpinner">
+        <attr name="entries" />
+    </declare-styleable>
+<!--     <declare-styleable name="com.huawei.juad.android.JuAdView"> -->
+<!--         <attr name="showAdFrame" format="boolean" /> -->
+<!--         <attr name="showCloseBtn" format="boolean" /> -->
+<!--         <attr name="adInterval" format="integer" /> -->
+<!--         <attr name="appKey" format="string" /> -->
+<!--         range in 0...6 ; 0-no animation,1-rotate_horizontal_axis, 2-animation_alpha, 3-rotate_vertical_axis, 4-translate_left, 5-translate_right, 6-random -->
+
+<!--         <attr name="adAnimationType" format="integer"></attr> -->
+<!--     </declare-styleable> -->
+    <declare-styleable name="letv_PullToRefresh">
+        <attr name="adapterViewBackground" format="reference|color" />
+        <attr name="headerBackground" format="reference|color" />
+        <attr name="headerTextColor" format="color" />
+        <attr name="mode">
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+            <flag name="both" value="0x3" />
+        </attr>
+    </declare-styleable>
+
+</resources>

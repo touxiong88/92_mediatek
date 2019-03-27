@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Disable the given check in this project -->
+    <issue id="IconMissingDensityFolder" severity="ignore" />
+
+    <!-- Disable the given check in this project -->
+    <issue id="IconLocation" severity="ignore" />
+
+    <!-- Change the severity of hardcoded strings to "error" -->
+    <issue id="HardcodedText" severity="error" />
+
+    <!-- Ignore the MissingTranslation issue in the given files -->
+    <issue id="MissingTranslation">
+        <ignore path="res\values\textureatlas.xml" />
+        <ignore path="res\values\strings.xml" />
+        <ignore path="res\values\array.xml" />
+    </issue>
+
+    <!-- Ignore the MissingTranslation issue in the given files -->
+    <issue id="UnusedResources">
+        <ignore path="res\values\jsonhash.xml" />
+        <ignore path="res\values\strings.xml" />
+    </issue>
+
+</lint>

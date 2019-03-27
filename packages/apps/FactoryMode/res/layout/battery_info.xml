@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/info_layout">
+    <!-- Battery Status -->
+    <LinearLayout style="@style/entry_layout">
+        <TextView
+            android:text="@string/battery_info_status_label"
+            style="@style/info_label" />
+        <TextView
+            android:id="@+id/status"
+            style="@style/info_value" />
+    </LinearLayout>
+    <!-- Battery Level -->
+    <LinearLayout style="@style/entry_layout">
+        <TextView
+            android:text="@string/battery_info_level_label"
+            style="@style/info_label" />
+        <TextView
+            android:id="@+id/level"
+            style="@style/info_value" />
+    </LinearLayout>
+    <!-- Battery Scale -->
+    <LinearLayout style="@style/entry_layout">
+        <TextView
+            android:text="@string/battery_info_scale_label"
+            style="@style/info_label" />
+        <TextView
+            android:id="@+id/scale"
+            style="@style/info_value" />
+    </LinearLayout>
+    <!-- Battery Health -->
+    <LinearLayout style="@style/entry_layout">
+        <TextView
+            android:text="@string/battery_info_health_label"
+            style="@style/info_label" />
+        <TextView
+            android:id="@+id/health"
+            style="@style/info_value" />
+    </LinearLayout>
+    <!-- Battery Voltage -->
+    <LinearLayout style="@style/entry_layout">
+        <TextView
+            android:text="@string/battery_info_voltage_label"
+            style="@style/info_label" />
+        <TextView
+            android:id="@+id/voltage"
+            style="@style/info_value" />
+    </LinearLayout>
+    <!-- Battery Temperature -->
+    <LinearLayout style="@style/entry_layout">
+        <TextView
+            android:text="@string/battery_info_temperature_label"
+            style="@style/info_label" />
+        <TextView
+            android:id="@+id/temperature"
+            style="@style/info_value" />
+    </LinearLayout>
+    <!-- Battery Technology -->
+    <LinearLayout style="@style/entry_layout">
+        <TextView
+            android:text="@string/battery_info_technology_label"
+            style="@style/info_label" />
+        <TextView
+            android:id="@+id/technology"
+            style="@style/info_value" />
+    </LinearLayout>
+    <LinearLayout style="@style/entry_layout">
+        <TextView
+            android:text="@string/battery_info_current"
+            style="@style/info_label" />
+        <TextView
+            android:id="@+id/current"
+            style="@style/info_value" />
+    </LinearLayout>
+    
+    <!-- Uptime -->
+    <LinearLayout style="@style/entry_layout">
+        <TextView
+            android:text="@string/battery_info_uptime"
+            style="@style/info_label" />
+        <TextView
+            android:id="@+id/uptime"
+            style="@style/info_value" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/battery_bt_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:textSize="25dip"
+            android:text="@string/Success" />
+        <Button
+            android:id="@+id/battery_bt_failed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textSize="25dip"
+            android:text="@string/Failed" />
+    </LinearLayout>
+</LinearLayout>

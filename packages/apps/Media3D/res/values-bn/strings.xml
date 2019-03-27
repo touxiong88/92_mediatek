@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">মিডিয়াথ্রিডি</string>
+    <string name="demo_name">মিডিয়াথ্রিডি ডেমো</string>
+    <string name="enter_photo">ছবি</string>
+    <string name="enter_weather">আবহাওয়া</string>
+    <string name="enter_video">ভিডিও</string>
+    <string name="refresh">রিফ্রেশ করুন</string>
+    <string name="add">যোগ করুন</string>
+    <string name="delete">পরিচিতজন মুছুন</string>
+    <string name="settings">সেটিং</string>
+    <string name="january">জানু.</string>
+    <string name="february">ফেব্রু.</string>
+    <string name="march">মার্চ</string>
+    <string name="april">এপ্রিল</string>
+    <string name="may">মে</string>
+    <string name="june">জুন</string>
+    <string name="july">জুলাই</string>
+    <string name="august">আগস্ট</string>
+    <string name="september">সেপ্টে.</string>
+    <string name="october">অক্টো.</string>
+    <string name="november">নভে.</string>
+    <string name="december">ডিসে.</string>
+    <string name="no_photo_text">কোন ছবি নেই</string>
+    <string name="no_video_text">কোন ভিডিও নেই</string>
+    <string name="loading">লোড হচ্ছে...</string>
+    <string name="no_weather_text">কোন আবহাওয়া নেই</string>
+</resources>

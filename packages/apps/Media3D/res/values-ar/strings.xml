@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">وسائط ثلاثية الأبعاد</string>
+    <string name="demo_name">عرض الوسائط ثلاثية الأبعاد</string>
+    <string name="enter_photo">صورة</string>
+    <string name="enter_weather">طقس</string>
+    <string name="enter_video">فيديو</string>
+    <string name="refresh">"تحديث"</string>
+    <string name="add">"إضافة"</string>
+    <string name="delete">"حذف"</string>
+    <string name="settings">"الإعدادات"</string>
+    <string name="january">"يناير"</string>
+    <string name="february">"فبراير"</string>
+    <string name="march">"مارس"</string>
+    <string name="april">"أبريل"</string>
+    <string name="may">"مايو"</string>
+    <string name="june">"يونيو"</string>
+    <string name="july">"يوليو"</string>
+    <string name="august">"أغسطس"</string>
+    <string name="september">"سبتمبر"</string>
+    <string name="october">"أكتوبر"</string>
+    <string name="november">"نوفمبر"</string>
+    <string name="december">"ديسمبر"</string>
+    <string name="no_photo_text">لا توجد صورة متوفرة</string>
+    <string name="no_video_text">لا يوجد فيديو متوفر</string>
+    <string name="loading">جار التحميل...</string>
+    <string name="no_weather_text">حالة الطقس غير متوفرة</string>
+</resources>

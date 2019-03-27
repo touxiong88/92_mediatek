@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="6dip"
+    android:paddingRight="6dip"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+         android:layout_width="115dip"
+         android:layout_height="145dip"
+         android:gravity="center"
+         android:layout_marginTop="4dip">
+
+         <RelativeLayout 
+             android:layout_width="103dip"
+             android:layout_height="134.5dip"
+          	 android:layout_centerInParent="true">
+	         <com.letv.cache.view.LetvImageView
+	             android:layout_width="103dip"
+	             android:layout_height="134.5dip"
+	             android:layout_centerInParent="true"
+	             android:src="@drawable/letv_image_detail_default"
+	             android:scaleType="centerCrop"
+	             android:id="@+id/detail_info_pic" />
+	          <TextView 
+	              android:id="@+id/price_textview"
+	              android:layout_width="34dip"
+	              android:layout_height="18dip"
+	              android:layout_alignParentRight="true"
+	              android:layout_alignParentBottom="true"
+	              android:gravity="center"
+	              style="@style/letv_10_ff2418"
+	              android:background="#cc000000"
+	              android:text="@string/letv_album_detail_info_vip_tag"
+	              android:visibility="gone"/>             
+         </RelativeLayout>
+         <ImageView
+             android:layout_width="115dip"
+             android:layout_height="145dip"
+             android:layout_centerInParent="true"
+             android:background="@drawable/letv_image_detail_frame"
+             android:scaleType="centerCrop" />
+         
+         <!-- LHY add album_detail_info_imagePlayBtn -->
+         <ImageView 
+             android:id="@+id/album_detail_info_imagePlayBtn"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:src="@drawable/letv_albumdetail_playicon"
+             android:scaleType="center"
+             
+             />
+     </RelativeLayout>
+	
+
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="8dip"
+	    android:orientation="vertical"
+	    android:layout_marginTop="4dip"
+	    android:layout_marginBottom="4dip">
+         <TextView 
+             android:id="@+id/album_detail_title"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:singleLine="true"
+             android:textColor="#FFFFFFFF"
+             android:textSize="18sp"
+             
+             />
+	    <LinearLayout 
+	        android:id="@+id/detail_info_grade_layout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+<!-- 	        <TextView  -->
+<!-- 	            android:layout_width="wrap_content" -->
+<!-- 	            android:layout_height="wrap_content" -->
+<!-- 	            style="@style/letv_14_666666" -->
+<!-- 	            android:text="@string/albumdetail_info_grade"/> -->
+	        <RatingBar 
+	            android:id="@+id/detail_info_grade_value"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+	            android:max="10"
+	            android:numStars="5"
+	            android:stepSize="0.5"
+	            style="@style/letv_gradeRatingBar"/>	
+	        <TextView 
+		        android:id="@+id/detail_info_grade_text_int"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dip"
+		        style="@style/letv_16_ff2216"/>
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/letv_album_detail_info_dota_tag"
+		        style="@style/letv_16_ff2216"/>
+		    <TextView 
+		        android:id="@+id/detail_info_grade_text_float"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        style="@style/letv_12_ff2216"/>   
+	    </LinearLayout>
+	    
+		<include layout="@layout/letv_album_detail_info_item" android:id="@+id/info_item01"/>
+		
+		<include layout="@layout/letv_album_detail_info_item" android:id="@+id/info_item02"/>
+		
+		<include layout="@layout/letv_album_detail_info_item" android:id="@+id/info_item03"/>
+		
+		<include layout="@layout/letv_album_detail_info_item" android:id="@+id/info_item04"/>
+		
+		<include layout="@layout/letv_album_detail_info_item" android:id="@+id/info_item05"/>
+		
+		<include layout="@layout/letv_album_detail_info_item" android:id="@+id/info_item06"/>
+	
+	</LinearLayout>
+
+	
+</LinearLayout>

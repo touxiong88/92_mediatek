@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Media3D</string>
+    <string name="demo_name">Media3D Demo</string>
+    <!-- Portal Page -->
+    <string name="enter_photo">Photo</string>
+    <string name="enter_weather">Weather</string>
+    <string name="enter_video">Video</string>
+    <string name="loading">Loading&#8230;</string>
+    <string translatable="false" name="dump_actor">Dump</string>
+    <!-- Weather Page -->
+    <string translatable="false" name="celsius">\u2103</string>
+    <string translatable="false" name="fahrenheit">\u2109</string>
+    <string name="refresh">Refresh</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="settings">Settings</string>
+    <string name="january">Jan</string>
+    <string name="february">Feb</string>
+    <string name="march">Mar</string>
+    <string name="april">Apr</string>
+    <string name="may">May</string>
+    <string name="june">Jun</string>
+    <string name="july">Jul</string>
+    <string name="august">Aug</string>
+    <string name="september">Sep</string>
+    <string name="october">Oct</string>
+    <string name="november">Nov</string>
+    <string name="december">Dec</string>
+    <string name="no_weather_text">No weather available</string>
+    <!-- Photo Page -->
+    <string name="no_photo_text">No photo available</string>
+    <!-- Video Page -->
+    <string name="no_video_text">No video available</string>
+
+    <!-- page animation name strings-->
+    <string translatable="false" name="left_enter">left_enter</string>
+    <string translatable="false" name="left_exit">left_exit</string>
+    <string translatable="false" name="right_enter">right_enter</string>
+    <string translatable="false" name="right_exit">right_exit</string>
+    <string translatable="false" name="enter">enter</string>
+    <string translatable="false" name="exit">exit</string>
+    <string translatable="false" name="next_enter">next_enter</string>
+    <string translatable="false" name="next_exit">next_exit</string>
+    <string translatable="false" name="last_enter">last_enter</string>
+    <string translatable="false" name="last_exit">last_exit</string>
+    <string translatable="false" name="swap_in">swap_in</string>
+    <string translatable="false" name="swap_out">swap_out</string>
+    <string translatable="false" name="weather_homing">weather_homing</string>
+
+    <string translatable="false" name="weather_out">weather_out</string>
+    <string translatable="false" name="photo_out">photo_out</string>
+    <string translatable="false" name="video_out">video_out</string>
+
+    <string translatable="false" name="fade_in">fade_in</string>
+    <string translatable="false" name="fade_out">fade_out</string>
+
+    <string translatable="false" name="floating">floating</string>
+
+    <string translatable="false" name="next_exit_enter">next_exit_enter</string>
+    <string translatable="false" name="last_exit_enter">last_exit_enter</string>
+</resources>

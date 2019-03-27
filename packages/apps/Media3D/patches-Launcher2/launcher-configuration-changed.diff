@@ -1,0 +1,29 @@
+Index: Launcher2/src/com/android/launcher2/Launcher.java
+===================================================================
+--- Launcher2.orig/src/com/android/launcher2/Launcher.java	2011-08-10 19:28:08.461727000 +0800
++++ Launcher2/src/com/android/launcher2/Launcher.java	2011-08-10 19:28:25.281198000 +0800
+@@ -2680,4 +2680,24 @@
+     private static boolean checkAppLaunchTimeProperty() {        
+         return (1 == SystemProperties.getInt("persist.applaunchtime.enable", 0)) ? true : false;
+     }
++
++
++    private void tryToFireMedia3D() {
++        try {
++            Intent i = new Intent();
++            i.setClassName("com.mediatek.media3d", ".Main");
++            startActivity(i);
++        } catch (ActivityNotFoundException anfe) {
++            Log.v(TAG, "activity not found");
++        }
++    }
++    
++    @Override
++    public void onConfigurationChanged(Configuration config) {
++        super.onConfigurationChanged(config);
++        Log.v(TAG, "onConfigurationChanged():" + config.orientation);
++        if (config.orientation == Configuration.ORIENTATION_LANDSCAPE) {
++            tryToFireMedia3D();
++        }
++    }
+ }

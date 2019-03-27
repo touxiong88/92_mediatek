@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <com.mediatek.videoplayer.view.LetvGallery
+	    android:id="@+id/home_content_gallery"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:fadingEdge="none"
+	    android:spacing="0dip"
+	    android:unselectedAlpha="1" />
+
+    <RadioGroup
+        android:id="@+id/home_content_gallery_switch"
+        android:background="@drawable/letv_gallery_bottom_bg"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="horizontal" >
+    </RadioGroup>
+
+</FrameLayout>

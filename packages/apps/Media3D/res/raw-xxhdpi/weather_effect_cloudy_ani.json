@@ -1,0 +1,35 @@
+	{"LayName": "weather_effect_ani2", "LayWidth": 0.317500, "LayHeight": 0.250000, "LayID": 570, "ParentID": 0, "LayIn": 7.47, "LayDur": 4.84, "CompIn": 0.97, "CompDur": 4.84, "Normalization": true,
+		"SourcePath": "Z:/AE_Project/LandscapeSweet_Slice/icon_nightcloud.png",
+		"Version": "201315953",
+				"Marker": {
+				 },
+				"AnchorPoint": {
+					"X": 0.50, "Y": 0.50, "Z": 0.00
+					 },
+				"Position": {
+					"Type":[ 12.000000 , 12.000000 ],
+					"Time":[ 0.967634 , 5.772439 ],
+					"X":[ 0.000000 , 0.181250 ],
+					"Y":[ 0.253750 , 0.253750 ],
+					"Z":[ 0.000000 , 0.000000 ],
+					"InTanX":[ 0.000000 , 0.000000 ],
+					"InTanY":[ 0.000000 , 0.000000 ],
+					"InTanZ":[ 0.000000 , 0.000000 ],
+					"OutTanX":[ 0.000000 , 0.000000 ],
+					"OutTanY":[ 0.000000 , 0.000000 ],
+					"OutTanZ":[ 0.000000 , 0.000000 ]
+				}
+,				"Scale": {
+					"X": 100.00, "Y": 100.00, "Z": 100.00
+					 },
+				"Rotation": {
+					"Val": 0.00
+					 },
+				"Opacity": {
+					"Type":[ 0.00 , 0.00 , 0.00 ],
+					"Time":[ 0.97 , 3.47 , 5.77 ],
+					"Val":[ 0.00 , 100.00 , 0.00 ],
+					"InTanX":[ 0.00 , 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 , 0.00 ]
+				}
+	}

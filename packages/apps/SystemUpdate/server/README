@@ -1,0 +1,11 @@
+The zip file named "Server.zip" in this directory is SystemUpdate full server.
+If you need build a Server you will need it.
+
+It's tree image:
+.
+├── fota.sql 			Import it to your server's MySQL database.
+├── MOTA_GUIDE.docx		You'd better read it carefully, it will tell you how to build your Server.
+├── Script.zip			Used to generate delta package,Perl script.
+└── Server.zip			SystemUpdate server code, writen by PHP.
+
+

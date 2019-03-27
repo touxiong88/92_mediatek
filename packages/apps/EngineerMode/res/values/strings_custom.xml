@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="about_settings">About phone</string>
+    <string name="device_info_settings">Device info</string>
+    <string name="device_info">Device info</string>
+    <string name="tab_others_ex">Other extra</string>
+</resources>

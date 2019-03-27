@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">Media3D</string>
+    <string name="demo_name">Media3D demó</string>
+    <string name="enter_photo">Fotó</string>
+    <string name="enter_weather">Időjárás</string>
+    <string name="enter_video">videó</string>
+    <string name="refresh">"Frissítés"</string>
+    <string name="add">Hozzáadás</string>
+    <string name="delete">"Törlés"</string>
+    <string name="settings">"Beállítások"</string>
+    <string name="january">"jan."</string>
+    <string name="february">"febr."</string>
+    <string name="march">"márc."</string>
+    <string name="april">"ápr."</string>
+    <string name="may">"máj."</string>
+    <string name="june">"jún."</string>
+    <string name="july">"júl."</string>
+    <string name="august">"aug."</string>
+    <string name="september">"szept."</string>
+    <string name="october">"okt."</string>
+    <string name="november">"nov."</string>
+    <string name="december">"dec."</string>
+    <string name="no_photo_text">Nincs fotó</string>
+    <string name="no_video_text">Nincs videó</string>
+    <string name="loading">Betöltés...</string>
+    <string name="no_weather_text">Nincs időjárás információ</string>
+</resources>

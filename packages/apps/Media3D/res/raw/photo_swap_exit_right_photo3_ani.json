@@ -1,0 +1,47 @@
+	 {"LayName": "photo3_ani", "LayWidth": 0.335000, "LayHeight": 0.372917, "LayID": 413, "ParentID": 0, "LayIn": 11.98, "LayDur": 0.67, "CompIn": 0.00, "CompDur": 0.67, "Normalization": true,
+		"SourcePath": "C:/Data/Projects/2010103DProjects/P2_LandscapeSweet_1124/photo_03_b.jpg",
+		"Version": "210158194",
+			 	"Marker": { 
+				 }, 
+				 "AnchorPoint": { 
+					"X": 0.50, "Y": 0.50, "Z": 0.00
+					 }, 
+				 "Position": { 
+					"Type":[ 4.00 , 4.00 ],
+					"Time":[ 0.20 , 0.53 ],
+					"X":[ 0.63 , 1.12 ],
+					"Y":[ 0.64 , 0.59 ],
+					"Z":[ 65.00 , -348.96 ],
+					"InTanX":[ -0.00 , -0.44 ],
+					"InTanY":[ -0.01 , -0.00 ],
+					"InTanZ":[ -86.88 , -0.23 ],
+					"OutTanX":[ 0.00 , 0.32 ],
+					"OutTanY":[ 0.00 , 0.00 ],
+					"OutTanZ":[ 1.38 , 0.17 ]
+				}
+,				"Orientation": {
+					"Type":[ 0.00 , 0.00 ],
+					"Time":[ 0.20 , 0.53 ],
+					"X":[ 0.00 , 0.00 ],
+					"Y":[ 0.00 , -90.00 ],
+					"Z":[ 355.00 , 370.00 ],
+					"InTanX":[ 0.00 , 0.00 ],
+					"InTanY":[ 0.00 , 0.00 ],
+					"InTanZ":[ 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 ],
+					"OutTanY":[ 0.00 , 0.00 ],
+					"OutTanZ":[ 0.00 , 0.00 ]
+				}
+,				 "XRotation": { 
+					"Val": 0.00
+					 }, 
+				 "YRotation": { 
+					"Val": 0.00
+					 }, 
+				 "ZRotation": { 
+					"Val": 0.00
+					 }, 
+				 "Opacity": { 
+					"Val": 100.00
+					 } 
+	}

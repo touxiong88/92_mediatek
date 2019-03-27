@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 频道的名称数组 -->
+	<string-array name="letv_channel_names">
+		<item>电影</item>
+		<item>电视剧</item>
+		<item>动漫</item>
+		<item>娱乐</item>
+		<item>综艺</item>
+		<!-- <item>音乐</item> -->
+		<item>纪录片</item>
+		<item>公开课</item>
+		<item>乐视制造</item>
+		<item>乐视出品</item>
+		<item>体育</item>
+		<item>风尚</item>
+	</string-array>
+	
+<!-- 频道的ID数组	 -->
+	<integer-array name="letv_channel_pics">
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>86</item>
+	    <item>78</item>
+	    <!-- <item>66</item> -->
+	    <item>111</item>
+	    <item>92</item>
+	    <item>164</item>
+	    <item>202</item>
+        <item>221</item>
+        <item>186</item>
+	</integer-array>
+
+<!-- 播放模式范式	 -->
+	<string-array name="letv_play_model">
+	    <item>流畅模式</item>
+	    <item>高清模式</item>
+	</string-array>
+
+<!-- 下载模式范式	 -->
+	<string-array name="letv_download_model">
+	    <item>流畅模式</item>
+	    <item>高清模式</item>
+	</string-array>
+				
+<!-- 频道列表显示范式	 -->
+	<string-array name="letv_channel_list_model">
+	    <item>列表样式</item>
+	    <item>海报样式</item>
+	</string-array>
+	
+<!-- 视频下载线程数	 -->
+	<string-array name="letv_tasknum">
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	</string-array>
+	
+<!-- 自动更新频率    -->
+	<string-array name="letv_autoupdata">
+	    <item>从不</item>
+	    <item>总是</item>
+	</string-array>
+	
+	<string-array name="letv_consumer_records_selectedName">
+	    <item>全部</item>
+	    <item>最近三天</item>
+	    <item>最近一周</item>
+	    <item>最近一个月</item>
+	</string-array>
+	
+	<string-array name="letv_email_suffix">
+		<item>163.com</item>
+		<item>sina.com</item>
+		<item>qq.com</item>
+		<item>sohu.com</item>
+		<item>126.com</item>
+		<item>gmail.com</item>
+		<item>hotmail.com</item>
+		<item>yahoo.com</item>
+	</string-array>
+	
+	<string-array name="letv_channels_pcodes">
+		<item>010110001</item>
+		<item>010110002</item>
+		<item>010110012</item>
+		<item>010110014</item>
+		<item>010110015</item>
+		<item>010110017</item>
+		<item>010110016</item>
+		<item>010110013</item>
+		<item>010110003</item>
+		<item>010110004</item>
+		<item>010110031</item>
+		<item>010110005</item>
+		<item>010110006</item>
+		<item>010110007</item>
+		<item>010110019</item>
+		<item>010110008</item>
+		<item>010110009</item>
+		<item>010110020</item>
+		<item>010110010</item>
+		<item>010110021</item>
+		<item>010110011</item>
+		<item>010110018</item>
+		<item>010110022</item>
+		<item>010110025</item>
+		<item>010110026</item>
+		<item>010110028</item>
+		<item>010110027</item>
+		<item>010110029</item>
+		<item>010110030</item>
+		<item>010110032</item>
+		<item>010110034</item>
+		<item>010110033</item>
+		<item>010110035</item>
+		<item>010110037</item>
+		<item>010110038</item>
+		<item>010110024</item>
+		<item>010110023</item>
+		<item>010110040</item>
+		<item>010110041</item>
+		<item>010110043</item>
+		<item>010110042</item>
+		<item>010110036</item>
+		<item>010110044</item>
+		<item>010110045</item>
+		<item>010110047</item>
+		<item>010110048</item>
+		<item>010110049</item>
+		<item>010110051</item>
+		<item>010110052</item>
+		<item>010110053</item>
+		<item>010110054</item>
+		<item>010110055</item>
+		<item>010110056</item>
+		<item>010110057</item>
+		<item>010110058</item>
+		<item>010110059</item>
+		<item>010110060</item>
+		<item>010110061</item>
+		<item>010110062</item>
+		<item>010110063</item>
+		<item>010110050</item>
+		<item>010110064</item>
+		<item>010110065</item>
+		<item>010110104</item>
+		<item>010110067</item>
+		<item>010110183</item>
+		<item>010110068</item>
+		<item>010110000</item>
+		<item>010110069</item>
+		<item>010110039</item>
+		<item>010110070</item>
+		<item>010110046</item>
+		<item>010110072</item>
+		<item>010110077</item>
+		<item>010110102</item>
+		<item>010110103</item>
+		<item>010110184</item>
+		<item>010110185</item>
+		<item>010110186</item>
+		<item>010110187</item>
+		<item>010110188</item>
+		<item>010110189</item>
+		<item>010110190</item>
+		<item>010110105</item>
+		<item>010110101</item>
+		<item>010110094</item>
+		<item>010110093</item>
+		<item>010110095</item>
+		<item>010110106</item>
+		<item>010110107</item>
+		<item>010110080</item>
+		<item>010110071</item>
+		<item>010110081</item>
+		<item>010110083</item>
+		<item>010110084</item>
+		<item>010110082</item>
+		<item>010110085</item>
+		<item>010110108</item>
+		<item>010110109</item>
+		<item>010110091</item>
+		<item>010110092</item>
+		<item>010110111</item>
+		<item>010110113</item>
+		<item>010110118</item>
+		<item>010110170</item>
+		<item>010110169</item>
+		<item>010110167</item>
+		<item>010110166</item>
+		<item>010110164</item>
+		<item>010110163</item>
+		<item>010110162</item>
+		<item>010110165</item>
+		<item>010110173</item>
+		<item>010110174</item>
+		<item>010110175</item>
+		<item>010110176</item>
+		<item>010110177</item>
+		<item>010110178</item>
+		<item>010110179</item>
+		<item>010110180</item>
+	</string-array>
+	
+	<string-array name="letv_channels_names">
+	    <item>casee</item>
+		<item>az4sd</item>
+		<item>gfan</item>
+		<item>hiapk</item>
+		<item>nduoa</item>
+		<item>eoemarket</item>
+		<item>googlemarket</item>
+		<item>goapk</item>
+		<item>crossmo</item>
+		<item>starandroid</item>
+		<item>sj141211</item>
+		<item>zifei</item>
+		<item>nangua</item>
+		<item>qc</item>
+		<item>aouu</item>
+		<item>3gsou</item>
+		<item>kaiqi</item>
+		<item>9cow</item>
+		<item>seyo</item>
+		<item>anfone</item>
+		<item>paojiao</item>
+		<item>motomarket</item>
+		<item>mumayi</item>
+		<item>waptwwaptwAndroidPhone8136211</item>
+		<item>dldlAndroidPhone8136211</item>
+		<item>lulalulaAndroidPhone8136211</item>
+		<item>svsvAndroidPhone8136211</item>
+		<item>cnmocnmoAndroidPhone8138211</item>
+		<item>ucucAndroidPhone8136211</item>
+		<item>GPS142211</item>
+		<item>k300144211</item>
+		<item>K100143211</item>
+		<item>lafeng145211</item>
+		<item>xiandai146221</item>
+		<item>cec147221</item>
+		<item>360131211</item>
+		<item>shoujifeixin130211</item>
+		<item>dangle149211</item>
+		<item>tx150211</item>
+		<item>yingyonghui</item>
+		<item>91</item>
+		<item>sinaAndroidPhone</item>
+		<item>aimi8AndroidPhone</item>
+		<item>lenovostore</item>
+		<item>nengAndroidPhone</item>
+		<item>zolAndroidPhone</item>
+		<item>apkokAndroidPhone</item>
+		<item>junzheng</item>
+		<item>MMAndroidPhone</item>
+		<item>yfxAndroidPhone</item>
+		<item>pconlineAndroidPhone</item>
+		<item>anzowAndroidPhone</item>
+		<item>fpAndroidPhone</item>
+		<item>imobileAndroidPhone</item>
+		<item>M6kumeiAndroidPhone</item>
+		<item>XDAAndroidPhone</item>
+		<item>kaixin001AndroidPhone</item>
+		<item>meizuAndroidPhone</item>
+		<item>feiliuAndroidPhone</item>
+		<item>putiansdAndroidPhone</item>
+		<item>htcstore</item>
+		<item>tgbusAndroidPhone</item>
+		<item>miliaoAndroidPhone</item>
+		<item>anmarket</item>
+		<item>TomPDAAndroidPhone</item>
+		<item>letvms</item>
+		<item>sinaweibo</item>
+		<item>letvwwwaphone</item>
+		<item>dahanAndroidPhone</item>
+		<item>samsungAndroidPhone</item>
+		<item>wochachaAndroidPhone</item>
+		<item>kuqu</item>
+		<item>yiAndroidPhone</item>
+		<item>baihwAndroidPhone</item>
+		<item>sumsunghanju</item>
+		<item>E80</item>
+		<item>W800</item>
+		<item>W702</item>
+		<item>E60</item>
+		<item>W880</item>
+		<item>W900</item>
+		<item>E88</item>
+		<item>E70</item>
+		<item>wandoujia</item>
+		<item>vapk</item>
+		<item>muzi</item>
+		<item>moan</item>
+		<item>gamedog</item>
+		<item>360AndroidPhone</item>
+		<item>TTPhone</item>
+		<item>sjtnAndroidPhone</item>
+		<item>hisense988</item>
+		<item>HOT1AndroidPhone</item>
+		<item>borporAndroidPhone</item>
+		<item>YDXZAndroidPhone</item>
+		<item>myapksAndroidPhone</item>
+		<item>easouAndroidPhone</item>
+		<item>3gcn</item>
+		<item>G3market</item>
+		<item>jiqimao</item>
+		<item>aizhuo</item>
+		<item>tianyi</item>
+		<item>91zhushou</item>
+		<item>ML</item>
+		<item>qitzy</item>
+		<item>sougou</item>
+		<item>renren</item>
+		<item>baoruan</item>
+		<item>apkol</item>
+		<item>apkplace</item>
+		<item>bdyd</item>
+		<item>lqsc</item>
+		<item>coolpad</item>
+		<item>oppo</item>
+		<item>not use</item>
+		<item>not use</item>
+		<item>aly</item>
+		<item>appjoy</item>
+		<item>yy</item>
+		<item>gzl</item>
+	</string-array>
+	
+	
+</resources>

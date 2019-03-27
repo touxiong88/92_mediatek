@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">Media3D</string>
+    <string name="demo_name">Media3D 데모</string>
+    <string name="enter_photo">사진</string>
+    <string name="enter_weather">날씨</string>
+    <string name="enter_video">동영상</string>
+    <string name="refresh">"새로고침"</string>
+    <string name="add">추가</string>
+    <string name="delete">"삭제"</string>
+    <string name="settings">"설정"</string>
+    <string name="january">1월</string>
+    <string name="february">2월</string>
+    <string name="march">3월</string>
+    <string name="april">4월</string>
+    <string name="may">5월</string>
+    <string name="june">6월</string>
+    <string name="july">7월</string>
+    <string name="august">8월</string>
+    <string name="september">9월</string>
+    <string name="october">10월</string>
+    <string name="november">11월</string>
+    <string name="december">12월</string>
+    <string name="no_photo_text">사용할 수 있는 사진이 없습니다.</string>
+    <string name="no_video_text">사용할 수 있는 동영상이 없습니다.</string>
+    <string name="loading">로드하는 중…</string>
+    <string name="no_weather_text">날씨를 사용할 수 없습니다.</string>
+</resources>

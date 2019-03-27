@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <com.mediatek.videoplayer.view.TopViewBack
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/detail_downlist_top"   />
+    <RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@id/detail_downlist_top">
+	    <LinearLayout
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+			android:orientation="vertical"
+	       	android:id="@+id/detail_downlist">
+	       	
+	        <include layout="@layout/letv_album_detail_episode_download_grid" android:id="@+id/detail_episode_download_grid"/>
+	
+			<include layout="@layout/letv_album_detail_episode_download_list" android:id="@+id/detail_episode_download_list"/>
+			
+	    </LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

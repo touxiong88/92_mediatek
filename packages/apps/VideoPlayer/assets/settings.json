@@ -1,0 +1,16 @@
+[
+    {
+        "id": "local_video_id",
+        "index": 0,
+        "action": "com.mediatek.videoplayer.MovieListActivity",
+        "callback_focus": "onActivityFocus",
+        "tab_name": "tab_local_video"
+    },
+    {
+        "id": "letv_id",
+        "index": 1,
+        "action": "com.letv.android.client.sdk.HOMEMAINACTIVITY",
+        "callback_focus": "onActivityFocus",
+        "tab_name": "tab_letv"
+    }
+]

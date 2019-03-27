@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="letv_transparent">#00000000</color>
+
+    <color name="letv_black">#ff000000</color>
+    
+    <color name="letv_red">#ffff0000</color>
+    
+    <color name="letv_translucence_black">#44000000</color>
+    
+    <color name="letv_white">#ffffffff</color>
+    
+    <color name="letv_lowBlue">#5151FF</color>
+    
+    <color name="letv_lowBlack">#2B2B2B</color>
+    
+    <color name="letv_tab_white">#FFececec</color>
+    
+    <color name="letv_b1b1b1">#FFb1b1b1</color>
+    
+    <color name="letv_aeaeae">#FFaeaeae</color>
+    
+    <color name="letv_tab_gray">#FFb4b4b4</color>
+    
+    <color name="letv_tab_lightgray">#FFE6E6E6</color>
+    
+    <color name="letv_loading_gray">#FF919191</color>
+    
+    <color name="letv_loading_white">#FFECECEC</color>
+    
+    <color name="letv_player_listview_item_red">#FF850202</color>
+    
+    <color name="letv_player_textview_gray">#FF8e8d8d</color>
+    
+    <color name="letv_player_hd_gray">#FFadadad</color>
+    
+    <color name="letv_player_hd_red">#FFdc0101</color>
+    
+    <color name="letv_player_download_disable">#FF636363</color>
+    
+    <color name="letv_player_hd_disable">#FF424345</color>
+    
+    <color name="letv_main_blue">#FF54bceb</color>
+    <color name="letv_main_gray">#FFaeaeae</color>
+    <color name="letv_main_white">#FFececec</color>
+    <color name="letv_main_darkgray">#FF333333</color>
+    <color name="letv_main_disable">#FFa5a5a5</color>
+    
+    <color name="letv_transparent_black">#66000000</color>
+    
+    
+<!--     letv颜色 -->
+    <color name="letv_ffffffff">#ffffffff</color>
+    <color name="letv_ffaeaeae">#ffaeaeae</color>
+    <color name="letv_4c515151">#4c515151</color>
+    <color name="letv_ff808080">#ff808080</color>
+    
+    <color name="letv_FF2e2e2e">#FF2e2e2e</color>
+    <color name="letv_FF414141">#FF414141</color>
+    <color name="letv_FF262626">#FF262626</color>
+    <color name="letv_FFa9a9a9">#FFa9a9a9</color>
+</resources>

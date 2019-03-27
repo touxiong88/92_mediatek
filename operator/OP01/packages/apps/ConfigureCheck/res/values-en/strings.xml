@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ConfigureCheck</string>
+    <string name="hello">Please select your check type:</string>
+    <string name="General">General</string>
+    <string name="DM">DM</string>
+    <string name="CMMB">CMMB</string>
+    <string name="Protocol">Protocol</string>
+    <string name="eigenvalue">Eigenvalue</string>
+    <string name="AGPS">AGPS</string>
+    <string name="MTBF">MTBF</string>
+    
+    <string name="listview_note">Please check the follow settings</string>
+    <string name="about">About</string>
+    <string name="curVersion">Current Version:  </string>
+    <!-- ++++++++++++++General ++++++++++++++++ -->
+    <string name="download_test">Download Test</string> 
+    <string name="download_detail">1.Backup calibration file\n 2.Total format the phone manual, and download software load\n
+    	3.Upload the calibration file to the phone\n</string> 
+    <string name="restore_test">Restore Factory</string> 	
+    <string name="restore_detail">Please restore the phone to factory mode and check if every is OK</string> 
+    
+    <string name="root_state">Already Root?</string> 
+    <string name="not_root">No, not be rooted</string>
+    <string name="rooted">Yes, has rooted</string> 
+    <string name="root_note">some phone need be rooted</string> 
+    
+    <string name="WLAN_ADDR">WLAN MAC Address</string>
+    <string name="different_wifi">please make sure every phone has a single WLAN MAC address</string>
+    <string name="turn_on_wifi">Please turn on WIFI to get MAC address</string>
+      
+    <string name="WLAN_SSID">WLAN SSID</string>
+    <string name="wifi_ssid">Please make sure the WIFI ssid is our expectation</string>
+    
+    <string name="WLAN_SLEEP_POLICY">Keep Wi-Fi on during sleep</string>
+    <string name="always">Always</string>
+    <string name="in_charge">Only when plugged in</string>
+    <string name="never">Never (increases data usage)</string>
+    <string name="sleep_plocy_setting">Please set sleep plocy as "Never" </string>
+     
+    <string name="WLAN_SLEEP_POLICY_GB2">WLAN SLEEP POLICY</string>
+    <string name="screen_off_sleep">When screen turns off</string>
+    <string name="no_sleep_in_charge">Never when plugged in</string>
+    <string name="never_sleep">Never</string>
+    <string name="sleep_plocy_setting_GB2">Please set sleep plocy as "When screen turns off" </string>   
+     
+    <string name="log_path">Log File Path</string>
+    <string name="log_file_default_path">Log should be save to external SD card</string>
+    
+    <string name="APN_data_link">Mobile Network</string>
+    <string name="data_set">Data Connection Set</string>
+    <string name="data_unset">Data Connection Not Set</string>
+    <string name="set_mobile_network">Please set mobile data connection in setting</string> 
+   
+    <string name="GPRS_mode">GPRS Mode</string> 
+    <string name="call_high_priority">Call Higher Priority</string>
+    <string name="data_high_priority">Data Higher Priority</string>
+    <string name="set_call_high_priority">Please set call as higher priority in GPRS setting</string>
+    
+    <string name="target_version">Target Version</string>
+    
+    <string name="target_model">Customer Service Target Model</string>
+    <string name="check_phone_mode">Please open Customer Service -> Service guide to check phone mode</string>
+    <string name="cmcc_content_no_found">Can\'t found Uri: content://com.mediatek.cmcc.provider/phoneinfo, this test item not support on this project</string>
+       
+    <string name="load_type">Load type</string>
+    <string name="user_load">Please make sure the build type is "user"</string> 
+
+    <string name="BT_name">Bluetooth name</string>
+    <string name="turn_on_BT">Please turn on BT in setting</string>
+    <string name="no_support_BT">Device does not support Bluetooth</string> 
+    <string name="check_BT_name">Please make sure the BT name is our expectation</string>
+    
+    <string name="app_check">CMCC App Check</string> 	
+    <string name="app_detail">Please check if Stopwatch, Note, backupRestore, Calendar has build in</string> 
+     
+    <string name="feature_check">Feature Check</string> 	 
+    <string name="feature_detail"> Please Check the following feature:\n 
+    	1.Call in/out\n
+    	2.Send/Receive SMS\n
+    	3.Add contact success\n
+    	4.SIM card STK is OK\n
+    	5.Switch as flight mode\n
+    	6.Switch between GSM only, TD only and GSM/TD\n
+    	7.Broswer can access Internet\n
+    	8.Can play Audio/Video\n
+    </string>
+ 
+    <string name="bg_connect_check">Date connect in background</string> 
+    <string name="bg_connect_check_note">Please make sure all CMCC default app(except UCBrowser and Weibo) not connect to Internet in background, such as WPS office, Sogou Input and so on.</string> 
+       
+    <string name="cmcc_apk_path_check">CMCC default APP path check</string> 
+    <string name="vendor_path">all under system/vendor/operator/app</string> 
+    <string name="system_path">system/app/</string> 
+    <string name="cmcc_apk_path_check_note">Please put CMCC default app under the path system/vendor/operator/app, so they can uninstall from setting </string> 
+    
+    <!--+++++++++++++++Eigen value+++++++++++++++++-->  
+    <string name="press_enter">Please press to check eigenvalue items</string>  
+    
+    <string name="broswer_UA">Browser User Agent</string>
+    <string name="broswer_UA_profile_URL">Browser User Agent Profile URL</string>
+    <string name="MMS_UA">MMS User Agent</string>
+    <string name="MMS_UA_profile_URL">MMS User Agent Profile URL</string>
+    <string name="http_streaming_UA">Http Streaming User Agent</string>
+    <string name="http_streaming_UA_profile_URL">Http Streaming User Agent Profile URL</string>
+    <string name="rtsp_streaming_UA">Rtsp Streaming User Agent</string>
+    <string name="rtsp_streaming_UA_profile_URL">Rtsp Streaming User Agent Profile URL</string>
+    <string name="FM_RDS">FM RDS</string>
+
+    <string name="CMMB_UA">CMMB User Agent</string>
+    <string name="CMMB_RF">CMMB RF</string>
+    <string name="CMMB_RF_detail">Please check CMMB phone as follow: open CMMB RF port, connect to RF line, and check if CMMB CA is normal</string>
+    
+    <string name="custom_properties_no_found">Can\'t found class CustomProperties, this test item not support on this project </string>  
+
+    <!-- +++++++++++++++DM+++++++++++++++ -->
+    <string name="SMS_autoregister">SMS Auto Register</string>
+    <string name="DM_number">DM Number</string>
+    <string name="DM_port">DM Port</string>
+    <string name="DM_server">DM Server Address</string>
+    <string name="DM_company">DM Factory</string>
+    <string name="DM_model">DM Model</string>
+    <string name="DM_version">DM Version</string>
+
+    <string name="turn_on_SMS">Please turn on SMS auto register in EM->Device Manager in DM testing</string>
+    <string name="turn_off_SMS">Please turn off SMS auto register in EM->Device Manager in protocol testing</string> 
+    <string name="dm_content_no_found">Can\'t found Uri: content://com.mediatek.providers.mediatekdm/OMSAcc, this test item not support on this project</string>   
+    <string name="smsReg_content_no_found">Can\'t found Uri: content://com.mediatek.providers.smsreg, this test item not support on this project </string>     
+ 
+    <!-- +++++++++++++++Protocol+++++++++++++++ -->
+    <string name="turnoff_data">Date Connect setting </string>
+    <string name="turnoff_data_detail">Please turn off any App which will connect Internet when power on </string>  
+    
+    <string name="check_antenna">Antenna check </string>
+    <string name="check_antenna_detail">Please check antenna port is normal and can connect RF line</string> 
+    
+    <string name="time_auto_sync">Time Auto Update</string>
+    <string name="turn_off_auto_time">Please turn off time auto update in testing</string>
+    <string name="time_zone_auto_sync">Time Zone Auto Update</string>
+    <string name="turn_off_auto_time_zone">Please turn off time zone auto update in testing</string>  
+
+    <string name="AT_command">AT Command Service</string>
+    <string name="AT_server_ok">AT server work OK</string>   
+    <string name="AT_server_error">com.mediatek.atci.service not running</string>  
+    
+    <string name="CFU_setting">CFU Setting</string>
+    <string name="set_CFU">Please set CFU as "Default" in EM</string> 
+    <string name="default_value">Default</string>  
+    <string name="always_query">Always query</string>   
+    <string name="always_not_query">Always not query</string>  
+    <string name="invalid_return">Invalid return</string>   
+    <string name="return_null">return null</string> 
+       
+    <string name="IVSR_setting">IVSR Setting</string>
+    <string name="turn_off_IVSR">Please turn off IVSR testing in EM->Network Setting</string>
+    
+    <string name="GPRS_always_on">GPRS Always Attach</string>
+    <string name="turn_on_GPRS">Please set GPRS as "Always Attach" in EM</string> 
+
+    <string name="network_mode">Network Mode </string>
+    <string name="modem_mode"> Modem Mode </string> 
+    <string name="set_modem_mode">Modem mode should be set as "none" in protocol test!</string> 
+    
+    <string name="PLMN_setting"> PLMN Setting</string>
+    <string name="auto_select"> Auto Selection</string>
+    <string name="manual_select"> Manual Selection</string>
+    <string name="set_auto_select"> please set PLMN as "Auto selection" in protocol test </string>
+    <!-- +++++++++++++++others+++++++++++++++ -->
+    <string name="AlertDialog_OK">OK</string>   
+    <string name="Enable">Enable</string>   
+    <string name="Disable">Disable</string>  
+    <string name="no_support">Not support on this project</string>  
+
+    <string name="press_for_detail">Please press for detail info </string> 
+    <string name="AGPS_detail">AGPS log check：\n1.EM->LocationBasedService(or AGPS)->select \"Log SUPL to File\"\n
+    	2.EM->YGPS->select \"Full\" -> select \"start\"\n3.Check if has a file like AGPS_DDDD_TTTT.log in file manager </string> 
+    	
+    <string name="MTBF_detail"> Please turn off the 24h chager protect in MTBF test, please refer CMCC MTBF test SOP for detail information </string>   	
+
+    <string-array name="check_type">
+        <item>@string/General</item>
+        <item>@string/DM</item>
+        <item>@string/CMMB</item>
+        <item>@string/Protocol</item>
+        <item>@string/AGPS</item>
+        <item>@string/MTBF</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dip"
+    android:orientation="horizontal" >
+
+    <RadioGroup
+        android:id="@+id/album_detail_function_radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/album_detail_function_intro_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:checked="true"
+            android:textColor="@drawable/letv_album_detail_function_radiobutton_color_selecter"
+            android:background="@drawable/letv_album_detail_function_radiogroup_selecter"
+            android:text="@string/letv_albumdetail_intro_tag" />
+
+        <RadioButton
+            android:id="@+id/album_detail_function_filmlist_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@drawable/letv_album_detail_function_radiobutton_color_selecter"
+            android:background="@drawable/letv_album_detail_function_radiogroup_selecter"
+            android:text="@string/letv_albumdetail_albumlist_tag" />
+    </RadioGroup>
+
+</RelativeLayout>
+
+
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!-- android:layout_width="fill_parent" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:orientation="horizontal" -->
+<!-- android:background="@drawable/detail_function_bg"> -->
+<!-- <LinearLayout -->
+<!-- android:layout_width="wrap_content" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:layout_centerVertical="true" -->
+<!-- android:orientation="horizontal"> -->
+<!-- <ImageView -->
+<!-- android:layout_width="wrap_content" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:src="@drawable/detail_function_play" -->
+<!-- android:layout_marginLeft="8dip" -->
+<!-- android:id="@+id/detail_function_play"/> -->
+<!-- <ImageView -->
+<!-- android:layout_width="wrap_content" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:layout_marginLeft="6dip" -->
+<!-- android:src="@drawable/detail_function_download" -->
+<!-- android:id="@+id/detail_function_download"/> -->
+<!-- </LinearLayout> -->
+
+<!-- <LinearLayout -->
+<!-- android:layout_width="wrap_content" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:layout_alignParentRight="true" -->
+<!-- android:layout_centerVertical="true" -->
+<!-- android:orientation="horizontal"> -->
+<!-- <ToggleButton -->
+<!-- android:layout_width="wrap_content" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:layout_marginRight="18dip" -->
+<!-- android:textOff="@string/albumdetail_collection" -->
+<!-- android:textOn="@string/albumdetail_collection_success" -->
+<!-- android:drawableLeft="@drawable/detail_function_collection" -->
+<!-- android:background="@android:color/transparent" -->
+<!-- style="@style/letv_16_ececec" -->
+<!-- android:id="@+id/detail_function_collection"/> -->
+<!-- <TextView -->
+<!-- android:layout_width="wrap_content" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:text="@string/albumdetail_share" -->
+<!-- style="@style/letv_16_ececec" -->
+<!-- android:layout_marginRight="14dip" -->
+<!-- android:drawableLeft="@drawable/detail_function_share" -->
+<!-- android:id="@+id/detail_function_share"/> -->
+
+<!-- </LinearLayout> -->
+<!-- </RelativeLayout> -->

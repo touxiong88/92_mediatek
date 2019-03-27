@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="letv_app_name">乐视影视</string>
+    <string name="letv_play_net_no">网络连接失败,请检查您的网络</string>
+    <!-- 首页列表 -->
+    <string name="letv_homelist_currcount">更新至<xliff:g id="homelist_currcount">%s</xliff:g>集</string>
+    <string name="letv_homelist_totalcount">共<xliff:g id="homelist_totalcount">%s</xliff:g>集</string>
+    <!-- 频道列表 -->
+    <string name="letv_channellist_director">导演：<xliff:g id="director">%s</xliff:g></string>
+    <string name="letv_channellist_actor">主演：<xliff:g id="actor">%s</xliff:g></string>
+    <string name="letv_channellist_area">地区：<xliff:g id="area">%s</xliff:g></string>
+    <string name="letv_channellist_type">类型：<xliff:g id="type">%s</xliff:g></string>
+    <string name="letv_channellist_count">期数：<xliff:g id="count">%s</xliff:g></string>
+    <string name="letv_channellist_singer">歌手：<xliff:g id="singer">%s</xliff:g></string>
+    <string name="letv_channellist_style">风格：<xliff:g id="style">%s</xliff:g></string>
+    <string name="letv_channellist_school">学校：<xliff:g id="school">%s</xliff:g></string>
+    <string name="letv_channellist_className">学科：<xliff:g id="className">%s</xliff:g></string>
+    <string name="letv_channellist_countUpdate">期数：更新至<xliff:g id="countUpdate">%s</xliff:g>期</string>
+    <string name="letv_channellist_albumdetailTime">时长：<xliff:g id="albumdetailTime">%s</xliff:g></string>
+    <string name="letv_channellist_timeUpdate">更新：<xliff:g id="timeUpdate">%s</xliff:g></string>
+    <string name="letv_channellist_programtype">节目类型：<xliff:g id="type">%s</xliff:g></string>
+    <string name="letv_channellist_albumtype">专辑类型：<xliff:g id="type">%s</xliff:g></string>
+    <string name="letv_channellist_flag">标签：<xliff:g id="flag">%s</xliff:g></string>
+    <string name="letv_channellist_playcount">播放数：<xliff:g id="count">%s</xliff:g></string>
+    <!-- 专辑详情 -->
+    <string name="letv_albumdetail_director">导演：</string>
+    <string name="letv_albumdetail_actor">主演：</string>
+    <string name="letv_albumdetail_toastmaster">主持人：</string>
+    <string name="letv_albumdetail_timeLength">时长：</string>
+    <string name="letv_albumdetail_area">地区：</string>
+    <string name="letv_albumdetail_year">年份：</string>
+    <string name="letv_albumdetail_show_year">上映：</string>
+    <string name="letv_albumdetail_publish_time">发行：</string>
+    <string name="letv_albumdetail_subcate">类型：</string>
+    <string name="letv_albumdetail_albumtype">类型：</string>
+    <string name="letv_albumdetail_periods">期数：</string>
+    <string name="letv_albumdetail_periods_current">更新至<xliff:g id="albumdetail_periods_current">%s</xliff:g>期</string>
+    <string name="letv_albumdetail_episodes">集数：</string>
+    <string name="letv_albumdetail_episodes_total"><xliff:g id="albumdetail_episodes_total">%s</xliff:g>集全</string>
+    <string name="letv_albumdetail_episodes_current">更新至<xliff:g id="albumdetail_episodes_current">%s</xliff:g>集</string>
+    <string name="letv_albumdetail_singer">歌手：</string>
+    <string name="letv_albumdetail_style">风格：</string>
+    <string name="letv_albumdetail_school">学校：</string>
+    <string name="letv_albumdetail_className">学科：</string>
+    <string name="letv_albumdetail_updateTime">更新时间：</string>
+    <string name="letv_albumdetail_teacher">讲师：</string>
+    <string name="letv_albumdetail_info_grade">评分：</string>
+    <string name="letv_albumdetail_language">语言：</string>
+    <string name="letv_dialog_loading">加载中...</string>
+    <string name="letv_dialog_title">提示</string>
+    <string name="letv_toast_net_null">没有网络</string>
+    <string name="letv_toast_net_15">网络连接失败，请检查您的网络</string>
+    <string name="letv_dialog_default_title">提示</string>
+    <string name="letv_dialog_default_ok">确定</string>
+    <string name="letv_dialog_default_no">取消</string>
+    <string name="letv_dialog_messge_web">将前往浏览器查看</string>
+    <string name="letv_toast_net_exception">数据未加载成功</string>
+    <string name="letv_toast_no_episode">播放视频不存在</string>
+    <string name="letv_never_remind">下次不再提醒</string>
+    <string name="letv_channel_list_null">暂无相关数据</string>
+    <string name="letv_net_no">当前网络不可用，请检查网络设置或点击屏幕刷新</string>
+    <string name="letv_net_err">请求网络失败，请点击屏幕刷新</string>
+    <string name="letv_pull_to_refresh_pull_label">Pull to refresh&#8230;</string>
+    <string name="letv_neterror_layout_cantconnectletv">无法连接到乐视影视</string>
+    <string name="letv_home_main_footer_openletvtag">打开乐视客户端</string>
+    <string name="letv_home_main_footer_tag">点击获取更多</string>
+    <string name="letv_install_app_title">下载安装</string>
+    <string name="letv_install_app_msg">下载安装Letv视频获取更多精彩视频？</string>
+    <string name="letv_install_app_download">下载</string>
+    <string name="letv_play_all_letv">请下载乐视影视完整版</string>
+    <string name="letv_albumdetail_intro_tag">简介</string>
+    <string name="letv_albumdetail_albumlist_tag">剧集</string>
+    <string name="letv_album_detail_info_vip_tag">VIP</string>
+    <string name="letv_album_detail_info_dota_tag">.</string>
+    <string name="letv_home_main_3gtip_title">网络提示</string>
+    <string name="letv_home_main_3gtip_msg">您正在使用2G/3G网络，会消耗数据流量，建议在Wifi环境下使用</string>
+    <string name="letv_album_detail_install_msg">仅支持播放第一集，下载安装Letv视频观看更多集？</string>
+    <string name="letv_public_day">天</string>
+    <string name="letv_play_episode">&#160;第<xliff:g id="num">%s</xliff:g>集</string>
+    <string name="letv_home_main_big_img_tag">后宫-甄嬛传</string>
+    
+    
+    
+    
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、 -->
+
+<!--     <string name="letv_albumdetail_collection">收藏</string> -->
+<!--     <string name="letv_albumdetail_collection_success">已收藏</string> -->
+<!--     <string name="letv_albumdetail_share">分享</string> -->
+<!--     <string name="letv_albumdetail_introduction_title">剧情简介</string> -->
+<!--     <string name="letv_albumdetail_introduction_expand_on">展开</string> -->
+<!--     <string name="letv_albumdetail_introduction_expand_off">收起</string> -->
+<!--     <string name="letv_albumdetail_correlation_love">您可能喜欢</string> -->
+<!--     <string name="letv_albumdetail_correlation_director">导演相关</string> -->
+<!--     <string name="letv_albumdetail_correlation_actor">主演相关</string> -->
+<!--     <string name="letv_albumdetail_download_list_title">剧集下载</string> -->
+<!--     <string name="letv_download_no_net">网络连接失败,请检查您的网络</string> -->
+<!--     <string name="letv_dialog_delete">正在删除，请等待...</string> -->
+<!--     <string name="letv_toast_favorite_ok">收藏成功</string> -->
+<!--     <string name="letv_toast_add_download_ok">成功添加至下载列表</string> -->
+<!--     <string name="letv_toast_favorite_cancel">取消成功</string> -->
+<!--     <string name="letv_dialog_button_continue">重连</string> -->
+<!--     <string name="letv_dialog_button_going">继续</string> -->
+<!--     <string name="letv_dialog_button_back">退出</string> -->
+<!--     <string name="letv_dialog_messge_setmobilenet">您设置了2G/3G网络不允许播放，请在我的乐视-设置中更改您的设置</string> -->
+<!--     <string name="letv_dialog_messge_continul_mobilenet">您正在使用2G/3G网络，继续使用会产生大量流量费，是否继续？</string> -->
+<!--     <string name="letv_dialog_message_download_mobilenet">目前处于2G/3G网络，是否继续下载？</string> -->
+<!--     <string name="letv_toast_sdcard_no">Sdcard不可用</string> -->
+<!--     <string name="letv_toast_file_no">下载文件不存在</string> -->
+<!--     <string name="letv_toast_sdcard_low">请释放一些Sdcard空间后继续下载</string> -->
+
+
+    <!-- 海外版权 -->
+<!--     <string name="letv_no_overseas_play">非常抱歉，当前视频没有海外播放版权</string> -->
+<!--     <string name="letv_no_overseas_download">非常抱歉，当前视频没有海外下载版权</string> -->
+
+    <!-- 播放 -->
+<!--     <string name="letv_skip_head">已跳过片头</string> -->
+<!--     <string name="letv_skip_foot">即将跳过片尾</string> -->
+<!--     <string name="letv_player_low">流畅</string> -->
+<!--     <string name="letv_player_high">高清</string> -->
+<!--     <string name="letv_will_play">即将播放</string> -->
+<!--     <string name="letv_play_net_error">网络连接异常</string> -->
+<!--     <string name="letv_play_suggest_change">当前网络不给力，建议将清晰度切换至流畅观看</string> -->
+<!--     <string name="letv_updata_finish">下载完成</string> -->
+<!--     <string name="letv_updata_finish_install">下载完成，点击安装</string> -->
+
+
+<!--     <string name="letv_pull_to_refresh_release_label">Release to refresh&#8230;</string> -->
+<!--     <string name="letv_pull_to_refresh_refreshing_label">Loading&#8230;</string> -->
+    
+<!--     <string name="letv_downloadasynctask_downloading">正在下载</string> -->
+<!--     <string name="letv_updatedownloadasynctask_download">正在下载：乐视影视  v<xliff:g id="version">%s</xliff:g>）</string> -->
+    
+<!--     <string name="letv_netplaycontroller_no_video">没视频</string> -->
+<!--     <string name="letv_download_3g">当前网络为2G/3G网络,是否下载</string> -->
+<!--     <string name="letv_letvplaygesturelayout_lock">锁住屏幕,长按解锁</string> -->
+<!--     <string name="letv_letvplaygesturelayout_unlock">解开屏幕</string> -->
+<!--     <string name="letv_back">返回</string> -->
+
+<!--     <string name="letv_goon">继续</string> -->
+<!--     <string name="letv_giveup">放弃</string> -->
+<!--     <string name="letv_play_loading_text">正在加载，即将播出...</string> -->
+<!--     <string name="letv_play_download">下载</string> -->
+<!--     <string name="letv_play_share">分享</string> -->
+<!--     <string name="letv_play_hasdownload">已下载</string> -->
+<!--     <string name="letv_play_collection">收藏</string> -->
+<!--     <string name="letv_play_hascollection">已收藏</string> -->
+<!--     <string name="letv_play_list_title">第<xliff:g id="play_list_title">%s</xliff:g>集</string> -->
+<!--     <string name="letv_play_error">视频播放出现异常!</string> -->
+<!--     <string name="letv_play_back_toast">再按一次退出播放</string> -->
+<!--     <string name="letv_play_no_data">播放加载失败,请重试</string> -->
+<!-- <string name="letv_sharedUserLabel">com.letv.android.client</string> -->
+
+<!-- main radio name -->
+<!-- <string name="letv_main_tab_radio_home">　首页　</string> -->
+<!-- <string name="letv_main_tab_radio_channel">　频道　</string> -->
+<!-- <string name="letv_main_tab_radio_search">　搜索　</string> -->
+<!-- <string name="letv_main_tab_radio_livechannel">　直播　</string> -->
+<!-- <string name="letv_main_tab_radio_download">我的视频</string> -->
+<!-- <string name="letv_main_tab_radio_more">我的乐视</string> -->
+<!-- <string name="letv_main_bottom_delete">删除（<xliff:g id="main_bottom_delete">%s</xliff:g>）</string> -->
+<!-- <string name="letv_main_bottom_choose_yes">全选</string> -->
+<!-- <string name="letv_main_bottom_choose_no">全不选</string> -->
+<!-- <string name="letv_main_exit_message">您确定要退出乐视影视吗？</string> -->
+<!-- <string name="letv_main_exit_title">退出</string> -->
+
+<!-- <string name="letv_bind">绑定</string> -->
+<!-- <string name="letv_top_back">返回</string> -->
+<!-- <string name="letv_home_top_title">首页</string> -->
+<!-- <string name="letv_search_top_title">搜索</string> -->
+<!-- <string name="letv_livechannel_top_title">直播</string> -->
+<!-- <string name="letv_channel_top_title">频道</string> -->
+<!-- <string name="letv_more_top_title">我的乐视</string> -->
+<!-- <string name="letv_async_dialog_title">提示</string> -->
+<!-- <string name="letv_async_dialog_message">加载中...</string> -->
+
+<!-- <string name="letv_play_threescreen">三屏</string> -->
+
+<!-- <string name="letv_play_full">全屏</string> -->
+<!-- <string name="letv_play_unfull">收缩</string> -->
+
+<!-- 频道类型名称 -->
+<!-- <string name="letv_txtView_moviespage">电影</string> -->
+<!-- <string name="letv_txtView_tvpage">电视剧</string> -->
+<!-- <string name="letv_txtView_catoonpage">动漫</string> -->
+<!-- <string name="letv_txtView_entertainmentpage">娱乐</string> -->
+<!-- <string name="letv_txtView_telecastingpage">综艺</string> -->
+<!-- <string name="letv_txtView_music">音乐</string> -->
+<!-- <string name="letv_txtView_documentary_film">纪录片</string> -->
+<!-- <string name="letv_txtView_open_class">公开课</string> -->
+<!-- <string name="letv_txtView_letv_make">乐视制造</string> -->
+<!-- <string name="letv_txtView_letv_product">乐视出品</string> -->
+
+<!-- 下载 -->
+<!-- <string name="letv_download_title">下载</string> -->
+<!-- <string name="letv_download_finish_radio">完成下载(<xliff:g id="download_finish_radio">%s</xliff:g>)</string> -->
+<!-- <string name="letv_download_loading_radio">正在下载(<xliff:g id="download_loading_radio">%s</xliff:g>)</string> -->
+<!-- <string name="letv_download_finish_btn">已完成</string> -->
+<!-- <string name="letv_download_loading_btn">未完成</string> -->
+<!-- <string name="letv_download_localvideo_btn">本地视频</string> -->
+<!-- <string name="letv_download_btn_scan">扫描</string> -->
+<!-- <string name="letv_download_btn_delete">删除</string> -->
+<!-- <string name="letv_download_btn_finish">完成</string> -->
+<!-- <string name="letv_download_video_num">共有<xliff:g id="download_video_num">%s</xliff:g>个视频</string> -->
+<!-- <string name="letv_download_video_num_title">已扫描到<xliff:g id="download_video_num_title">%s</xliff:g>个本地文件</string> -->
+<!-- <string name="letv_download_item_state_pause">已暂停</string> -->
+<!-- <string name="letv_download_item_state_loading">正在下载</string> -->
+<!-- <string name="letv_download_item_state_stop">已暂停</string> -->
+<!-- <string name="letv_download_item_state_nofile">文件不存在</string> -->
+<!-- <string name="letv_download_item_state_waiting">等待下载</string> -->
+<!-- <string name="letv_download_sdcard_storage">存储空间：共<xliff:g id="download_sdcard_storage">%s</xliff:g> G</string> -->
+<!-- <string name="letv_download_sdcard_availabe">剩余<xliff:g id="download_sdcard_storage">%s</xliff:g>G</string> -->
+<!-- <string name="letv_download_sdcard_no">Sdcard 不存在</string> -->
+<!-- <string name="letv_download_menu_play">播放</string> -->
+<!-- <string name="letv_download_menu_delete">删除</string> -->
+<!-- <string name="letv_download_menu_attribute">属性</string> -->
+<!-- <string name="letv_download_menu_clear">清空</string> -->
+<!-- <string name="letv_download_menu_start">全部开始</string> -->
+<!-- <string name="letv_download_menu_pause">全部暂停</string> -->
+<!-- <string name="letv_download_notification_start">下载开始</string> -->
+<!-- <string name="letv_download_notification_finish">下载完成</string> -->
+<!-- <string name="letv_download_notification_finish_title"><xliff:g id="download_notification_finish_title">%s</xliff:g>下载完成</string> -->
+<!-- <string name="letv_download_notification_start_title">网络连接失败,请检查您的网络</string> -->
+<!-- <string name="letv_download_notification_start_content">点击进入下载中心，进行任务管理与设置</string> -->
+<!-- <string name="letv_download_notification_stop_nonet_title">网络异常，下载任务停止</string> -->
+<!-- <string name="letv_download_notification_stop_nonet_content">请检查网络设置，恢复后进入下载中心继续任务下载</string> -->
+<!-- <string name="letv_download_notification_stop_nowifi_title">2G/3G网络，自动暂停视频下载</string> -->
+<!-- <string name="letv_download_notification_stop_nowifi_content">2G/3G网络，自动暂停视频下载</string> -->
+<!-- <string name="letv_download_notification_stop_title">网络下载已停止</string> -->
+<!-- <string name="letv_download_notification_stop_content">点击进入下载中心，进行任务管理与设置</string> -->
+<!-- <string name="letv_download_notification_stop">下载停止</string> -->
+<!-- <string name="letv_download_loaded_no">完成下载暂无内容</string> -->
+<!-- <string name="letv_download_loading_no">正在下载暂无内容</string> -->
+<!-- <string name="letv_download_localvideo_no">本地视频暂无内容</string> -->
+<!-- <string name="letv_download_no_tip">在详情页或播放页点击下载至本地观看</string> -->
+
+<!-- <string name="letv_download_no_wifi">非wifi网络，不能进行视频下载</string> -->
+<!-- <string name="letv_download_scaning">正在扫描</string> -->
+<!-- <string name="letv_download_localvideo_scan">正在扫描本地视频，这可能需要花费一些时间，请等待...</string> -->
+<!-- <string name="letv_download_localvideo_delete">正在删除本地视频，请等待...</string> -->
+<!-- <string name="letv_download_delete">正在删除，请等待...</string> -->
+<!-- <string name="letv_localvideo_detail_path_tag">文件路径：</string> -->
+<!-- <string name="letv_localvideo_detail_size_tag">文件大小：</string> -->
+<!-- <string name="letv_localvideo_detail_resolution_tag">分辨率：</string> -->
+<!-- <string name="letv_localvideo_detail_filetype_tag">视频格式：</string> -->
+<!-- <string name="letv_localvideo_stop_scan">是否停止扫描本地视频？</string> -->
+<!-- <string name="letv_localvideo_stop_scan_yes">确定</string> -->
+<!-- <string name="letv_localvideo_stop_scan_no">取消</string> -->
+<!-- <string name="letv_localvideo_unknown">未知</string> -->
+<!-- <string name="letv_download_delete_tip">您确定要删除所选视频吗？</string> -->
+<!-- <string name="letv_download_local_delete_tip">此操作将会彻底删除本地视频文件</string> -->
+
+<!-- dialog -->
+<!-- <string name="letv_dialog_button_know">知道了</string> -->
+<!-- <string name="letv_dialog_messge_delete">确认删除该条内容？</string> -->
+<!-- <string name="letv_dialog_messge_clear_downfinish">确认要清空所有视频吗？</string> -->
+<!-- <string name="letv_dialog_messge_clear_downloading">确认要清空所有视频吗？</string> -->
+<!-- <string name="letv_dialog_messge_clear_playtrace">确认清空播放记录内容？</string> -->
+<!-- <string name="letv_dialog_messge_pip_mobilenet">您正在使用2G/3G网络观看影片</string> -->
+<!-- <string name="letv_toast_net_not_wifi">当前网络不是wifi环境，可能会消耗较大的流量</string> -->
+<!-- <string name="letv_toast_local_file_no">本地文件不存在</string> -->
+<!-- <string name="letv_toast_net_error">网络连接失败，请重新下载</string> -->
+<!-- <string name="letv_use_homecache">使用</string> -->
+<!-- <string name="letv_not_use_homecache">不使用</string> -->
+<!-- <string name="letv_network_cannot_use">当前网络不可用，请检查网络设置</string> -->
+<!-- <string name="letv_network_use_homecache">目前您的网络不可用，是否要使用离线数据</string> -->
+<!-- <string name="letv_no_homecache">没有离线缓存数据</string> -->
+<!-- <string name="letv_network_continue">继续浏览</string> -->
+<!-- <string name="letv_network_offline_show">离线观看</string> -->
+<!-- <string name="letv_network_exit">退出</string> -->
+<!-- <string name="letv_network_set">网络设置</string> -->
+<!-- <string name="letv_warn_net">网络提示</string> -->
+<!-- <string name="letv_net_3g_message">您正在使用2G/3G网络，会消耗大量数据流量，建议在wifi环境下使用</string> -->
+<!-- <string name="letv_button_continue">继续访问</string> -->
+
+<!-- <string name="letv_last_watch">您上次观看至</string> -->
+<!-- <string name="letv_continue_playing">正在为您自动续播...</string> -->
+<!-- <string name="letv_please_wait">请稍后...</string> -->
+
+<!-- 下载 -->
+<!-- <string name="letv_already_updata">已经开始更新，请等待。</string> -->
+<!-- <string name="letv_crash">程序出错了，请重启应用</string> -->
+<!-- <string name="letv_pull_to_refresh_tap_label">Tap to refresh&#8230;</string> -->
+
+<!-- 3.5 统一修改 -->
+<!-- 命名规则      普通资源（控件文字，文本）来源名_定义名（例如：HomeMainActivity 中有   “首页”  取名为       homemianactivity_title） -->
+<!-- 命名规则      特殊资源（Toast，Dialog,err等没有明确页面归属的文字请  例如:Toast  toask_xxx） -->
+<!-- 这样可能会有很多重复的文字，但是这样能最好的区分，最容易的找到，请照这样去做 -->
+
+<!-- 错误信息 -->
+
+<!-- 主站接口，错误信息 -->
+<!-- <string name="letv_err_403">没有权限执行</string> -->
+<!-- <string name="letv_err_500">服务器错误</string> -->
+<!-- <string name="letv_err_1000">参数不正确</string> -->
+<!-- <string name="letv_err_1001">用户不存在</string> -->
+<!-- <string name="letv_err_1002">登录名或密码不正确</string> -->
+<!-- <string name="letv_err_1003">用户已被管理员屏蔽了</string> -->
+<!-- <string name="letv_err_1004">用户邮箱未激活</string> -->
+<!-- <string name="letv_err_1005">邮箱格式不正确</string> -->
+<!-- <string name="letv_err_1006">邮箱不存在</string> -->
+<!-- <string name="letv_err_1007">邮件下发失败，服务忙！</string> -->
+<!-- <string name="letv_err_1008">旧密码不正确</string> -->
+<!-- <string name="letv_err_1009">参数不正确或密码少于6位</string> -->
+<!-- <string name="letv_err_1010">邮箱已存在请更换邮箱</string> -->
+<!-- <string name="letv_err_1011">手机格式不正确</string> -->
+<!-- <string name="letv_err_1012">该号码已被抢注，请更换手机号</string> -->
+<!-- <string name="letv_err_1013">昵称已存在</string> -->
+<!-- <string name="letv_err_1014">sso票不正确或已过期</string> -->
+<!-- <string name="letv_err_1015">等级不存在</string> -->
+<!-- <string name="letv_err_1016">验证码不正确</string> -->
+<!-- <string name="letv_err_default">未知错误</string> -->
+
+<!-- Dialog -->
+
+<!-- <string name="letv_dialog_loading_fail">加载失败</string> -->
+<!-- <string name="letv_dialog_clear">清除中...</string> -->
+<!-- <string name="letv_dialog_sure">确认</string> -->
+
+<!-- Toast -->
+
+<!-- <string name="letv_toast_login_ok">登录成功</string> -->
+<!-- <string name="letv_toast_register_ok">注册成功</string> -->
+<!-- <string name="letv_toast_modification_ok">修改成功</string> -->
+<!-- <string name="letv_toast_cancel_ok">取消成功</string> -->
+<!-- <string name="letv_toast_net_err">连接失败</string> -->
+
+<!-- JAVA文件资源 -->
+<!-- <string name="letv_channelmainactivity_duomeizi">多美滋</string> -->
+<!-- <string name="letv_consumerrecordsactivity_all">全部</string> -->
+<!-- <string name="letv_consumerrecordsactivity_threeday">最近三天</string> -->
+<!-- <string name="letv_consumerrecordsactivity_week">最近一周</string> -->
+<!-- <string name="letv_consumerrecordsactivity_month">最近一个月</string> -->
+<!-- <string name="letv_homemainactivity_dongfeng">东风标致</string> -->
+<!-- <string name="letv_ledianpayactivity_title">乐点余额支付</string> -->
+<!-- <string name="letv_ledianpayactivity_notsufficientfunds">您的余额不足，请到letv.com充值</string> -->
+<!-- <string name="letv_ledianpayactivity_checked">请勾选余额支付的选项</string> -->
+<!-- <string name="letv_ledianpayactivity_pay_ok">已支付</string> -->
+<!-- <string name="letv_livechannelmainactivity_ok">预定成功</string> -->
+<!-- <string name="letv_livechannelmainactivity_cancel">已取消该预定</string> -->
+<!-- <string name="letv_livemybookactivity_delete">删除（<xliff:g id="main_bottom_delete">%s</xliff:g>）</string> -->
+<!-- <string name="letv_moreaboutusactivity_webtitle">乐视网</string> -->
+<!-- <string name="letv_moreaboutusactivity_num">tel:400-6300-104</string> -->
+<!-- <string name="letv_loginactivity_username_null">登录名或密码不正确</string> -->
+<!-- <string name="letv_loginactivity_username_format">登录名或密码不正确</string> -->
+<!-- <string name="letv_loginactivity_password_null">登录名或密码不正确</string> -->
+<!-- <string name="letv_loginactivity_password_err">登录名或密码不正确     </string> -->
+<!-- <string name="letv_modifypasswordactivity_oldpassword_null">旧密码不能为空</string> -->
+<!-- <string name="letv_modifypasswordactivity_oldpassword_err">旧密码必须为6-16位数字/字母</string> -->
+<!-- <string name="letv_modifypasswordactivity_newpassword_null">新密码不能为空</string> -->
+<!-- <string name="letv_modifypasswordactivity_newpassword_err">新密码必须为6-16位数字/字母</string> -->
+<!-- <string name="letv_modifypasswordactivity_repassword_null">确认密码不能为空</string> -->
+<!-- <string name="letv_modifypasswordactivity_repassword_err">确认密码必须为6-16位数字/字母</string> -->
+<!-- <string name="letv_modifypasswordactivity_checkpassword_err">确认密码与密码不一致</string> -->
+<!-- <string name="letv_morefeedbackactivity_textnull">您还没有输入内容！</string> -->
+<!-- <string name="letv_morefeedbackactivity_text500">超出输入无效</string> -->
+<!-- <string name="letv_morefeedbackactivity_contacterr">请输入正确的邮箱/手机号码</string> -->
+<!-- <string name="letv_morefeedbackactivity_contactnull">请输入正确的邮箱/手机号码 </string> -->
+<!-- <string name="letv_moresettingactivity_setplay_title">播放时优先选择</string> -->
+<!-- <string name="letv_moresettingactivity_setdownload_title">下载时优先选择</string> -->
+<!-- <string name="letv_moresettingactivity_clear">清除图片缓存</string> -->
+<!-- <string name="letv_paycentreactivity_title">支付中心</string> -->
+<!-- <string name="letv_payfailactivity_title">支付异常</string> -->
+<!-- <string name="letv_paysucceedactivity_title">购买成功</string> -->
+<!-- <string name="letv_registeractivity_mobilenull">手机号码不能为空</string> -->
+<!-- <string name="letv_registeractivity_mobileerr">请输入正确的手机号码</string> -->
+<!-- <string name="letv_registeractivity_send">已经给您发送验证码短信，请查收</string> -->
+<!-- <string name="letv_registeractivity_emailnull">邮箱不能为空</string> -->
+<!-- <string name="letv_registeractivity_emailerr">请输入正确的邮箱</string> -->
+<!-- <string name="letv_registeractivity_passwordnull">密码不能为空</string> -->
+<!-- <string name="letv_registeractivity_passworderr">密码必须为6-16位数字/字母</string> -->
+<!-- <string name="letv_registeractivity_repasswordnull">确认密码不能为空</string> -->
+<!-- <string name="letv_registeractivity_repassworderr">确认密码必须为6-16位字母/数字</string> -->
+<!-- <string name="letv_registeractivity_check">确认密码与密码不一致</string> -->
+<!-- <string name="letv_registeractivity_codenull">验证码不能为空</string> -->
+<!-- <string name="letv_registeractivity_treaty">请同意《乐视服务使用协议》</string> -->
+<!-- <string name="letv_registeractivity_second">秒</string> -->
+<!-- <string name="letv_registeractivity_resend">验证码发送失败，请重试</string> -->
+<!-- <string name="letv_retrievepasswordbysmsactivity_text">“pw+新密码” 到1069 0159 292121</string> -->
+<!-- <string name="letv_shareactivity_title">分享</string> -->
+<!-- <string name="letv_shareactivity_gotobind_sina">您还没有绑定新浪微博账号，是否立即去绑定？</string> -->
+<!-- <string name="letv_shareactivity_gotobind_tencent">您还没有绑定腾讯微博账号，是否立即去绑定？</string> -->
+<!-- <string name="letv_shareactivity_gotobind_qzone">您还没有绑定QQ空间账号，是否立即去绑定？</string> -->
+<!-- <string name="letv_shareactivity_gotobind_renren">您还没有绑定人人账号，是否立即去绑定？</string> -->
+<!-- <string name="letv_shareactivity_gotobind_lestar">您还没有绑定大咔账号，是否立即去绑定？</string> -->
+<!-- <string name="letv_shareactivity_text140">分享内容不能超过140个字</string> -->
+<!-- <string name="letv_shareactivity_chooce">请选择要分享的网站</string> -->
+<!-- <string name="letv_shareactivity_sina_ok">分享成功</string> -->
+<!-- <string name="letv_shareactivity_sina_fail">分享失败</string> -->
+<!-- <string name="letv_shareactivity_tencent_fail">分享失败</string> -->
+<!-- <string name="letv_shareactivity_tencent_ok">分享成功</string> -->
+<!-- <string name="letv_shareactivity_qzone_ok">分享成功</string> -->
+<!-- <string name="letv_shareactivity_qzone_fail">分享失败</string> -->
+<!-- <string name="letv_shareactivity_renren_fail">分享失败</string> -->
+<!-- <string name="letv_shareactivity_renren_ok">分享成功</string> -->
+<!-- <string name="letv_shareactivity_lestar_fail">分享失败</string> -->
+<!-- <string name="letv_shareactivity_lestar_ok">分享成功</string> -->
+<!-- <string name="letv_vipchannellistactivity_movie">电影</string> -->
+<!-- <string name="letv_vipchannellistactivity_tv">电视剧</string> -->
+<!-- <string name="letv_vipchannellistactivity_new">最新</string> -->
+<!-- <string name="letv_vipchannellistactivity_hot">最热</string> -->
+<!-- <string name="letv_vipgoodsactivity_chooce">选择产品</string> -->
+<!-- <string name="letv_consumerrecordadapter_ledian">乐点</string> -->
+<!-- <string name="letv_liveepgprogramadapter_add">+预定</string> -->
+<!-- <string name="letv_liveepgprogramadapter_playing">正在播放:</string> -->
+<!-- <string name="letv_liveepgprogramadapter_goplay">去观看</string> -->
+<!-- <string name="letv_liveepgprogramadapter_del">x取消</string> -->
+<!-- <string name="letv_rechargerecordadapter_sj">手机话费</string> -->
+<!-- <string name="letv_rechargerecordadapter_wy">网银</string> -->
+<!-- <string name="letv_rechargerecordadapter_lk">乐卡</string> -->
+<!-- <string name="letv_rechargerecordadapter_sjczk">手机充值卡</string> -->
+<!-- <string name="letv_rechargerecordadapter_zfb">支付宝</string> -->
+<!-- <string name="letv_rechargerecordadapter_syt">手机收银台</string> -->
+<!-- <string name="letv_rechargerecordadapter_xyk">信用卡</string> -->
+<!-- <string name="letv_rechargerecordadapter_jjk">借记卡</string> -->
+<!-- <string name="letv_rechargerecordadapter_hb">红包</string> -->
+<!-- <string name="letv_rechargerecordadapter_zjcz">直接充值</string> -->
+<!-- <string name="letv_rechargerecordadapter_czfb">支付宝充值</string> -->
+<!-- <string name="letv_rechargerecordadapter_wzfb">支付宝充值</string> -->
+<!-- <string name="letv_albumparse_day">天</string> -->
+<!-- <string name="letv_letvplayfunction_click_play">点击播放</string> -->
+<!-- <string name="letv_letvplayfunction_download_play">下载完成的播放</string> -->
+<!-- <string name="letv_localplayercontroller_play_Loading">即将播放<xliff:g id="title">%s</xliff:g> 请稍候...</string> -->
+<!-- <string name="letv_pipmediacontroller_no_next">已经没有下一集了</string> -->
+<!-- <string name="letv_letvpushservice_title">乐视影视</string> -->
+<!-- <string name="letv_letvpushservice_live_title">直播预约提醒</string> -->
+<!-- <string name="letv_pipservice_title">窗口视频模式</string> -->
+<!-- <string name="letv_pipservice_msg">当前正在运行窗口视频模式</string> -->
+<!-- <string name="letv_share_msg_album">我正在使用#乐视影视#观看#<xliff:g id="title">%s</xliff:g>#http://www.letv.com/ptv/pplay/<xliff:g id="id">%s</xliff:g>/1.html</string> -->
+<!-- <string name="letv_share_msg_episode">我正在使用#乐视影视#观看#<xliff:g id="title">%s</xliff:g>#第<xliff:g id="order">%s</xliff:g>集#http://www.letv.com/ptv/pplay/<xliff:g id="id">%s</xliff:g>/<xliff:g id="order">%s</xliff:g>.html</string> -->
+<!-- <string name="letv_letvutil_time01"><xliff:g id="hours">%s</xliff:g>小时<xliff:g id="minutes">%s</xliff:g>分<xliff:g id="seconds">%s</xliff:g>秒</string> -->
+<!-- <string name="letv_letvutil_time02"><xliff:g id="minutes">%s</xliff:g>分<xliff:g id="seconds">%s</xliff:g>秒</string> -->
+<!-- <string name="letv_letvutil_time_format">MM月dd日</string> -->
+<!-- <string name="letv_letvutil_week07">周日</string> -->
+<!-- <string name="letv_letvutil_week01">周一</string> -->
+<!-- <string name="letv_letvutil_week02">周二</string> -->
+<!-- <string name="letv_letvutil_week03">周三</string> -->
+<!-- <string name="letv_letvutil_week04">周四</string> -->
+<!-- <string name="letv_letvutil_week05">周五</string> -->
+<!-- <string name="letv_letvutil_week06">周六</string> -->
+
+<!-- <string name="letv_playaddialog_ad">广告</string> -->
+<!-- <string name="letv_sharetabdialog_no_weixin">您还没有安装微信客户端</string> -->
+<!-- <string name="letv_vipgoodsactivity_title">选择产品</string> -->
+<!-- <string name="letv_downloadmanager_download">点击下载</string> -->
+
+<!-- XML文件资源 -->
+
+<!-- <string name="letv_channel_main_sort">分类 </string> -->
+<!-- <string name="letv_channel_main_subject">专题 </string> -->
+<!-- <string name="letv_channel_main_rank">排行榜</string> -->
+<!-- <string name="letv_details_share_tab_sinaweibo">新浪微博</string> -->
+<!-- <string name="letv_details_share_tab_tencent">腾讯微博</string> -->
+<!-- <string name="letv_details_share_tab_qqspace">QQ空间</string> -->
+<!-- <string name="letv_details_share_tab_micromsg">微信</string> -->
+<!-- <string name="letv_details_share_tab_renren">人人</string> -->
+<!-- <string name="letv_details_share_tab_bigstar">大咔</string> -->
+<!-- <string name="letv_details_share_tab_cancel">取消</string> -->
+<!-- <string name="letv_ledian_pay_lediantag">需要支付乐点：</string> -->
+<!-- <string name="letv_ledian_pay_balancetag">当前账户乐点余额：</string> -->
+<!-- <string name="letv_ledian_pay_usecurrentpay">使用当前账户乐点余额支付</string> -->
+<!-- <string name="letv_ledian_pay_sure">确定</string> -->
+<!-- <string name="letv_ledian_poupwindon_payintro">乐点余额支付介绍</string> -->
+<!-- <string name="letv_ledian_poupwindon_payintro_1">1、乐点为乐视用户用来购买商品的虚拟兑换币，您的乐点余额要有足够的余额才能对商品进行支付。</string> -->
+<!-- <string name="letv_ledian_poupwindon_payintro_2"> 2、1 元=10 乐点</string> -->
+<!-- <string name="letv_ledian_poupwindon_payintro_3"> 3、乐点充值可以选择线上多种支付方式进行充值，或线下拉卡拉充值，还可以从代理商处购买乐视乐点充值卡。</string> -->
+<!-- <string name="letv_ledian_poupwindon_payintro_4"> 4、PC 端充值平台：pay.letv.com。</string> -->
+<!-- <string name="letv_ledian_poupwindon_payintro_5"> 5、客服热线电话：400-6300-104 移动客户端体验群：182187389 新浪微博：@乐视客户服务中心），弹出层后，点击屏幕任意区域，隐藏该弹出层。</string> -->
+<!-- <string name="letv_more_aboutus_letvandroid">乐视影视Android版</string> -->
+<!-- <string name="letv_more_aboutus_letvversion">3.6版</string> -->
+<!-- <string name="letv_more_aboutus_newintrotag">新特性介绍</string> -->
+<!-- <string name="letv_more_aboutus_visitletv">访问乐视网</string> -->
+<!-- <string name="letv_more_aboutus_callletv">拨打客服电话</string> -->
+<!-- <string name="letv_more_aboutus_companyname">乐视网信息技术（北京）股份有限公司</string> -->
+<!-- <string name="letv_more_aboutus_copyright">版权所有</string> -->
+<!-- <string name="letv_more_feedback_suggesttag">请输入您的建议、问题</string> -->
+<!-- <string name="letv_more_feedback_contacttag">联系方式(请以逗号分割)：邮箱/电话</string> -->
+<!-- <string name="letv_more_feedback_qqgrouptag">QQ群：182187389</string> -->
+<!-- <string name="letv_more_feedback_sinaweibotag">新浪微博：乐视无线</string> -->
+<!-- <string name="letv_more_feedback_noticetag">您可以将使用过程中发现的任何问题或建议直接发送给我们，您的意见和建议对我们非常重要！</string> -->
+<!-- <string name="letv_more_main_receivingpush">接收推送消息</string> -->
+<!-- <string name="letv_more_setting_underplay">播放时优先选择</string> -->
+<!-- <string name="letv_more_setting_underdownload">下载时优先选择</string> -->
+<!-- <string name="letv_more_setting_cleancache">清除缓存</string> -->
+
+<!-- <string name="letv_pay_centre_productname">商品名称：</string> -->
+<!-- <string name="letv_pay_centre_ordernum">订单编号：</string> -->
+<!-- <string name="letv_pay_centre_cutoffdate">截止日期：</string> -->
+<!-- <string name="letv_pay_centre_productprice">商品价格：</string> -->
+<!-- <string name="letv_pay_centre_choicepaytype">选择支付方式</string> -->
+<!-- <string name="letv_pay_centre_ledianpay">乐点余额支付</string> -->
+<!-- <string name="letv_pay_centre_clientZFBpay">支付宝客户端支付</string> -->
+<!-- <string name="letv_pay_centre_webZFBpay">支付宝网页支付</string> -->
+<!-- <string name="letv_pay_fail_payerrortag">支付异常，请稍后到支付记录中查看，或拨打客服电话咨询</string> -->
+<!-- <string name="letv_pay_fail_checkrecords">查看消费记录</string> -->
+<!-- <string name="letv_pay_fail_callletv">拨打客服电话</string> -->
+<!-- <string name="letv_pay_succeed_paysuccess">恭喜,购买成功</string> -->
+<!-- <string name="letv_pay_succeed_productname">商品名称：</string> -->
+<!-- <string name="letv_pay_succeed_productstate">订单状态：</string> -->
+<!-- <string name="letv_pay_succeed_productorder">订单编号：</string> -->
+<!-- <string name="letv_pay_succeed_letvphone">客服电话：</string> -->
+<!-- <string name="letv_pay_succeed_checkrecords">查看消费记录</string> -->
+<!-- <string name="letv_pay_succeed_vip">网络院线</string> -->
+<!-- <string name="letv_pay_succeed_play">播放</string> -->
+<!-- <string name="letv_personal_center_account_activity_letvuser">乐视用户</string> -->
+<!-- <string name="letv_personal_center_account_activity_balance">账户余额：</string> -->
+<!-- <string name="letv_personal_center_account_activity_lediantag">乐点</string> -->
+<!-- <string name="letv_personal_center_account_activity_mailtag">邮箱地址：</string> -->
+<!-- <string name="letv_personal_center_account_activity_phonetag">手机号码：</string> -->
+<!-- <string name="letv_personal_center_activity_letvuser">乐视用户</string> -->
+<!-- <string name="letv_personal_center_activity_balance">账户余额：</string> -->
+<!-- <string name="letv_personal_center_activity_ledian">乐点</string> -->
+<!-- <string name="letv_personal_center_activity_login_account">账号：</string> -->
+<!-- <string name="letv_personal_center_activity_login_pwd">密码：</string> -->
+<!-- <string name="letv_personal_center_activity_regiest_phone">手机号：</string> -->
+<!-- <string name="letv_personal_center_activity_regiest_authcode">验证码：</string> -->
+<!-- <string name="letv_personal_center_activity_regiest_pwd">密码：</string> -->
+<!-- <string name="letv_personal_center_activity_regiest_pwdagain">确认密码：</string> -->
+<!-- <string name="letv_personal_center_activity_regiest_mail">邮箱：</string> -->
+<!-- <string name="letv_personal_center_activity_regiest_pwdmail">密码：</string> -->
+<!-- <string name="letv_personal_center_activity_regiest_pwdmailagain">确认密码：</string> -->
+<!-- <string name="letv_personal_center_activity_logout">确认注销吗？</string> -->
+<!-- <string name="letv_personal_center_consumer_record_list_item_name">名称：</string> -->
+<!-- <string name="letv_personal_center_consumer_record_list_item_svod">包月</string> -->
+<!-- <string name="letv_personal_center_consumer_record_list_item_consume">消费：</string> -->
+<!-- <string name="letv_personal_center_consumer_record_list_item_50ledian">50乐点</string> -->
+<!-- <string name="letv_personal_center_consumer_record_list_item_ordernum">订单号：</string> -->
+<!-- <string name="letv_personal_center_consumer_record_list_item_dateofexpiry">有效期至：</string> -->
+<!-- <string name="letv_personal_center_modify_password_activity_oldpwd">旧密码：</string> -->
+<!-- <string name="letv_personal_center_modify_password_activity_newpwd">新密码：</string> -->
+<!-- <string name="letv_personal_center_modify_password_activity_newpwdagain">确认密码：</string> -->
+<!-- <string name="letv_personal_center_recharge_record_list_item_lediancount">充入乐点数：</string> -->
+<!-- <string name="letv_personal_center_recharge_record_list_item_prepaid">充值方式：</string> -->
+<!-- <string name="letv_personal_center_recharge_record_list_item_leka">乐卡</string> -->
+<!-- <string name="letv_personal_center_recharge_record_list_item_money">金额：</string> -->
+<!-- <string name="letv_personal_center_recharge_record_list_item_date">日期：</string> -->
+<!-- <string name="letv_play_share_tab_sinaweibo">新浪微博</string> -->
+<!-- <string name="letv_play_share_tab_tencentweibo">腾讯微博</string> -->
+<!-- <string name="letv_play_share_tab_qqspace">QQ空间</string> -->
+<!-- <string name="letv_play_share_tab_micromsg">微信</string> -->
+<!-- <string name="letv_play_share_tab_renren">人人</string> -->
+<!-- <string name="letv_play_share_tab_bigstar">大咔</string> -->
+<!-- <string name="letv_play_share_tab_cancel">取消</string> -->
+<!-- <string name="letv_share_main_shearto">同时分享到</string> -->
+<!-- <string name="letv_vip_goods_foot_buynow">立即购买</string> -->
+<!-- <string name="letv_vip_goods_head_type">类型</string> -->
+<!-- <string name="letv_vip_goods_head_dateofexpiry">有效期</string> -->
+<!-- <string name="letv_vip_goods_head_price">现价</string> -->
+<!-- <string name="letv_vip_goods_poupwindon_vipintro">会员特权介绍</string> -->
+<!-- <string name="letv_vip_goods_poupwindon_vipintro1">1、会员可以免费观看会员频道下标识为VIP的视频内容；</string> -->
+<!-- <string name="letv_vip_goods_poupwindon_vipintro2">2、会员可以免费下载会员频道下标识为VIP的部分视频内容；</string> -->
+<!-- <string name="letv_vip_goods_poupwindon_vipintro3">3、会员频道中标识VIP的内容全部为当下实时热播的最新电影、电视剧；</string> -->
+<!-- <string name="letv_vip_top_back_vipvault">会员片库</string> -->
+<!-- <string name="letv_vip_top_back_bunchvault">点播片库</string> -->
+<!-- <string name="letv_widget_layout_loadingnow">正在加载中...</string> -->
+<!-- <string name="letv_vip_offline_tip">该内容暂时调整下线,会尽快恢复,敬请谅解</string> -->
+<!-- <string name="letv_personal_center_activity_vip_tag">高清品质、新片抢先看、海量片库</string> -->
+<!-- <string name="letv_channellist_tool_layout_sift">筛选</string> -->
+<!-- <string name="letv_delete">删除</string> -->
+<!-- <string name="letv_finish">完成</string> -->
+<!-- <string name="letv_exit">退出</string> -->
+<!-- <string name="letv_submit">提交</string> -->
+<!-- <string name="letv_publish">发布</string> -->
+<!-- <string name="letv_logout">注销</string> -->
+
+<!-- 二维码 -->
+<!-- <string name="letv_qrcode_success">提交成功</string> -->
+<!-- <string name="letv_qrcode_fail">提交失败</string> -->
+<!-- <string name="letv_qrcode_retry">重试</string> -->
+<!-- <string name="letv_qrcode_exit">退出</string> -->
+
+<!-- 友盟统计 -->
+<!-- <string name="letv_data_recommend">精品推荐</string> -->
+<!-- <string name="letv_data_channel">频道入口</string> -->
+<!-- <string name="letv_data_live">直播入口</string> -->
+<!-- <string name="letv_data_download">下载入口</string> -->
+<!-- <string name="letv_data_setting">设置入口</string> -->

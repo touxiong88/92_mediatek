@@ -1,0 +1,33 @@
+	 {"LayName": "texti_temperature_ani", "LayWidth": 0.275000, "LayHeight": 0.175000, "LayID": 850, "ParentID": 0, "LayIn": -1.23, "LayDur": 5.94, "CompIn": 0.00, "CompDur": 5.94, "Normalization": true,
+		"SourcePath": "C:/Data/Projects/2010103DProjects/P2_LandscapeSweet_1124/text_taipei_tempture.png",
+		"Version": "210158194",
+			 	"Marker": { 
+				 }, 
+				 "AnchorPoint": { 
+					"X": 0.50, "Y": 0.50, "Z": 0.00
+					 }, 
+				 "Position": { 
+					"Type":[ 12.00 , 12.00 ],
+					"Time":[ 0.00 , 2.00 ],
+					"X":[ 0.86 , 0.79 ],
+					"Y":[ 0.70 , 0.70 ],
+					"Z":[ 0.00 , 0.00 ],
+					"InTanX":[ 0.00 , 0.00 ],
+					"InTanY":[ 0.00 , 0.00 ],
+					"InTanZ":[ 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 ],
+					"OutTanY":[ 0.00 , 0.00 ],
+					"OutTanZ":[ 0.00 , 0.00 ]
+				}
+,
+				 "Rotation": { 
+					"Val": 0.00
+					 }, 
+				 "Opacity": { 
+					"Type":[ 0.00 , 0.00 ],
+					"Time":[ 0.00 , 0.80 ],
+					"Val":[ 0.00 , 100.00 ],
+					"InTanX":[ 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 ]
+				}
+	}

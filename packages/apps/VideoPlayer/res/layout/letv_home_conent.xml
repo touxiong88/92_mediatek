@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<!--     <include layout="@layout/home_conent_gallery" /> -->
+
+<!-- <ImageView android:id="@+id/home_conent_bigimg" -->
+<!--     android:layout_width="fill_parent" -->
+<!--     android:layout_height="wrap_content" -->
+<!--     android:scaleType="centerCrop" -->
+<!--     android:src="@drawable/letv_home_main_big_img" -->
+<!--     /> -->
+
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    >
+    <LinearLayout 
+   		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="3dip"
+        android:id="@+id/home_content_mullist">
+        
+        <ListView 
+            android:id="@+id/letv_home_conent_GridView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:listSelector="@android:color/transparent"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dip"
+            android:divider="@null"
+            android:dividerHeight="0dip"
+            android:scrollingCache="false"
+            android:scrollbars="none"
+            
+            >
+        </ListView>
+         
+    </LinearLayout>
+    </ScrollView>
+
+<!--     <include layout="@layout/letv_home_conent_foot" /> -->
+
+</LinearLayout>

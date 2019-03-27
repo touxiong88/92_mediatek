@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="analog_date_font_size">10dip</dimen>
+    <dimen name="style_1_height_date_week">16dip</dimen> 
+    <dimen name="style_1_no_weather_city_margin_bottom">6dip</dimen>
+    <dimen name="local_container_marginTop">20dip</dimen>
+    <dimen name="anothercity_marginTop">12dip</dimen>
+</resources>

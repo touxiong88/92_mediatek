@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">Media3D</string>
+    <string name="demo_name">Media3D demo</string>
+    <string name="enter_photo">Fotografie</string>
+    <string name="enter_weather">Počasí</string>
+    <string name="enter_video">video</string>
+    <string name="refresh">"Aktualizovat"</string>
+    <string name="add">Přidat</string>
+    <string name="delete">"Smazat"</string>
+    <string name="settings">"Nastavení"</string>
+    <string name="january">"leden"</string>
+    <string name="february">"únor"</string>
+    <string name="march">"březen"</string>
+    <string name="april">"duben"</string>
+    <string name="may">"květen"</string>
+    <string name="june">"červen"</string>
+    <string name="july">"červenec"</string>
+    <string name="august">"srpen"</string>
+    <string name="september">"září"</string>
+    <string name="october">"říjen"</string>
+    <string name="november">"listopad"</string>
+    <string name="december">"prosinec"</string>
+    <string name="no_photo_text">Žádná fotografie k dispozici</string>
+    <string name="no_video_text">Žádné video k dispozici</string>
+    <string name="loading">Načítání...</string>
+    <string name="no_weather_text">Žádné počasí k dispozici</string>
+</resources>

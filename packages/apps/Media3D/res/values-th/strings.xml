@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">มีเดีย3มิติ</string>
+    <string name="demo_name">มีเดีย3มิติ สาธิต</string>
+    <string name="enter_photo">รูปภาพ</string>
+    <string name="enter_weather">สภาพอากาศ</string>
+    <string name="enter_video">"วิดีโอ"</string>
+    <string name="refresh">"รีเฟรช"</string>
+    <string name="add">เพิ่ม</string>
+    <string name="delete">"ลบ"</string>
+    <string name="settings">"การตั้งค่า"</string>
+    <string name="january">มค.</string>
+    <string name="february">กพ.</string>
+    <string name="march">มีค.</string>
+    <string name="april">เมย.</string>
+    <string name="may">พค.</string>
+    <string name="june">มิย.</string>
+    <string name="july">กค.</string>
+    <string name="august">สค.</string>
+    <string name="september">กย.</string>
+    <string name="october">ตค.</string>
+    <string name="november">พย.</string>
+    <string name="december">ธค.</string>
+    <string name="no_photo_text">ไม่มีภาพถ่าย</string>
+    <string name="no_video_text">ไม่มีวิดีโอ</string>
+    <string name="loading">กำลังโหลด...</string>
+    <string name="no_weather_text">ไม่มีรายงานอากาศ</string>
+</resources>

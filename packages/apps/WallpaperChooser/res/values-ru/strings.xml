@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Смысл обои выбирания</string>
+    <string name="choose_lockpaper_from">выбрать избумажки</string>
+    <string-array name="choose_lockpaper">
+        <item>Default lockpaper</item>
+        <item>Gallery</item>
+    </string-array>
+    <string name="chooser_lockpaper">Выберите из бумажки</string>
+    <string name="pick_wallpaper">галерея обоев</string>
+    <string name="save_lockpaper">Установка бумажки , пожалуйста, подождите \ u2026</string>
+    <string name="save_wallpaper">Установка бумажки , пожалуйста, подождите \ u2026</string>
+    <string name="wallpaper_instructions">Установить обои</string>
+    <string name="wallpaper_text">HTC стола</string>
+    <string name="save_picture_to_wallpaper">обои</string>
+    <string name="save_picture_to_lockpaper">бумажка</string>
+    <string name="save">установка</string>
+    <string name="cancel">Отменить</string>
+    <string name="title">обои изображение</string>
+    <string name="gallery_label">галерея</string>
+    <string name="wallpaper_dynamic">Живые обои</string>
+    <string name="wallpaper_settings">обои</string>
+    <string name="set_wallpaper">Установите основный экран</string>
+    <string name="set_lockpaper">Установка блокировки экрана</string>
+    <string name="set_all">Установите оба</string>
+    <string name="save_photo">Сохранение фото</string>
+    <string name="title_bar_settings">настройки</string>
+    <string name="title_bar_back">назад</string>
+    <string name="title_bar_wallpaper">обои</string>
+</resources>

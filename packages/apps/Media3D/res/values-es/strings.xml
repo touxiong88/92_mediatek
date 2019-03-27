@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">Media3D</string>
+    <string name="demo_name">Demostración de Media3D</string>
+    <string name="enter_photo">Fotografía</string>
+    <string name="enter_weather">El tiempo</string>
+    <string name="enter_video">"Vídeo"</string>
+    <string name="refresh">"Actualizar"</string>
+    <string name="add">"Añadir"</string>
+    <string name="delete">"Eliminar"</string>
+    <string name="settings">"Ajustes"</string>
+    <string name="january">"Ene."</string>
+    <string name="february">"Feb."</string>
+    <string name="march">"Mar."</string>
+    <string name="april">"Abr."</string>
+    <string name="may">"May."</string>
+    <string name="june">"Jun."</string>
+    <string name="july">"Jul."</string>
+    <string name="august">"Ago."</string>
+    <string name="september">"Set."</string>
+    <string name="october">"Oct."</string>
+    <string name="november">"Nov."</string>
+    <string name="december">"Dic."</string>
+    <string name="no_photo_text">No hay fotografía disponible</string>
+    <string name="no_video_text">No hay vídeo disponible</string>
+    <string name="loading">Cargando...</string>
+    <string name="no_weather_text">No hay información sobre el tiempo disponible</string>
+</resources>

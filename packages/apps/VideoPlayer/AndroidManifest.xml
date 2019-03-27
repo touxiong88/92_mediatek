@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+     package="com.mediatek.videoplayer"
+     android:versionCode="1" android:versionName="1.1">
+    <!-- MTK permission start -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- MTK permission end -->
+
+    <!-- Letv permission start -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- Letv permission end -->
+
+    <application android:icon="@drawable/ic_video_app" android:label="@string/video_app_name">
+        <!-- MTK start -->
+        <activity android:name="com.mediatek.videoplayer.BootActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.mediatek.videoplayer.MovieListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Holo">
+            <intent-filter>
+                <action android:name="com.mediatek.videoplayer.MovieListActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".streaming.StreamingVideoTabActivity"
+            android:screenOrientation="portrait"
+             android:theme="@android:style/Theme.Holo.NoActionBar">
+        </activity>
+        <!-- MTK end -->
+
+        <!-- Letv start -->
+        <activity
+            android:name="com.mediatek.videoplayer.activity.AlbumDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.letv.android.client.sdk.ALBUMDETAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.mediatek.videoplayer.activity.HomeMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.letv.android.client.sdk.HOMEMAINACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.mediatek.videoplayer.utils.SubmitExctionService"
+            android:process=":exceptionService" >
+        </service>
+
+        <receiver android:name="com.mediatek.videoplayer.api.LetvMessageCenter" >
+            <intent-filter>
+                <action android:name="com.letv.android.client.sdk.PLAY_RECORD" />
+                <action android:name="com.letv.android.client.sdk.DEL_PLAY_RECORD" />
+                <action android:name="com.letv.android.client.sdk.COLLECTION" />
+                <action android:name="com.letv.android.client.sdk.DEL_COLLECTION" />
+                <action android:name="com.letv.android.client.sdk.TO_DOWNLOAD" />
+                <action android:name="com.letv.android.client.sdk.FROM_DOWNLOAD" />
+                <action android:name="com.letv.android.client.sdk.DEL_DOWNLOAD" />
+            </intent-filter>
+        </receiver>
+        <!-- Letv end -->
+    </application>
+</manifest>

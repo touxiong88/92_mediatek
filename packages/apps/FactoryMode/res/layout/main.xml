@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/main_bt_autotest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/AutoTest"
+                android:textSize="30dip" />
+            <Button
+                android:id="@+id/main_bt_alltest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/AllTest"
+                android:textSize="30dip" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/motherboard_verification_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/verification_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/verfication_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:textSize="15dip"
+                android:text="@string/pass_reset"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+    <GridView
+        android:id="@+id/main_grid"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:padding="5dip"
+        android:verticalSpacing="1dip"
+        android:horizontalSpacing="1dip"
+        android:numColumns="auto_fit"
+        android:columnWidth="101dip"
+        android:stretchMode="columnWidth"
+        android:gravity="center" />
+<!-- Vanzo:zhangzehui on: Mon, 22 Sep 2014 13:29:30 +0800
+    add reset factory settings
+-->
+    <Button
+        android:id="@+id/reset_factory_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="37dip"
+        android:textSize="20dip"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/reset_factory"/>
+
+<!-- End of Vanzo:zhangzehui -->
+</LinearLayout>

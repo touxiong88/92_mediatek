@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:splitMotionEvents="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:splitMotionEvents="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <HorizontalScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fillViewport="true"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:orientation="horizontal">
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:splitMotionEvents="false"
+                    android:layout_gravity="left"
+                    android:background="@drawable/tab_unselected_holo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:tabStripEnabled="false"
+                     >
+                 <!-- android:divider="@null" -->
+                </TabWidget>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <RelativeLayout
+            android:splitMotionEvents="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpage"
+                android:splitMotionEvents="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                />
+        </RelativeLayout>
+        
+        <!-- No use, but Android TabHost default must have this id -->
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+        </FrameLayout>
+    </LinearLayout> 
+</TabHost>

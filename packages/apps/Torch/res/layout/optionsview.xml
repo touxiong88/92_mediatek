@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory android:title="@string/widget_options">
+
+<!-- Vanzo:huangchaojun on: Sun, 09 Oct 2011 10:33:30 +0800
+            <CheckBoxPreference
+                    android:key="widget_bright"
+                    android:title="@string/setting_widget_bright"
+                    android:defaultValue="false" />
+-->
+<!-- End of Vanzo:huangchaojun --><CheckBoxPreference
+            android:defaultValue="false"
+            android:key="widget_strobe"
+            android:title="@string/setting_widget_strobe" />
+
+        <net.cactii.flash2.SeekBarPreference
+            android:defaultValue="5"
+            android:dialogMessage="@string/setting_frequency_dialog"
+            android:key="widget_strobe_freq"
+            android:max="25"
+            android:summary="@string/setting_frequency_summary"
+            android:text="@string/setting_frequency_hz"
+            android:title="@string/setting_frequency_title" />
+
+        <Preference
+            android:id="@+id/saveSetting"
+            android:key="saveSettings"
+            android:title="@string/setting_add_widget" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

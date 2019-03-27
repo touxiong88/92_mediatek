@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hello" translatable="false">欢迎来到工厂模式</string>
+    <string name="app_name" translatable="false">工厂模式</string>
+    <string name="Settings" translatable="false">设置</string>
+    <string name="AutoTest" translatable="false">夹具测试</string>
+    <string name="AllTest" translatable="false">整机测试</string>
+    <string name="Packageerror" translatable="false">出错了,无法找到应用包！</string>
+    <string name="PackageIerror" translatable="false">内部错误</string>
+    <!--BatteryLog part -->
+    <string name="BatteryLog" translatable="false">电源</string>
+
+    <string name="battery_info_status_label" translatable="false">充电状态:</string>
+    <string name="battery_info_scale_label" translatable="false">电池电量:</string>
+    <string name="battery_info_level_label" translatable="false">当前电量:</string>
+    <string name="battery_info_health_label" translatable="false">电源状况:</string>
+    <string name="battery_info_technology_label" translatable="false">电源技术:</string>
+    <string name="battery_info_voltage_label" translatable="false">当前电压:</string>
+    <string name="battery_info_voltage_units" translatable="false">mV</string>
+    <string name="battery_info_temperature_label" translatable="false">电源温度:</string>
+    <string name="battery_info_temperature_units" translatable="false">\u00B0 C</string>
+    <string name="battery_info_uptime" translatable="false">自启动的时间:</string>
+    <string name="battery_info_current" translatable="false">充电电流:</string>
+    <string name="battery_info_current_consumption" translatable="false">消耗电流:</string>
+    <string name="battery_info_awake_battery" translatable="false">对电池唤醒时间:</string>
+    <string name="battery_info_awake_plugged" translatable="false">充电时间:</string>
+    <string name="battery_info_screen_on" translatable="false">屏幕打开时间:</string>
+    <string name="battery_info_status_unknown" translatable="false">未知</string>
+    <string name="battery_info_status_charging" translatable="false">充电</string>
+    <string name="battery_info_status_charging_ac" translatable="false">(AC)</string>
+    <string name="battery_info_status_charging_usb" translatable="false">(USB)</string>
+    <string name="battery_info_status_discharging" translatable="false">Discharging</string>
+    <string name="battery_info_status_not_charging" translatable="false">未充电</string>
+    <string name="battery_info_status_full" translatable="false">满</string>
+    <string name="battery_info_health_unknown" translatable="false">未知</string>
+    <string name="battery_info_health_good" translatable="false">很好</string>
+    <string name="battery_info_health_overheat" translatable="false">过热</string>
+    <string name="battery_info_health_dead" translatable="false">Dead</string>
+    <string name="battery_info_health_over_voltage" translatable="false">电压过高</string>
+    <string name="battery_info_health_unspecified_failure" translatable="false">未知错误</string>
+    <!--TouchScreen part -->
+    <string name="TouchScreen" translatable="false">触屏</string>
+    <string name="PointTest" translatable="false">点测试</string>
+    <string name="LineTest1" translatable="false">矩形线测试</string>
+    <string name="LineTest2" translatable="false">对角线测试</string>
+    <string name="Result" translatable="false">查看结果 </string>
+    <string name="Offset" translatable="false">偏移量： </string>
+    <string name="TouchComplete" translatable="false">测试完成</string>
+    <string name="Error" translatable="false">错误</string>
+    <string name="DrawError" translatable="false">绘制出错！</string>
+    <string name="Again" translatable="false">重试</string>
+    <string name="GoOn" translatable="false">继续</string>
+    <!--Display part -->
+    <string name="BackLight" translatable="false">背景灯</string>
+    <string name="Display_lcd_Text" translatable="false">背景灯</string>
+    <!--Memory NAND part -->
+    <string name="Memory" translatable="false">内存</string>
+    <!--Audio part -->
+    <string name="Audio" translatable="false">声音</string>
+    <!--Camera part -->
+    <string name="Camera" translatable="false">相机</string>
+    <string name="Camera_takepic" translatable="false">拍照</string>
+    <string name="Camera_notfound" translatable="false">未检测到前置摄像头</string>
+    <!--WiFi part -->
+    <string name="WiFi" translatable="false">WiFi</string>
+    <string name="WiFi_success" translatable="false">测试成功</string>
+    <string name="WiFi_failed" translatable="false">测试失败</string>
+    <string name="WiFi_scaning" translatable="false">正在查找中...</string>
+    <string name="WiFi_info_closeing" translatable="false">wifi正在关闭中...</string>
+    <string name="WiFi_info_close" translatable="false">wifi已经关闭</string>
+    <string name="WiFi_info_opening" translatable="false">wifi正在打开</string>
+    <string name="WiFi_info_open" translatable="false">wifi已经打开</string>
+    <string name="WiFi_info_unknown" translatable="false">未知状态</string>
+    <string name="WiFi_connecting" translatable="false">正在连接...</string>
+    <string name="WiFi_notfound_openap" translatable="false">未找到开放的连接点</string>
+    <!-- HeadSet -->
+    <string name="HeadSet" translatable="false">耳机</string>
+    <string name="HeadSet_plugged" translatable="false">耳机插入</string>
+    <string name="HeadSet_unplugged" translatable="false">耳机拔出</string>
+    <string name="HeadSet_tips" translatable="false">请插入耳机进行测试</string>
+    <string name="HeadSet_hook" translatable="false">按下耳机Hook键!</string>
+    <string name="HeadSet_hook_message" translatable="false">请确认拨打电话时长按耳机Hook键是否可以挂断?</string>
+    <!-- GPS -->
+    <string name="GPS" translatable="false">GPS</string>
+    <string name="GPS_open" translatable="false">请打开GPS</string>
+    <string name="GPS_connect" translatable="false">GPS 已打开, 正在连接...</string>
+    <string name="GPS_normal" translatable="false">GPS 正常</string>
+    <string name="GPS_satelliteNum" translatable="false">GPS 已搜索到卫星数 : </string>
+    <string name="GPS_Signal" translatable="false">GPS 信号 : </string>
+    <string name="GPS_Success" translatable="false">成功</string>
+    <string name="GPS_time" translatable="false">耗时： %s 分</string>
+    <!-- GSensor -->
+    <string name="Sensor" translatable="false">传感器</string>
+    <!-- Vibrator -->
+    <string name="Vibrator" translatable="false">震动</string>
+    <!-- Signal -->
+    <string name="Signal" translatable="false">电话</string>
+    <!--YGPS part -->
+    <string name="YGPS" translatable="false">YGPS</string>
+    <!--AGPS part -->
+    <string name="AGPS" translatable="false">AGPS</string>
+    <!-- Microphone -->
+    <string name="Microphone" translatable="false">麦克风</string>
+    <string name="Mic_one" translatable="false">麦克风一</string>
+    <string name="Mic_two" translatable="false">麦克风二</string>
+    <string name="Mic_start" translatable="false">开始录音</string>
+    <string name="Mic_stop" translatable="false">停止录音并播放</string>
+    <string name="Mic_play" translatable="false">开始播放</string>
+    <string name="Mic_operation" translatable="false">麦克风选项</string>
+    <string name="Speaker_operation" translatable="false">喇叭选项</string>
+    <!--BlutTooth part -->
+    <string name="Bluetooth" translatable="false">蓝牙</string>
+    <string name="Bluetooth_open" translatable="false">蓝牙已经打开</string>
+    <string name="Bluetooth_opening" translatable="false">蓝牙正在打开...</string>
+    <string name="Bluetooth_scaning" translatable="false">正在查找...</string>
+    <string name="Bluetooth_mac" translatable="false">MAC地址:</string>
+    <string name="Bluetooth_scan_success" translatable="false">查找完成</string>
+    <!--GSensor part -->
+    <string name="GSensor" translatable="false">重力传感器</string>
+    <string name="GSensor_info" translatable="false">竖立,平放,侧立,观察重力变化!</string>
+    <!--MSensor part -->
+    <string name="MSensor" translatable="false">磁力传感器</string>
+    <string name="MSensor_default_text" translatable="false">未知数据</string>
+    <string name="MSensor_North" translatable="false">正北</string>
+    <string name="MSensor_East" translatable="false">正东</string>
+    <string name="MSensor_South" translatable="false">正南</string>
+    <string name="MSensor_West" translatable="false">正西</string>
+    <string name="MSensor_north_east" translatable="false">北偏东</string>
+    <string name="MSensor_south_east" translatable="false">南偏东</string>
+    <string name="MSensor_south_west" translatable="false">南偏西</string>
+    <string name="MSensor_north_west" translatable="false">北偏西</string>
+    <!-- LSensor part -->
+    <string name="LSensor" translatable="false">光传感器</string>
+    <string name="LSensor_default_text" translatable="false">未知数据</string>
+    <string name="LSensor_accuracy" translatable="false">精度:</string>
+    <string name="LSensor_value" translatable="false">数值:</string>
+    <string name="LSensor_tips" translatable="false">在强光和黑暗地方观察数值变化!</string>
+
+    <string name="LCD_increase" translatable="false">强背光</string>
+    <string name="LCD_weaken" translatable="false">弱背光</string>
+    <string name="Success" translatable="false">成功</string>
+    <string name="Failed" translatable="false">失败</string>
+
+    <!-- psensor part -->
+    <string name="psensor_hello" translatable="false">PSensor 验证</string>
+    <string name="psensor_app_name" translatable="false">距离传感器</string>
+    <string name="proximity" translatable="false">接近 : </string>
+    <string name="tips" translatable="false">请将手放置和离开感应区观看数值变化!</string>
+
+    <!-- Earphone -->
+    <string name="Earphone" translatable="false">听筒</string>
+
+    <!-- Activity name part -->
+    <string name="battery_name" translatable="false">电 源</string>
+    <string name="touchscreen1_name" translatable="false">矩形触屏</string>
+    <string name="touchscreen2_name" translatable="false">对角触屏</string>
+    <string name="speaker_name" translatable="false">喇 叭</string>
+    <string name="wifi_name" translatable="false">WiFi</string>
+    <string name="bluetooth_name" translatable="false">蓝 牙</string>
+    <string name="headset_name" translatable="false">耳 机</string>
+    <string name="earphone_name" translatable="false">听 筒</string>
+    <string name="gps_name" translatable="false">GPS</string>
+    <string name="vibrator_name" translatable="false">震 动</string>
+    <string name="telephone_name" translatable="false">电 话</string>
+    <string name="backlight_name" translatable="false">背景灯</string>
+    <string name="memory_name" translatable="false">内 存</string>
+    <string name="gsensor_name" translatable="false">重力传感</string>
+    <string name="msensor_name" translatable="false">磁力传感</string>
+    <string name="lsensor_name" translatable="false">光传感</string>
+    <string name="psensor_name" translatable="false">距离传感</string>
+    <string name="camera_name" translatable="false">后摄像头</string>
+    <string name="flash_name" translatable="false">闪光灯</string>
+    <string name="sdcard_name" translatable="false">T 卡</string>
+    <string name="sdcardformat_name" translatable="false">格式化T卡</string>
+    <string name="fmradio_name" translatable="false">收音机</string>
+    <string name="KeyCode_name" translatable="false">按 键</string>
+    <string name="lcd_name" translatable="false">LCD</string>
+    <string name="sim_name" translatable="false">SIM卡</string>
+    <string name="microphone_name" translatable="false">麦克风</string>
+    <string name="subcamera_name" translatable="false">前摄像头</string>
+    <string name="headsethook_name" translatable="false">耳机Hook</string>
+    <string name="snnumber_name" translatable="false">SN号码</string>
+    <string name="gyroscope_name" translatable="false">陀螺仪</string>
+    <string name="threed_name" translatable="false">3D校准</string>
+    <string name="intouch_name" translatable="false">内置触控传感</string>
+<!-- Vanzo:libing on: Thu, 28 Nov 2013 16:01:33 +0800
+for OTG test
+-->
+    <string name="otg_name" translatable="false">OTG</string>
+    <string name="otg" translatable="false">OTG</string>
+    <string name="otg_tips_success" translatable="false">已检测到外部 USB 设备</string>
+    <string name="otg_tips_failed" translatable="false">没有检测到外部 USB 设备</string>
+    <string name="otg_totalsize" translatable="false">总容量:</string>
+    <string name="otg_freesize" translatable="false">剩余容量:</string>
+<!-- End of Vanzo:libing -->
+    <!-- SDcard part -->
+    <string name="sdcard" translatable="false">T卡</string>
+    <string name="sdcard_tips_success" translatable="false">已检测到内部SD卡</string>
+    <string name="sdcard_tips_failed" translatable="false">没有测到内部SD卡</string>
+    <string name="sdcard_tips_success_ex" translatable="false">已检测到外部SD卡</string>
+    <string name="sdcard_tips_failed_ex" translatable="false">没有测到外部SD卡</string>
+    <string name="sdcard_totalsize" translatable="false">总容量:</string>
+    <string name="sdcard_freesize" translatable="false">剩余容量:</string>
+
+    <!-- SDcardFormat part -->
+    <string name="sdcardformat" translatable="false">格式化内存</string>
+    <string name="mtp_transfer_erase_error_text">SD 卡正在传输文件，无法格式化</string>
+
+    <!-- FMRadio part -->
+    <string name="FMRadio" translatable="false">收音机</string>
+    <string name="FMRadio_notice" translatable="false">选择</string>
+
+    <!-- KeyCode -->
+    <string name="KeyCode" translatable="false">按键</string>
+    <string name="KeyCode_info" translatable="false">请开始按键</string>
+
+    <!-- LCD part -->
+    <string name="LCD" translatable="false">LCD</string>
+
+    <!-- SimCard part -->
+    <string name="SimCard" translatable="false">SIM卡</string>
+    <string name="sim1_info_ok" translatable="false">SIM1:正常</string>
+    <string name="sim1_info_failed" translatable="false">SIM1:未发现</string>
+    <string name="sim2_info_ok" translatable="false">SIM2:正常</string>
+    <string name="sim2_info_failed" translatable="false">SIM2:未发现</string>
+    <string name="sim_info_ok" translatable="false">SIM:正常</string>
+    <string name="sim_info_failed" translatable="false">SIM:未发现</string>
+
+    <!-- Report part -->
+    <string name="Report" translatable="false">测试报告</string>
+    <string name="report_ok" translatable="false">测试成功项:</string>
+    <string name="report_failed" translatable="false">测试失败项:</string>
+    <string name="report_notest" translatable="false">未测试项:</string>
+
+    <!-- Menu part -->
+    <string name="menu_exit" translatable="false">退出测试</string>
+
+    <!-- BarCode part -->
+    <string name="sn_number_title" translatable="false">SN号</string>
+
+    <string name="gyroscope_azimuth" translatable="false">x轴:</string>
+    <string name="gyroscope_pitch" translatable="false">y轴:</string>
+    <string name="gyroscope_roll" translatable="false">z轴:</string>
+
+    <!-- Board info -->
+    <string name="board_info" translatable="false">主板信息</string>
+    
+    <!--Build version-->
+    <string name="build_version" translatable="false">软件版本</string>
+
+<!-- Vanzo:libing on: Fri, 01 Nov 2013 19:24:33 +0800
+Hall info
+-->
+    <string name="hall" translatable="false">霍尔开关</string>
+    <string name="hall_test" translatable="false">磁铁靠近观察文字和屏幕变化</string>
+    <string name="hall_status_near" translatable="false">靠近</string>
+    <string name="hall_status_away" translatable="false">远离</string>
+<!-- End of Vanzo:libing -->
+    <!--NFC-->
+    <string name="nfc_name">NFC</string>
+    <string name="nfc_is_openning">正在打开NFC...</string>
+    <string name="nfc_is_opened">NFC已开启</string>
+    <string name="nfc_test_tip">请将NFC标签贴近手机背面</string>
+    <string name="nfc_test_result">测试结果：</string>
+    <string name="nfc_test_time">测试时间：</string>
+    <string name="nfc_tag_id">标签 ID：</string>
+    <string name="nfc_tag_type">标签类型：</string>
+    <string name="nfc_tag_sectors">标签扇区个数：</string>
+    <string name="nfc_tag_blocks">标签内存块个数：</string>
+    <string name="nfc_tag_size">标签存储空间：</string>
+    <!-- fuelgauge -->
+    <string name="fuelgauge_name">电量计</string>
+    <string name="fuelgauge_status">状态：</string>
+    <string name="fuelgauge_status_ok">良好</string>
+    <string name="fuelgauge_status_fail">异常</string>
+    <string name="fuelgauge_model">型号：</string>
+    <string name="fuelgauge_capacity">容量：</string>
+    <!-- pass_verification -->
+    <string name="fail_verification" translatable="false">警告:本机尚未通过完整测试</string>
+    <string name="pass_verification" translatable="false">本机已通过完整测试</string>
+    <string name="pass_reset" translatable="false">重置</string>
+    <string name="config_reset" translatable="false">确定要重置吗?</string>
+    <string name="cancel_reset" translatable="false">取消</string>
+
+    <!-- motherboard -->
+    <string name="fail_motherboard_verification" translatable="false">警告:主板尚未校准或尚未校准成功</string>
+    <string name="pass_motherboard_verification" translatable="false">本机主板已校准成功</string>
+    <string name="fail_get_motherboard_status" translatable="false">SN号尚未写入,无法获取主板校准状态</string>
+
+    <string name="fat_ok" translatable="false">手机内存已加载</string>
+    <string name="fat_error" translatable="false">正在加载手机内存 ...</string>
+    <string name="reset_factory" translatable="false">恢复出厂设置</string>
+</resources>

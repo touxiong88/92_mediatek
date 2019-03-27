@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">မီဒီယာ3D</string>
+    <string name="demo_name">မီဒီယာ3D သရုပ်ပြချက်</string>
+    <string name="enter_photo">ဓာတ်ပုံ</string>
+    <string name="enter_weather">ရာသီဥတု</string>
+    <string name="enter_video">ဗီဒီယို</string>
+    <string name="refresh">ပြန်လည်ဆန်းသစ်မည်</string>
+    <string name="add">ထည့်ပါ</string>
+    <string name="delete">ဖျက်ပါ</string>
+    <string name="settings">အဆင်အပြင်များ</string>
+    <string name="january">ဇန်</string>
+    <string name="february">ဖေဖော်</string>
+    <string name="march">မတ်</string>
+    <string name="april">ဧပြီ</string>
+    <string name="may">မေ</string>
+    <string name="june">ဇွန်</string>
+    <string name="july">ဇူလိုင်</string>
+    <string name="august">သြဂုတ်</string>
+    <string name="september">စက်</string>
+    <string name="october">အောက်</string>
+    <string name="november">နိုဝင်</string>
+    <string name="december">ဒီဇင်</string>
+    <string name="no_photo_text">မည်သည့်ဓာတ်ပုံမှ မရရှိနိုင်ပါ</string>
+    <string name="no_video_text">မည်သည့်ဗီဒီယိုမှ မရရှိနိုင်ပါ</string>
+    <string name="loading">တင်နေသည်...</string>
+    <string name="no_weather_text">ရာသီဥတုအခြေအနေကို မရယူနိုင်ပါ</string>
+</resources>

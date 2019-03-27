@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">Media3D</string>
+    <string name="demo_name">Media3D Demo</string>
+    <string name="enter_photo">Fotoğraf</string>
+    <string name="enter_weather">Hava Durumu</string>
+    <string name="enter_video">"Video"</string>
+    <string name="refresh">"Yenile"</string>
+    <string name="add">"Ekle"</string>
+    <string name="delete">"Sil"</string>
+    <string name="settings">"Ayarlar"</string>
+    <string name="january">"Oca"</string>
+    <string name="february">"Şub"</string>
+    <string name="march">"Mar"</string>
+    <string name="april">"Nis"</string>
+    <string name="may">"May"</string>
+    <string name="june">"Haz"</string>
+    <string name="july">"Tem"</string>
+    <string name="august">"Ağu"</string>
+    <string name="september">"Eyl"</string>
+    <string name="october">"Eki"</string>
+    <string name="november">"Kas"</string>
+    <string name="december">"Ara"</string>
+    <string name="no_photo_text">Hiç fotoğraf yok</string>
+    <string name="no_video_text">Hiç video yok</string>
+    <string name="loading">Yüklüyor...</string>
+    <string name="no_weather_text">Hava durumu verisi yok</string>
+</resources>

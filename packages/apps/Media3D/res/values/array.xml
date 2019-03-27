@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- portal animation -->
+    <array name="portal_enter">
+        <item>@raw/portal_top_weather_in_ani</item>
+        <item>@raw/portal_top_photo_in_ani</item>
+        <item>@raw/portal_top_video_in_ani</item>
+    </array>
+    <string-array name="portal_enter_strings">
+        <item>@string/portal_top_weather_in_ani</item>
+        <item>@string/portal_top_photo_in_ani</item>
+        <item>@string/portal_top_video_in_ani</item>
+    </string-array>
+
+    <array name="weather_out">
+        <item>@raw/portal_top_weather_out_ani</item>
+    </array>
+    <string-array name="weather_out_strings">
+        <item>@string/portal_top_weather_out_ani</item>
+    </string-array>
+
+    <array name="photo_out">
+        <item>@raw/portal_top_photo_out_ani</item>
+    </array>
+    <string-array name="photo_out_strings">
+        <item>@string/portal_top_photo_out_ani</item>
+    </string-array>
+
+    <array name="video_out">
+        <item>@raw/portal_top_video_out_ani</item>
+    </array>
+    <string-array name="video_out_strings">
+        <item>@string/portal_top_video_out_ani</item>
+    </string-array>
+
+    <!-- photo animations -->
+    <array name="photo_left_enter_id">
+        <item>@raw/photo_swap_enter_left_photo1_ani</item>
+        <item>@raw/photo_swap_enter_left_photo2_ani</item>
+        <item>@raw/photo_swap_enter_left_photo3_ani</item>
+        <item>@raw/photo_swap_enter_left_photo4_ani</item>
+    </array>
+    <string-array name="photo_left_enter_strings">
+        <item>@string/photo_swap_enter_left_photo1_ani</item>
+        <item>@string/photo_swap_enter_left_photo2_ani</item>
+        <item>@string/photo_swap_enter_left_photo3_ani</item>
+        <item>@string/photo_swap_enter_left_photo4_ani</item>
+    </string-array>
+    <array name="photo_left_exit_id">
+        <item>@raw/photo_swap_exit_left_photo1_ani</item>
+        <item>@raw/photo_swap_exit_left_photo2_ani</item>
+        <item>@raw/photo_swap_exit_left_photo3_ani</item>
+        <item>@raw/photo_swap_exit_left_photo4_ani</item>
+    </array>
+    <string-array name="photo_left_exit_strings">
+        <item>@string/photo_swap_exit_left_photo1_ani</item>
+        <item>@string/photo_swap_exit_left_photo2_ani</item>
+        <item>@string/photo_swap_exit_left_photo3_ani</item>
+        <item>@string/photo_swap_exit_left_photo4_ani</item>
+    </string-array>
+    <array name="photo_right_enter_id">
+        <item>@raw/photo_swap_enter_right_photo1_ani</item>
+        <item>@raw/photo_swap_enter_right_photo2_ani</item>
+        <item>@raw/photo_swap_enter_right_photo3_ani</item>
+        <item>@raw/photo_swap_enter_right_photo4_ani</item>
+    </array>
+    <string-array name="photo_right_enter_strings">
+        <item>@string/photo_swap_enter_right_photo1_ani</item>
+        <item>@string/photo_swap_enter_right_photo2_ani</item>
+        <item>@string/photo_swap_enter_right_photo3_ani</item>
+        <item>@string/photo_swap_enter_right_photo4_ani</item>
+    </string-array>
+    <array name="photo_right_exit_id">
+        <item>@raw/photo_swap_exit_right_photo1_ani</item>
+        <item>@raw/photo_swap_exit_right_photo2_ani</item>
+        <item>@raw/photo_swap_exit_right_photo3_ani</item>
+        <item>@raw/photo_swap_exit_right_photo4_ani</item>
+    </array>
+    <string-array name="photo_right_exit_strings">
+        <item>@string/photo_swap_exit_right_photo1_ani</item>
+        <item>@string/photo_swap_exit_right_photo2_ani</item>
+        <item>@string/photo_swap_exit_right_photo3_ani</item>
+        <item>@string/photo_swap_exit_right_photo4_ani</item>
+    </string-array>
+
+    <array name="photo_swap_enter_id">
+        <item>@raw/photo_swap_enter_slideshow_ani</item>
+    </array>
+    <string-array name="photo_swap_enter_strings">
+        <item>@string/photo_swap_enter_slideshow_ani</item>
+    </string-array>
+
+    <array name="photo_swap_exit_id">
+        <item>@raw/photo_swap_exit_slideshow_ani</item>
+    </array>
+    <string-array name="photo_swap_exit_strings">
+        <item>@string/photo_swap_exit_slideshow_ani</item>
+    </string-array>
+
+    <!-- interal page change -->
+    <array name="photo_next_enter_id">
+        <item>@raw/photo_next_enter_photo1_ani</item>
+        <item>@raw/photo_next_enter_photo2_ani</item>
+        <item>@raw/photo_next_enter_photo3_ani</item>
+        <item>@raw/photo_next_enter_photo4_ani</item>
+    </array>
+    <string-array name="photo_next_enter_strings">
+        <item>@string/photo_next_enter_photo1_ani</item>
+        <item>@string/photo_next_enter_photo2_ani</item>
+        <item>@string/photo_next_enter_photo3_ani</item>
+        <item>@string/photo_next_enter_photo4_ani</item>
+    </string-array>
+
+    <array name="photo_next_exit_id">
+        <item>@raw/photo_next_exit_photo1_ani</item>
+        <item>@raw/photo_next_exit_photo2_ani</item>
+        <item>@raw/photo_next_exit_photo3_ani</item>
+        <item>@raw/photo_next_exit_photo4_ani</item>
+    </array>
+    <string-array name="photo_next_exit_strings">
+        <item>@string/photo_next_exit_photo1_ani</item>
+        <item>@string/photo_next_exit_photo2_ani</item>
+        <item>@string/photo_next_exit_photo3_ani</item>
+        <item>@string/photo_next_exit_photo4_ani</item>
+    </string-array>
+
+    <array name="photo_last_enter_id">
+        <item>@raw/photo_last_enter_photo1_ani</item>
+        <item>@raw/photo_last_enter_photo2_ani</item>
+        <item>@raw/photo_last_enter_photo3_ani</item>
+        <item>@raw/photo_last_enter_photo4_ani</item>
+    </array>
+    <string-array name="photo_last_enter_strings">
+        <item>@string/photo_last_enter_photo1_ani</item>
+        <item>@string/photo_last_enter_photo2_ani</item>
+        <item>@string/photo_last_enter_photo3_ani</item>
+        <item>@string/photo_last_enter_photo4_ani</item>
+    </string-array>
+
+    <array name="photo_last_exit_id">
+        <item>@raw/photo_last_exit_photo1_ani</item>
+        <item>@raw/photo_last_exit_photo2_ani</item>
+        <item>@raw/photo_last_exit_photo3_ani</item>
+        <item>@raw/photo_last_exit_photo4_ani</item>
+    </array>
+    <string-array name="photo_last_exit_strings">
+        <item>@string/photo_last_exit_photo1_ani</item>
+        <item>@string/photo_last_exit_photo2_ani</item>
+        <item>@string/photo_last_exit_photo3_ani</item>
+        <item>@string/photo_last_exit_photo4_ani</item>
+    </string-array>
+
+    <array name="photo_floating_id">
+        <item>@raw/photo_floating_photo1_ani</item>
+        <item>@raw/photo_floating_photo2_ani</item>
+        <item>@raw/photo_floating_photo3_ani</item>
+        <item>@raw/photo_floating_photo4_ani</item>
+    </array>
+    <string-array name="photo_floating_strings">
+        <item>@string/photo_floating_photo1_ani</item>
+        <item>@string/photo_floating_photo2_ani</item>
+        <item>@string/photo_floating_photo3_ani</item>
+        <item>@string/photo_floating_photo4_ani</item>
+    </string-array>
+
+    <array name="photo_next_exit_enter_id">
+        <item>@raw/photo_next_exit_photo1_ani</item>
+        <item>@raw/photo_next_exit_photo2_ani</item>
+        <item>@raw/photo_next_exit_photo3_ani</item>
+        <item>@raw/photo_next_exit_photo4_ani</item>
+        <item>@raw/photo_next_enter_photo1_ani</item>
+        <item>@raw/photo_next_enter_photo2_ani</item>
+        <item>@raw/photo_next_enter_photo3_ani</item>
+        <item>@raw/photo_next_enter_photo4_ani</item>
+    </array>
+    <string-array name="photo_next_exit_enter_strings">
+        <item>@string/photo_next_exit_photo1_ani</item>
+        <item>@string/photo_next_exit_photo2_ani</item>
+        <item>@string/photo_next_exit_photo3_ani</item>
+        <item>@string/photo_next_exit_photo4_ani</item>
+        <item>@string/photo_next_enter_photo1_ani</item>
+        <item>@string/photo_next_enter_photo2_ani</item>
+        <item>@string/photo_next_enter_photo3_ani</item>
+        <item>@string/photo_next_enter_photo4_ani</item>
+    </string-array>
+
+    <array name="photo_last_exit_enter_id">
+        <item>@raw/photo_last_exit_photo1_ani</item>
+        <item>@raw/photo_last_exit_photo2_ani</item>
+        <item>@raw/photo_last_exit_photo3_ani</item>
+        <item>@raw/photo_last_exit_photo4_ani</item>
+        <item>@raw/photo_last_enter_photo1_ani</item>
+        <item>@raw/photo_last_enter_photo2_ani</item>
+        <item>@raw/photo_last_enter_photo3_ani</item>
+        <item>@raw/photo_last_enter_photo4_ani</item>
+    </array>
+    <string-array name="photo_last_exit_enter_strings">
+        <item>@string/photo_last_exit_photo1_ani</item>
+        <item>@string/photo_last_exit_photo2_ani</item>
+        <item>@string/photo_last_exit_photo3_ani</item>
+        <item>@string/photo_last_exit_photo4_ani</item>
+        <item>@string/photo_last_enter_photo1_ani</item>
+        <item>@string/photo_last_enter_photo2_ani</item>
+        <item>@string/photo_last_enter_photo3_ani</item>
+        <item>@string/photo_last_enter_photo4_ani</item>
+    </string-array>
+
+    <!-- weather animations -->
+    <array name="weather_next_enter_id">
+        <item>@raw/weather_next_enter_text_city_ani</item>
+        <item>@raw/weather_next_enter_text_temperature_ani</item>
+        <item>@raw/weather_next_enter_timepanel_ani</item>
+        <item>@raw/weather_next_enter_weather_ani</item>
+    </array>
+    <string-array name="weather_next_enter_strings">
+        <item>@string/weather_next_enter_text_city_ani</item>
+        <item>@string/weather_next_enter_text_temperature_ani</item>
+        <item>@string/weather_next_enter_timepanel_ani</item>
+        <item>@string/weather_next_enter_weather_ani</item>
+    </string-array>
+
+    <array name="weather_next_exit_id">
+        <item>0</item>
+        <item>0</item>
+        <item>@raw/weather_next_exit_timepanel_ani</item>
+        <item>@raw/weather_next_exit_weather_ani</item>
+    </array>
+    <string-array name="weather_next_exit_strings">
+        <item>0</item>
+        <item>0</item>
+        <item>@string/weather_next_exit_timepanel_ani</item>
+        <item>@string/weather_next_exit_weather_ani</item>
+    </string-array>
+
+    <array name="weather_last_enter_id">
+        <item>@raw/weather_last_enter_text_city_ani</item>
+        <item>@raw/weather_last_enter_text_temperature_ani</item>
+        <item>@raw/weather_last_enter_timepanel_ani</item>
+        <item>@raw/weather_last_enter_weather_ani</item>
+    </array>
+    <string-array name="weather_last_enter_strings">
+        <item>@string/weather_last_enter_text_city_ani</item>
+        <item>@string/weather_last_enter_text_temperature_ani</item>
+        <item>@string/weather_last_enter_timepanel_ani</item>
+        <item>@string/weather_last_enter_weather_ani</item>
+    </string-array>
+
+    <array name="weather_last_exit_id">
+        <item>0</item>
+        <item>0</item>
+        <item>@raw/weather_last_exit_timepanel_ani</item>
+        <item>@raw/weather_last_exit_weather_ani</item>
+    </array>
+    <string-array name="weather_last_exit_strings">
+        <item>0</item>
+        <item>0</item>
+        <item>@string/weather_last_exit_timepanel_ani</item>
+        <item>@string/weather_last_exit_weather_ani</item>
+    </string-array>
+
+    <array name="weather_swap_enter_left_id">
+        <item>@raw/weather_swap_enter_left_text_city_ani</item>
+        <item>@raw/weather_swap_enter_left_text_temperature_ani</item>
+        <item>@raw/weather_swap_enter_left_timepanel_ani</item>
+        <item>@raw/weather_swap_enter_left_weather_ani</item>
+    </array>
+    <string-array name="weather_swap_enter_left_strings">
+        <item>@string/weather_swap_enter_left_text_city_ani</item>
+        <item>@string/weather_swap_enter_left_text_temperature_ani</item>
+        <item>@string/weather_swap_enter_left_timepanel_ani</item>
+        <item>@string/weather_swap_enter_left_weather_ani</item>
+    </string-array>
+
+    <array name="weather_swap_enter_right_id">
+        <item>@raw/weather_swap_enter_right_text_city_ani</item>
+        <item>@raw/weather_swap_enter_right_text_temperature_ani</item>
+        <item>@raw/weather_swap_enter_right_timepanel_ani</item>
+        <item>@raw/weather_swap_enter_right_weather_ani</item>
+    </array>
+    <string-array name="weather_swap_enter_right_strings">
+        <item>@string/weather_swap_enter_right_text_city_ani</item>
+        <item>@string/weather_swap_enter_right_text_temperature_ani</item>
+        <item>@string/weather_swap_enter_right_timepanel_ani</item>
+        <item>@string/weather_swap_enter_right_weather_ani</item>
+    </string-array>
+
+    <array name="weather_swap_exit_left_id">
+        <item>0</item>
+        <item>0</item>
+        <item>@raw/weather_swap_exit_left_timepanel_ani</item>
+        <item>@raw/weather_swap_exit_left_weather_ani</item>
+    </array>
+    <string-array name="weather_swap_exit_left_strings">
+        <item>0</item>
+        <item>0</item>
+        <item>@string/weather_swap_exit_left_timepanel_ani</item>
+        <item>@string/weather_swap_exit_left_weather_ani</item>
+    </string-array>
+
+    <array name="weather_swap_exit_right_id">
+        <item>0</item>
+        <item>0</item>
+        <item>@raw/weather_swap_exit_right_timepanel_ani</item>
+        <item>@raw/weather_swap_exit_right_weather_ani</item>
+    </array>
+    <string-array name="weather_swap_exit_right_strings">
+        <item>0</item>
+        <item>0</item>
+        <item>@string/weather_swap_exit_right_timepanel_ani</item>
+        <item>@string/weather_swap_exit_right_weather_ani</item>
+    </string-array>
+
+    <array name="weather_swap_homing_id">
+        <item>@raw/weather_swap_homing_text_city_ani</item>
+        <item>@raw/weather_swap_homing_text_temperature_ani</item>
+    </array>
+    <string-array name="weather_swap_homing_strings">
+        <item>@string/weather_swap_homing_text_city_ani</item>
+        <item>@string/weather_swap_homing_text_temperature_ani</item>
+    </string-array>
+
+    <!-- video animations -->
+    <array name="video_page_animations">
+        <item>@raw/video_swap_enter_right_video1_ani</item>
+        <item>@raw/video_swap_enter_right_video2_ani</item>
+        <item>@raw/video_swap_enter_right_video3_ani</item>
+        <item>@raw/video_swap_enter_right_video4_ani</item>
+        <item>@raw/video_swap_exit_right_video1_ani</item>
+        <item>@raw/video_swap_exit_right_video2_ani</item>
+        <item>@raw/video_swap_exit_right_video3_ani</item>
+        <item>@raw/video_swap_exit_right_video4_ani</item>
+        <item>@raw/video_swap_enter_left_video1_ani</item>
+        <item>@raw/video_swap_enter_left_video2_ani</item>
+        <item>@raw/video_swap_enter_left_video3_ani</item>
+        <item>@raw/video_swap_enter_left_video4_ani</item>
+        <item>@raw/video_swap_exit_left_video1_ani</item>
+        <item>@raw/video_swap_exit_left_video2_ani</item>
+        <item>@raw/video_swap_exit_left_video3_ani</item>
+        <item>@raw/video_swap_exit_left_video4_ani</item>
+        <item>@raw/video_next_enter_video1_ani</item>
+        <item>@raw/video_next_enter_video2_ani</item>
+        <item>@raw/video_next_enter_video3_ani</item>
+        <item>@raw/video_next_enter_video4_ani</item>
+        <item>@raw/video_next_exit_video1_ani</item>
+        <item>@raw/video_next_exit_video2_ani</item>
+        <item>@raw/video_next_exit_video3_ani</item>
+        <item>@raw/video_next_exit_video4_ani</item>
+        <item>@raw/video_last_enter_video1_ani</item>
+        <item>@raw/video_last_enter_video2_ani</item>
+        <item>@raw/video_last_enter_video3_ani</item>
+        <item>@raw/video_last_enter_video4_ani</item>
+        <item>@raw/video_last_exit_video1_ani</item>
+        <item>@raw/video_last_exit_video2_ani</item>
+        <item>@raw/video_last_exit_video3_ani</item>
+        <item>@raw/video_last_exit_video4_ani</item>
+    </array>
+    <string-array name="video_page_animations_cache_name">
+        <item>@string/video_swap_enter_right_video1_ani</item>
+        <item>@string/video_swap_enter_right_video2_ani</item>
+        <item>@string/video_swap_enter_right_video3_ani</item>
+        <item>@string/video_swap_enter_right_video4_ani</item>
+        <item>@string/video_swap_exit_right_video1_ani</item>
+        <item>@string/video_swap_exit_right_video2_ani</item>
+        <item>@string/video_swap_exit_right_video3_ani</item>
+        <item>@string/video_swap_exit_right_video4_ani</item>
+        <item>@string/video_swap_enter_left_video1_ani</item>
+        <item>@string/video_swap_enter_left_video2_ani</item>
+        <item>@string/video_swap_enter_left_video3_ani</item>
+        <item>@string/video_swap_enter_left_video4_ani</item>
+        <item>@string/video_swap_exit_left_video1_ani</item>
+        <item>@string/video_swap_exit_left_video2_ani</item>
+        <item>@string/video_swap_exit_left_video3_ani</item>
+        <item>@string/video_swap_exit_left_video4_ani</item>
+        <item>@string/video_next_enter_video1_ani</item>
+        <item>@string/video_next_enter_video2_ani</item>
+        <item>@string/video_next_enter_video3_ani</item>
+        <item>@string/video_next_enter_video4_ani</item>
+        <item>@string/video_next_exit_video1_ani</item>
+        <item>@string/video_next_exit_video2_ani</item>
+        <item>@string/video_next_exit_video3_ani</item>
+        <item>@string/video_next_exit_video4_ani</item>
+        <item>@string/video_last_enter_video1_ani</item>
+        <item>@string/video_last_enter_video2_ani</item>
+        <item>@string/video_last_enter_video3_ani</item>
+        <item>@string/video_last_enter_video4_ani</item>
+        <item>@string/video_last_exit_video1_ani</item>
+        <item>@string/video_last_exit_video2_ani</item>
+        <item>@string/video_last_exit_video3_ani</item>
+        <item>@string/video_last_exit_video4_ani</item>
+    </string-array>
+
+    <array name="video_page_floating_anims">
+        <item>@raw/video_floating_video1_ani</item>
+        <item>@raw/video_floating_video2_ani</item>
+        <item>@raw/video_floating_video3_ani</item>
+        <item>@raw/video_floating_video4_ani</item>
+    </array>
+    <array name="video_page_floating_anims_cache_name">
+        <item>@string/video_floating_video1_ani</item>
+        <item>@string/video_floating_video2_ani</item>
+        <item>@string/video_floating_video3_ani</item>
+        <item>@string/video_floating_video4_ani</item>
+    </array>
+
+</resources>

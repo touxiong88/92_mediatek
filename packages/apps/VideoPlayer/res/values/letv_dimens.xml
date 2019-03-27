@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="letv_list_item_height">44dip</dimen>
+	<dimen name="letv_list_line">1dip</dimen>
+	<dimen name="letv_home_recommend_margintop">5dip</dimen>
+	<dimen name="letv_home_recommend_textsize">12sp</dimen>
+	<dimen name="letv_home_focus_height">164dip</dimen>
+</resources>

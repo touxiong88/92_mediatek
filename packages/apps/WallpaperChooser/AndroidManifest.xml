@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.wallpaperchooser"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <uses-permission
+        android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission
+        android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-sdk android:minSdkVersion="10"/>
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name">
+        <activity
+            android:name="com.android.wallpaperchooser.WallpaperChooser"
+            style="@style/Theme.WallpaperPicker"
+            android:label="@string/pick_wallpaper"
+            android:icon="@drawable/ic_launcher_wallpaper"
+            android:finishOnCloseSystemDialogs="true"
+            android:process=":wallpaper_chooser">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.wallpaper.preview"
+                android:resource="@xml/wallpaper_picker_preview" />
+        </activity>
+    </application>
+</manifest>

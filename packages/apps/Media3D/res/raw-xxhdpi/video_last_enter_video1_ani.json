@@ -1,0 +1,50 @@
+	 {"LayName": "video1_ani", "LayWidth": 0.311250, "LayHeight": 0.475000, "LayID": 1324, "ParentID": 0, "LayIn": 18.45, "LayDur": 0.50, "CompIn": 0.00, "CompDur": 0.50, "Normalization": true,
+		"SourcePath": "C:/Data/Projects/2010103DProjects/P2_LandscapeSweet_1124/icon_video_frame_temp.png",
+		"Version": "210158194",
+		         "Marker": {
+				 },
+				 "AnchorPoint": {
+					"X": 0.50, "Y": 0.50, "Z": -5.34
+					 },
+				 "Position": {
+					"Type":[ 4.00 , 4.00 ],
+					"Time":[ 0.30 , 0.50 ],
+					"X":[ 0.14 , 0.19 ],
+					"Y":[ 0.84 , 0.61 ],
+					"Z":[ -467.52 , 55.00 ],
+					"InTanX":[ -0.00 , -0.01 ],
+					"InTanY":[ -0.03 , 0.22 ],
+					"InTanZ":[ -73.06 , -18.82 ],
+					"OutTanX":[ 0.01 , 0.01 ],
+					"OutTanY":[ 0.08 , -0.15 ],
+					"OutTanZ":[ 196.82 , 13.03 ]
+				}
+,				 "Scale": {
+					"X": 100.00, "Y": 100.00, "Z": 100.00
+					 },
+				 "Orientation": {
+					"Type":[ 0.00 , 0.00 ],
+					"Time":[ 0.30 , 0.50 ],
+					"X":[ 260.00 , 360.00 ],
+					"Y":[ 0.00 , 0.00 ],
+					"Z":[ 0.00 , 10.00 ],
+					"InTanX":[ 0.00 , 0.00 ],
+					"InTanY":[ 0.00 , 0.00 ],
+					"InTanZ":[ 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 ],
+					"OutTanY":[ 0.00 , 0.00 ],
+					"OutTanZ":[ 0.00 , 0.00 ]
+				}
+,				 "XRotation": {
+					"Val": 0.00
+					 },
+				 "YRotation": {
+					"Val": 0.00
+					 },
+				 "ZRotation": {
+					"Val": 0.00
+					 },
+				 "Opacity": {
+					"Val": 100.00
+					 }
+	}

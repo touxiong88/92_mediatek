@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">Media3D</string>
+    <string name="demo_name">Демо-режим Media3D</string>
+    <string name="enter_photo">Фото</string>
+    <string name="enter_weather">Погода</string>
+    <string name="enter_video">"Видео"</string>
+    <string name="refresh">"Обновление"</string>
+    <string name="add">"Добавить"</string>
+    <string name="delete">"Удалить"</string>
+    <string name="settings">"Настройки"</string>
+    <string name="january">"янв"</string>
+    <string name="february">"фев"</string>
+    <string name="march">"мар"</string>
+    <string name="april">"апр"</string>
+    <string name="may">"май"</string>
+    <string name="june">"июн"</string>
+    <string name="july">"июл"</string>
+    <string name="august">"авг"</string>
+    <string name="september">"сен"</string>
+    <string name="october">"окт"</string>
+    <string name="november">"ноя"</string>
+    <string name="december">"дек"</string>
+    <string name="no_photo_text">Нет доступных фотографий</string>
+    <string name="no_video_text">Нет доступного видео</string>
+    <string name="loading">Загрузка…</string>
+    <string name="no_weather_text">Прогноз погоды недоступен</string>
+</resources>

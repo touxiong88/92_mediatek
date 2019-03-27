@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">मीडिया3D</string>
+    <string name="demo_name">मीडिया3D डेमो</string>
+    <string name="enter_photo">फ़ोटो</string>
+    <string name="enter_weather">मौसम</string>
+    <string name="enter_video">वीडियो</string>
+    <string name="refresh">"रीफ़्रेश करें"</string>
+    <string name="add">जोड़ें</string>
+    <string name="delete">"हटाएं"</string>
+    <string name="settings">"सेटिंग"</string>
+    <string name="january">जन.</string>
+    <string name="february">फर.</string>
+    <string name="march">मार्च</string>
+    <string name="april">अप्रैल</string>
+    <string name="may">मई</string>
+    <string name="june">जून</string>
+    <string name="july">जुलाई</string>
+    <string name="august">अग.</string>
+    <string name="september">सित.</string>
+    <string name="october">अक्टू.</string>
+    <string name="november">नव.</string>
+    <string name="december">दिस.</string>
+    <string name="no_photo_text">कोई फ़ोटो उपलब्ध नहीं है</string>
+    <string name="no_video_text">कोई वीडियो उपलब्ध नहीं है</string>
+    <string name="loading">लोड हो रहा है...</string>
+    <string name="no_weather_text">मौसम उपलब्ध नहीं</string>
+</resources>

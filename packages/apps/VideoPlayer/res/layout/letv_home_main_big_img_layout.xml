@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.letv.cache.view.LetvImageView
+        android:id="@+id/home_conent_bigimg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/letv_home_gallery_default" />
+
+    <TextView
+        android:id="@+id/mullist_list_item_title"
+        style="@style/letv_14_ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:layout_alignBottom="@id/home_conent_bigimg"
+        android:background="#88000000"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+         />
+
+</RelativeLayout>

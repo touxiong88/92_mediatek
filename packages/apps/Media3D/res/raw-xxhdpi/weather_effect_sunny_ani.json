@@ -1,0 +1,44 @@
+	{"LayName": "weather_effect_ani", "LayWidth": 1.000000, "LayHeight": 1.666667, "LayID": 559, "ParentID": 0, "LayIn": 1.07, "LayDur": 4.57, "CompIn": 1.23, "CompDur": 4.57, "Normalization": true,
+		"SourcePath": "Z:/AE_Project/LandscapeSweet_Slice/icon_sunlight.png",
+		"Version": "201315953",
+			 	"Marker": {
+				 },
+				 "AnchorPoint": {
+					"X": 0.50, "Y": 0.50, "Z": 0.00
+					 },
+				 "Position": {
+					"X": 0.20, "Y": 0.19, "Z": -5.00
+					 },
+				 "Scale": {
+					"X": 100.00, "Y": 100.00, "Z": 100.00
+					 },
+				 "Orientation": {
+					"Type":[ 0.00 , 0.00 , 0.00 ],
+					"Time":[ 1.43 , 3.57 , 5.77 ],
+					"X":[ 0.00 , 0.00 , 0.00 ],
+					"Y":[ 0.00 , 0.00 , 0.00 ],
+					"Z":[ 0.00 , 30.00 , 60.00 ],
+					"InTanX":[ 0.00 , 0.00 , 0.00 ],
+					"InTanY":[ 0.00 , 0.00 , 0.00 ],
+					"InTanZ":[ 0.00 , 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 , 0.00 ],
+					"OutTanY":[ 0.00 , 0.00 , 0.00 ],
+					"OutTanZ":[ 0.00 , 0.00 , 0.00 ]
+				}
+,				 "XRotation": {
+					"Val": 0.00
+					 },
+				 "YRotation": {
+					"Val": 0.00
+					 },
+				 "ZRotation": {
+					"Val": 0.00
+					 },
+				 "Opacity": {
+					"Type":[ 0.00 , 0.00 , 0.00 , 0.00 ],
+					"Time":[ 1.43 , 1.77 , 3.57 , 5.77 ],
+					"Val":[ 0.00 , 50.00 , 100.00 , 0.00 ],
+					"InTanX":[ 0.00 , 0.00 , 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 , 0.00 , 0.00 ]
+				}
+	}

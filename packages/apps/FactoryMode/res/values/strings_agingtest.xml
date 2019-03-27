@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="AgingTest" translatable="false">老化测试</string>
+    <string name="AgingTest_ongoing" translatable="false">老化测试进行中</string>
+    <string name="AgingTest_attention" translatable="false">注意：麦克风测试无法与喇叭和听筒测试同时进行</string>
+    <string name="flashlight_name" translatable="false">闪光灯</string>
+</resources>

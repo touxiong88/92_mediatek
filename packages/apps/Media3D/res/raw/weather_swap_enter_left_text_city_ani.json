@@ -1,0 +1,32 @@
+	 {"LayName": "text_city_ani", "LayWidth": 0.477500, "LayHeight": 0.229167, "LayID": 1267, "ParentID": 0, "LayIn": -1.23, "LayDur": 5.91, "CompIn": 0.00, "CompDur": 5.91, "Normalization": true,
+		"SourcePath": "C:/Data/Projects/2010103DProjects/P2_LandscapeSweet_1124/text_taipei_city.png",
+		"Version": "210158194",
+			 	"Marker": { 
+				 }, 
+				 "AnchorPoint": { 
+					"X": 0.50, "Y": 0.50, "Z": 0.00
+					 }, 
+				 "Position": { 
+					"Type":[ 12.00 , 12.00 ],
+					"Time":[ 0.77 , 5.91 ],
+					"X":[ 0.63 , 0.65 ],
+					"Y":[ 0.92 , 0.92 ],
+					"Z":[ 0.00 , 0.00 ],
+					"InTanX":[ 0.00 , 0.00 ],
+					"InTanY":[ 0.00 , 0.00 ],
+					"InTanZ":[ 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 ],
+					"OutTanY":[ 0.00 , 0.00 ],
+					"OutTanZ":[ 0.00 , 0.00 ]
+				}
+,				 "Rotation": {
+					"Val": 0.00
+					 }, 
+				 "Opacity": { 
+					"Type":[ 0.00 , 0.00 ],
+					"Time":[ 0.77 , 1.57 ],
+					"Val":[ 0.00 , 100.00 ],
+					"InTanX":[ 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 ]
+				}
+	}

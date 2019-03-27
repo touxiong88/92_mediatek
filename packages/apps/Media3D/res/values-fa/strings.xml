@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">Media3D</string>
+    <string name="demo_name">دموی Media3D</string>
+    <string name="enter_photo">عکس</string>
+    <string name="enter_weather">وضع هوا</string>
+    <string name="enter_video">تصوير</string>
+    <string name="refresh">"تازه کردن"</string>
+    <string name="add">افزودن</string>
+    <string name="delete">"حذف"</string>
+    <string name="settings">"تنظیمات"</string>
+    <string name="january">"ژانویه"</string>
+    <string name="february">"فوریه"</string>
+    <string name="march">"مارس"</string>
+    <string name="april">"آوریل"</string>
+    <string name="may">"مه"</string>
+    <string name="june">"ژوئن"</string>
+    <string name="july">"جولای"</string>
+    <string name="august">"اوت"</string>
+    <string name="september">"سپتامبر"</string>
+    <string name="october">"اکتبر"</string>
+    <string name="november">"نوامبر"</string>
+    <string name="december">"دسامبر"</string>
+    <string name="no_photo_text">تصویری موجود نیست</string>
+    <string name="no_video_text">ویدیویی موجود نیست</string>
+    <string name="loading">در حال بارگذاری...</string>
+    <string name="no_weather_text">وضعیت آب و هوا موجود نیست</string>
+</resources>

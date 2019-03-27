@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">Media3D</string>
+    <string name="demo_name">Έκδοση επίδειξης Media3D</string>
+    <string name="enter_photo">Φωτογραφία</string>
+    <string name="enter_weather">Καιρός</string>
+    <string name="enter_video">βίντεο</string>
+    <string name="refresh">"Ανανέωση"</string>
+    <string name="add">Προσθήκη</string>
+    <string name="delete">"Διαγραφή"</string>
+    <string name="settings">"Ρυθμίσεις"</string>
+    <string name="january">"Ιαν"</string>
+    <string name="february">"Φεβ"</string>
+    <string name="march">"Μαρ"</string>
+    <string name="april">"Απρ"</string>
+    <string name="may">"Μάι"</string>
+    <string name="june">"Ιουν"</string>
+    <string name="july">"Ιουλ"</string>
+    <string name="august">"Αυγ"</string>
+    <string name="september">"Σεπ"</string>
+    <string name="october">"Οκτ"</string>
+    <string name="november">"Νοε"</string>
+    <string name="december">"Δεκ"</string>
+    <string name="no_photo_text">Δεν υπάρχει διαθέσιμη φωτογραφία</string>
+    <string name="no_video_text">Δεν υπάρχει διαθέσιμο βίντεο</string>
+    <string name="loading">Φόρτωση...</string>
+    <string name="no_weather_text">Δεν υπάρχει διαθέσιμος καιρός</string>
+</resources>

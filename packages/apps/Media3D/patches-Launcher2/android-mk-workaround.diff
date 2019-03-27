@@ -1,0 +1,13 @@
+Index: Launcher2/Android.mk
+===================================================================
+--- Launcher2.orig/Android.mk	2011-08-10 20:54:36.505294000 +0800
++++ Launcher2/Android.mk	2011-08-10 20:54:56.797367000 +0800
+@@ -56,7 +56,7 @@
+ 
+ LOCAL_STATIC_JAVA_LIBRARIES := android-common
+ 
+-LOCAL_SRC_FILES := $(call all-subdir-java-files)
++LOCAL_SRC_FILES := $(call all-java-files-under, src)
+ 
+ LOCAL_AAPT_FLAGS = -c hdpi
+ 

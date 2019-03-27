@@ -1,0 +1,44 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/lsensor_accuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LSensor_default_text"
+        android:textSize="20dip" />
+    <TextView
+        android:id="@+id/lsensor_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LSensor_default_text"
+        android:textSize="20dip" />
+    <TextView
+        android:id="@+id/lsensor_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LSensor_tips"
+        android:textSize="22dip"
+        android:textColor="@color/Green" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/lsensor_bt_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:textSize="25dip"
+            android:text="@string/Success" />
+        <Button
+            android:id="@+id/lsensor_bt_failed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textSize="25dip"
+            android:text="@string/Failed" />
+    </LinearLayout>
+</LinearLayout>

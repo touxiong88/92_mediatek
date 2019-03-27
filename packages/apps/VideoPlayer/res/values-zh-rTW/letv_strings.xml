@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="letv_app_name">樂視影視</string>
+    <string name="letv_play_net_no">網絡連接失敗，請檢查您的網絡</string>
+    <!-- 首页列表 -->
+    <string name="letv_homelist_currcount">更新至<xliff:g id="homelist_currcount">%s</xliff:g>集</string>
+    <string name="letv_homelist_totalcount">共<xliff:g id="homelist_totalcount">%s</xliff:g>集</string>
+    <!-- 频道列表 -->
+    <string name="letv_channellist_director">導演：<xliff:g id="director">%s</xliff:g></string>
+    <string name="letv_channellist_actor">主演：<xliff:g id="actor">%s</xliff:g></string>
+    <string name="letv_channellist_area">地區：<xliff:g id="area">%s</xliff:g></string>
+    <string name="letv_channellist_type">類型：<xliff:g id="type">%s</xliff:g></string>
+    <string name="letv_channellist_count">期數：<xliff:g id="count">%s</xliff:g></string>
+    <string name="letv_channellist_singer">歌手：<xliff:g id="singer">%s</xliff:g></string>
+    <string name="letv_channellist_style">風格：<xliff:g id="style">%s</xliff:g></string>
+    <string name="letv_channellist_school">學校：<xliff:g id="school">%s</xliff:g></string>
+    <string name="letv_channellist_className">學科：<xliff:g id="className">%s</xliff:g></string>
+    <string name="letv_channellist_countUpdate">期數：更新至<xliff:g id="countUpdate">%s</xliff:g>期</string>
+    <string name="letv_channellist_albumdetailTime">時長：<xliff:g id="albumdetailTime">%s</xliff:g></string>
+    <string name="letv_channellist_timeUpdate">更新：<xliff:g id="timeUpdate">%s</xliff:g></string>
+    <string name="letv_channellist_programtype">節目類型：<xliff:g id="type">%s</xliff:g></string>
+    <string name="letv_channellist_albumtype">專輯類型：<xliff:g id="type">%s</xliff:g></string>
+    <string name="letv_channellist_flag">標題：<xliff:g id="flag">%s</xliff:g></string>
+    <string name="letv_channellist_playcount">播放數：<xliff:g id="count">%s</xliff:g></string>
+    <!-- 专辑详情 -->
+    <string name="letv_albumdetail_director">導演：</string>
+    <string name="letv_albumdetail_actor">主演：</string>
+    <string name="letv_albumdetail_toastmaster">主持人：</string>
+    <string name="letv_albumdetail_timeLength">時長：</string>
+    <string name="letv_albumdetail_area">地區：</string>
+    <string name="letv_albumdetail_year">年份：</string>
+    <string name="letv_albumdetail_show_year">上映：</string>
+    <string name="letv_albumdetail_publish_time">發行：</string>
+    <string name="letv_albumdetail_subcate">類型：</string>
+    <string name="letv_albumdetail_albumtype">類型：</string>
+    <string name="letv_albumdetail_periods">期數：</string>
+    <string name="letv_albumdetail_periods_current">更新至<xliff:g id="albumdetail_periods_current">%s</xliff:g>期</string>
+    <string name="letv_albumdetail_episodes">集数：</string>
+    <string name="letv_albumdetail_episodes_total"><xliff:g id="albumdetail_episodes_total">%s</xliff:g>集全</string>
+    <string name="letv_albumdetail_episodes_current">更新至<xliff:g id="albumdetail_episodes_current">%s</xliff:g>集</string>
+    <string name="letv_albumdetail_singer">歌手：</string>
+    <string name="letv_albumdetail_style">風格：</string>
+    <string name="letv_albumdetail_school">學校：</string>
+    <string name="letv_albumdetail_className">學科：</string>
+    <string name="letv_albumdetail_updateTime">更新時間：</string>
+    <string name="letv_albumdetail_teacher">講師：</string>
+    <string name="letv_albumdetail_info_grade">評分：</string>
+    <string name="letv_albumdetail_language">語言：</string>
+    <string name="letv_dialog_loading">加載中...</string>
+    <string name="letv_dialog_title">提示</string>
+    <string name="letv_toast_net_null">沒有網絡</string>
+    <string name="letv_toast_net_15">網絡連接失敗，請檢查您的網絡</string>
+    <string name="letv_dialog_default_title">提示</string>
+    <string name="letv_dialog_default_ok">確定</string>
+    <string name="letv_dialog_default_no">取消</string>
+    <string name="letv_dialog_messge_web">將前往瀏覽器查看</string>
+    <string name="letv_toast_net_exception">數據未加載成功</string>
+    <string name="letv_toast_no_episode">播放視頻不存在</string>
+    <string name="letv_never_remind">下次不再提醒</string>
+    <string name="letv_channel_list_null">暫無相關數據</string>
+    <string name="letv_net_no">當前網絡不可用，請檢查網絡設置或點擊屏幕刷新</string>
+    <string name="letv_net_err">請求網絡失敗，請點擊屏幕刷新</string>
+    <string name="letv_pull_to_refresh_pull_label">Pull to refresh&#8230;</string>
+    <string name="letv_neterror_layout_cantconnectletv">無法連接到樂視影視</string>
+    <string name="letv_home_main_footer_openletvtag">打開樂視客戶端</string>
+    <string name="letv_home_main_footer_tag">點擊獲取更多</string>
+    <string name="letv_install_app_title">下載安裝</string>
+    <string name="letv_install_app_msg">下載安裝Letv視頻獲取更多精彩視頻？</string>
+    <string name="letv_install_app_download">下載</string>
+    <string name="letv_play_all_letv">請下載樂視影視完整版</string>
+    <string name="letv_albumdetail_intro_tag">簡介</string>
+    <string name="letv_albumdetail_albumlist_tag">劇集</string>
+    <string name="letv_album_detail_info_vip_tag">VIP</string>
+    <string name="letv_album_detail_info_dota_tag">.</string>
+    <string name="letv_home_main_3gtip_title">網絡提示</string>
+    <string name="letv_home_main_3gtip_msg">您正在使用2G/3G網絡，會消耗數據流量，建議在Wifi環境下使用</string>
+    <string name="letv_album_detail_install_msg">僅支持播放第一集，下載安裝Letv視頻觀看更多集？</string>
+    <string name="letv_public_day">天</string>
+    <string name="letv_play_episode">&#160;第<xliff:g id="num">%s</xliff:g>集</string>
+    <string name="letv_home_main_big_img_tag">后宮-甄嬛传</string>
+</resources>

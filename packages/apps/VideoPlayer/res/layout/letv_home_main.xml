@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/letv_content_bg"
+     >
+
+<!--     <com.mediatek.videoplayer.view.TopViewLogo -->
+<!--         android:id="@+id/home_top" -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" /> -->
+
+<ImageView android:id="@+id/topLogImg"
+    android:layout_width="fill_parent"
+    android:layout_height="32dip"
+    android:src="@drawable/letv_top_logo_img"
+    android:background="#FF1d1d1d"
+    android:scaleType="center"
+    />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/topLogImg"
+        >
+
+<!--         <com.mediatek.videoplayer.view.PullToRefreshScrollView -->
+<!--             android:id="@+id/homelayout" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="wrap_content" > -->
+<!--         </com.mediatek.videoplayer.view.PullToRefreshScrollView> -->
+
+        <include 
+            android:id="@+id/letv_home_main_conent"
+            android:visibility="gone"
+            layout="@layout/letv_home_conent" />
+        
+<!--         <ScrollView  -->
+<!--             android:id="@+id/letv_home_main_conent" -->
+<!--             android:visibility="gone" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="fill_parent" -->
+<!--             > -->
+<!--             <include  -->
+<!--                 android:layout_width="fill_parent" -->
+<!--                 android:layout_height="fill_parent" -->
+<!--             layout="@layout/letv_home_conent" /> -->
+            
+<!--         </ScrollView> -->
+
+        <com.mediatek.videoplayer.view.ErrorLayout
+            android:id="@+id/nodatalayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/letv_content_top_bg" />
+    </RelativeLayout>
+
+</RelativeLayout>

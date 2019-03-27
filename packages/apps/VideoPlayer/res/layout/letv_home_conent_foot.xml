@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dip">
+   
+<!--     <ImageView -->
+<!--          android:layout_width="fill_parent" -->
+<!--          android:layout_height="45dip" -->
+<!--          android:background="#FF1d1d1d" -->
+<!--          android:scaleType="center" -->
+<!--          android:src="@drawable/letv_home_content_bottom_src"/> -->
+    
+    <TextView
+        android:id="@+id/letv_home_conent_footer_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/letv_home_main_footer_tag"
+        android:layout_centerInParent="true"
+        android:textColor="@color/letv_ffffffff"
+        />
+   
+</RelativeLayout>

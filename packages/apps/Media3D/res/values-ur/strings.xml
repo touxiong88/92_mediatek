@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">میڈیا 3D</string>
+    <string name="demo_name">میڈیا 3D نمونہ</string>
+    <string name="enter_photo">تصویر</string>
+    <string name="enter_weather">موسم</string>
+    <string name="enter_video">ویڈیو</string>
+    <string name="refresh">ریفریش کرنا</string>
+    <string name="add">شامل</string>
+    <string name="delete">مٹائيں</string>
+    <string name="settings">ترتیبات</string>
+    <string name="january">جنوری</string>
+    <string name="february">فروری</string>
+    <string name="march">مارچ</string>
+    <string name="april">اپریل</string>
+    <string name="may">مئی</string>
+    <string name="june">جون</string>
+    <string name="july">جولائی</string>
+    <string name="august">اگست</string>
+    <string name="september">ستمبر</string>
+    <string name="october">اکتوبر</string>
+    <string name="november">نومبر</string>
+    <string name="december">دسمبر</string>
+    <string name="no_photo_text">کوئی تصویر دستیاب نہیں ہے</string>
+    <string name="no_video_text">کوئی ویڈیو دستیاب نہیں ہے</string>
+    <string name="loading">لوڈ ہورہا ہے...</string>
+    <string name="no_weather_text">کوئی موسم دستیاب نہیں ہے</string>
+</resources>

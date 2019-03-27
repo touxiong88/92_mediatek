@@ -1,0 +1,12 @@
+Index: Launcher2/AndroidManifest.xml
+===================================================================
+--- Launcher2.orig/AndroidManifest.xml	2011-08-02 16:09:20.471750000 +0800
++++ Launcher2/AndroidManifest.xml	2011-08-10 21:51:03.143697000 +0800
+@@ -79,7 +79,6 @@
+             android:clearTaskOnLaunch="true"
+             android:stateNotNeeded="true"
+             android:theme="@style/Theme"
+-            android:screenOrientation="portrait"
+             android:windowSoftInputMode="stateUnspecified|adjustPan">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">壁紙</string>
+    <string name="pick_wallpaper">壁紙圖庫</string>
+    <string name="choose_lockpaper_from">選擇鎖屏畫面</string>
+    <string-array name="choose_lockpaper">
+        <item>默認圖片</item>
+        <item>圖片庫</item>
+    </string-array>
+    <string name="chooser_lockpaper">選擇鎖屏畫面來源</string>
+    <string name="save_lockpaper">正在設置鎖屏畫面，請稍後...</string>
+    <string name="save_wallpaper">正在設置壁紙，請稍後...</string>
+    <string name="wallpaper_instructions">"設置壁紙"</string>
+</resources>

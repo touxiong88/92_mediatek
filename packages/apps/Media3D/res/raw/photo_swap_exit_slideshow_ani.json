@@ -1,0 +1,15 @@
+	 {"LayName": "slideshow_ani", "LayWidth": 1.000000, "LayHeight": 1.000000, "LayID": 509, "ParentID": 0, "LayIn": 12.28, "LayDur": 0.87, "CompIn": 0.00, "CompDur": 0.87, "Normalization": true,
+		"SourcePath": "Z:/AE_Project/Landscape_Sweet_Slice_0407/photo_BG_01.jpg",
+		"Version": "201359296",
+			 	"Marker": { 
+				 }, 
+				 "AnchorPoint": { 
+					"X": 0.50, "Y": 0.50, "Z": 0.00
+					 }, 
+				 "Position": { 
+					"X": 0.50, "Y": 0.50, "Z": 100.00
+					 }, 
+				 "Scale": { 
+					"X": 130.00, "Y": 130.00, "Z": 110.00
+					 }
+	}

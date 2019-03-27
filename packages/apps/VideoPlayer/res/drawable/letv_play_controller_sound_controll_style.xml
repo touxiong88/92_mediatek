@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>     
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">     
+   <item android:id="@android:id/background"
+   		 android:drawable="@drawable/letv_sound_seekbar_background">     
+   <!--     <shape>  
+           <corners android:radius="0dip" />  
+           <gradient  
+	            android:startColor="#222222"  
+	            android:centerColor="#222222"  
+	            android:centerY="0.75"  
+	            android:endColor="#222222"  
+	            android:angle="270"  
+	            />  
+       </shape>  --> 
+   </item>        
+   <item android:id="@android:id/secondaryProgress"
+   		 android:drawable="@drawable/letv_sound_seekbar_secondprogress">     
+         <!--  <clip>     
+             <shape>     
+                 <corners android:radius="0dip" />     
+                 <gradient     
+                    android:startColor="#666666"  
+		            android:centerColor="#666666"  
+		            android:centerY="0.75"  
+		            android:endColor="#666666"  
+		            android:angle="270"     
+                 />     
+             </shape>     
+         </clip>  -->
+     </item> 
+     <item android:id="@android:id/progress"
+   		 android:drawable="@drawable/letv_sound_seekbar_progress">     
+        <!-- <clip>  
+	       <shape>  
+	           <corners android:radius="0dip" />  
+	           <gradient  
+		            android:startColor="#666666"  
+		            android:centerColor="#666666"  
+		            android:centerY="0.75"  
+		            android:endColor="#666666"  
+		            android:angle="270"  
+		            />  
+	       </shape>  
+       </clip>    -->  
+   </item>   
+</layer-list>

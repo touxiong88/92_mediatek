@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="10dip"
+    >
+   
+    <RelativeLayout
+            android:layout_width="95dip"
+            android:layout_height="124dip"
+            android:gravity="center"
+            android:id="@+id/mullist_list_item_images" >
+            <com.letv.cache.view.LetvImageView
+                android:id="@+id/mullist_list_item_picture"
+                android:layout_width="88dip"
+                android:layout_height="117dip"
+                android:scaleType="centerCrop"
+                android:layout_centerInParent="true"
+                android:src="@drawable/letv_poster_defualt_pic" />
+
+            <ImageView
+                android:layout_width="95dip"
+                android:layout_height="124dip"
+                android:layout_centerInParent="true"
+                android:background="@drawable/letv_poster_pic_light"/>
+            
+            <TextView
+		        android:layout_width="90dip"
+		        android:layout_height="wrap_content"
+		        android:lines="1"
+		        style="@style/letv_12_ececec"
+		        android:gravity="center"
+		        android:layout_centerHorizontal="true"
+		        android:layout_alignBottom="@+id/mullist_list_item_picture"
+		        android:background="#88333333"
+		        android:id="@+id/mullist_list_item_curcount"/>
+            
+     </RelativeLayout>
+   
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        style="@style/letv_14_a0a0a0"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_below="@id/mullist_list_item_images"
+        android:layout_alignLeft="@id/mullist_list_item_images"
+        android:layout_alignRight="@id/mullist_list_item_images"
+        android:id="@+id/mullist_list_item_title"/>
+</RelativeLayout>

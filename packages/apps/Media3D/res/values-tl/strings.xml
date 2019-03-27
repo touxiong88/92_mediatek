@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">Media3D</string>
+    <string name="demo_name">Demo ng Media3D</string>
+    <string name="enter_photo">Larawan</string>
+    <string name="enter_weather">Panahon</string>
+    <string name="enter_video">video</string>
+    <string name="refresh">"I-refresh"</string>
+    <string name="add">Idagdag</string>
+    <string name="delete">"Tanggalin"</string>
+    <string name="settings">"Mga Setting"</string>
+    <string name="january">"Ene"</string>
+    <string name="february">"Peb"</string>
+    <string name="march">"Mar"</string>
+    <string name="april">"Abr"</string>
+    <string name="may">"Mayo"</string>
+    <string name="june">"Hun"</string>
+    <string name="july">"Hul"</string>
+    <string name="august">"Ago"</string>
+    <string name="september">"Set"</string>
+    <string name="october">"Okt"</string>
+    <string name="november">"Nob"</string>
+    <string name="december">"Dis"</string>
+    <string name="no_photo_text">Walang magagamit na larawan</string>
+    <string name="no_video_text">Walang magagamit na video</string>
+    <string name="loading">Naglo-load...</string>
+    <string name="no_weather_text">Walang makuhang panahon</string>
+</resources>

@@ -1,0 +1,54 @@
+	{"LayName": "Top_photo", "LayWidth": 0.312500, "LayHeight": 0.354167, "LayID": 926, "ParentID": 0, "LayIn": 6.61, "LayDur": 0.53, "CompIn": 0.00, "CompDur": 0.53, "Normalization": true,
+		"SourcePath": "C:/Data/Projects/2010103DProjects/P2_LandscapeSweet_1124/MainMenu_photo1.png",
+		"Version": "210158194",
+				"Marker": {
+				},
+				"AnchorPoint": {
+					"X": 0.50, "Y": 0.50, "Z": 0.00
+					},
+				 "Position": {
+					"Type":[ 12.00 , 12.00 ],
+					"Time":[ 0.00 , 0.50 ],
+					"X":[ 0.50 , 0.50 ],
+					"Y":[ 0.54 , 0.60 ],
+					"Z":[ 0.00 , -580.00 ],
+					"InTanX":[ 0.00 , 0.00 ],
+					"InTanY":[ 0.00 , 0.00 ],
+					"InTanZ":[ 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 ],
+					"OutTanY":[ 0.00 , 0.00 ],
+					"OutTanZ":[ 0.00 , 0.00 ]
+				}
+,				"Scale": {
+					"Type":[ 0.00 , 0.00 ],
+					"Time":[ 0.00 , 0.50 ],
+					"X":[ 100.00 , 455.00 ],
+					"Y":[ 100.00 , 455.00 ],
+					"Z":[ 100.00 , 455.00 ],
+					"InTanX":[ 0.00 , 0.00 ],
+					"InTanY":[ 0.00 , 0.00 ],
+					"InTanZ":[ 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 ],
+					"OutTanY":[ 0.00 , 0.00 ],
+					"OutTanZ":[ 0.00 , 0.00 ]
+				}
+,				"Orientation": {
+					"X": 0.00, "Y": 0.00, "Z": 0.00
+					},
+				"XRotation": {
+					"Val": 0.00
+					},
+				 "YRotation": {
+					"Type":[ 0.00 , 0.00 ],
+					"Time":[ 0.00 , 0.50 ],
+					"Val":[ 0.00 , -180.00 ],
+					"InTanX":[ 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 ]
+				}
+,				"ZRotation": {
+					"Val": 0.00
+					},
+				"Opacity": {
+					"Val": 100.00
+					}
+	}

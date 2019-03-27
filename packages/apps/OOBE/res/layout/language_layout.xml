@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mediatek.oobe.utils.ProportionalOuterFrame xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_root"
+    android:orientation="vertical" >
+
+    <include 
+        android:id="@+id/title_area"
+        layout="@layout/title_panel"/>
+
+    <Spinner
+        android:id="@+id/language_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_area"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/emergcy_call_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/language_spinner"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:drawableLeft="@*android:drawable/ic_emergency"
+        android:text="@*android:string/lockscreen_emergency_call" 
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/sp_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/emergcy_call_button"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/welcome_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/oobe_welcome" />
+
+        <include layout="@layout/progressbar" />
+        <include layout="@layout/button_panel" />
+    </LinearLayout>
+     	
+
+
+
+</com.mediatek.oobe.utils.ProportionalOuterFrame>

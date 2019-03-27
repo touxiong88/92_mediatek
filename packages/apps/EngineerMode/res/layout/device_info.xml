@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="15dip"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_light"
+        android:id="@+id/project"
+        />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="15dip"
+        android:paddingBottom="15dip"
+        android:stretchColumns="0,1"
+        android:id="@+id/tableLayout" >
+
+    </TableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#ff565656" 
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:id="@+id/button_ok"
+        android:text="@android:string/ok"
+        android:gravity="center"
+        android:background="@drawable/button_ok_bg"
+        />
+</LinearLayout>

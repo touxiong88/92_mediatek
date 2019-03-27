@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SenseWallpaperChooser</string>
+    <string name="choose_lockpaper_from">choose lockpaper from</string>
+    <string-array name="choose_lockpaper">
+        <item>Default lockpaper</item>
+        <item>Gallery</item>
+    </string-array>
+    <string name="chooser_lockpaper">Select lockpaper from</string>
+    <string name="pick_wallpaper">Wallpaper gallery</string>
+    <string name="save_lockpaper">Setting lockpaper, please wait\u2026</string>
+    <string name="save_wallpaper">Setting wallpaper, please wait\u2026</string>
+    <string name="wallpaper_instructions">Set wallpaper</string>
+    <string name="wallpaper_text">HTC Wallpaper</string>
+    <string name="save_picture_to_wallpaper">Wallpaper</string>
+    <string name="save_picture_to_lockpaper">Lockpaper</string>
+    <string name="save">Set</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">Wallpaper Preview</string>
+    <string name="gallery_label">Gallery</string>
+    <string name="wallpaper_dynamic">Live wallpapers</string>
+    <string name="wallpaper_settings">Wallpaper</string>
+    <string name="set_wallpaper">Set Home Screen</string>
+    <string name="set_lockpaper">Set Lock Screen</string>
+    <string name="set_all">Set Both</string>
+    <string name="save_photo">Saving Photo</string>
+    <string name="iphone_back">Back</string>
+</resources>

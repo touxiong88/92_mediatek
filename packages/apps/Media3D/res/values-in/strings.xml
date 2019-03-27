@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">Media3D</string>
+    <string name="demo_name">Demo Media3D</string>
+    <string name="enter_photo">Foto</string>
+    <string name="enter_weather">Cuaca</string>
+    <string name="enter_video">"Video"</string>
+    <string name="refresh">"Segarkan"</string>
+    <string name="add">Tambah</string>
+    <string name="delete">"Hapus"</string>
+    <string name="settings">"Setelan"</string>
+    <string name="january">Jan.</string>
+    <string name="february">Feb.</string>
+    <string name="march">Mar.</string>
+    <string name="april">Apr.</string>
+    <string name="may">Mei.</string>
+    <string name="june">Juni.</string>
+    <string name="july">Juli.</string>
+    <string name="august">Agu.</string>
+    <string name="september">Sep.</string>
+    <string name="october">Okt.</string>
+    <string name="november">Nov.</string>
+    <string name="december">Des.</string>
+    <string name="no_photo_text">Tidak ada foto yang tersedia</string>
+    <string name="no_video_text">Tidak ada video yang tersedia</string>
+    <string name="loading">Memuat...</string>
+    <string name="no_weather_text">Cuaca tidak tersedia</string>
+</resources>

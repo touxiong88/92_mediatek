@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#00000000">
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+    	android:background="#00000000">
+        <ImageView 
+            android:id="@+id/err_icon"
+            android:layout_width="166dip"
+            android:layout_height="wrap_content"
+            android:src="@drawable/letv_wifi"
+            android:layout_marginBottom="18dip"/>
+        <TextView 
+            android:id="@+id/error_title"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/letv_20_d8d8d8"
+            android:text="@string/letv_neterror_layout_cantconnectletv"
+            android:layout_marginBottom="6dip"/>
+        <TextView 
+            android:id="@+id/error_text"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/letv_16_9b9b9b"/>
+    </LinearLayout>
+
+</RelativeLayout>
