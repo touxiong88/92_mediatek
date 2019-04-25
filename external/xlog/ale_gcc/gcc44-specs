@@ -1,4 +1,0 @@
-*invoke_as:
-%{!S:-o %|.ale |
- mediatek/source/external/ale/common/ale-as-extract.py -o %|.s %|.ale |
- as %(asm_options) %|.s %A }
